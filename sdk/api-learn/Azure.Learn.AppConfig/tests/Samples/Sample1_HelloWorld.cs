@@ -1,9 +1,14 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
+using System;
+
 using Azure.Core.TestFramework;
 using Azure.Learn.AppConfig.Tests;
 using NUnit.Framework;
+using Azure.Core;
+using Azure.Learn.AppConfig;
+using Azure.Identity;
 
 namespace Azure.Learn.AppConfig.Samples
 {
@@ -12,8 +17,8 @@ namespace Azure.Learn.AppConfig.Samples
         [Test]
         public void GetConfigurationSetting()
         {
-            // TODO: Add code to retrieve a configuration setting from a config store
-
+            string endpoint = "http://example.azconfig.io";
+            ConfigurationClient client = new ConfigurationClient(new Uri(endpoint), new DefaultAzureCredential());
 
         }
     }
