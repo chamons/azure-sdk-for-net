@@ -26,36 +26,27 @@ namespace Azure.Analytics.Synapse.AccessControl.Samples
             string principalId = TestEnvironment.PrincipalId;
             string sqlAdminRoleId = client.GetRoleDefinitions().AsEnumerable().Single(role => role.Name == "Sql Admin").Id;
 
-            {
-                #region Snippet:CreateRoleAssignment
-                RoleAssignmentOptions options = new RoleAssignmentOptions(sqlAdminRoleId, principalId);
-                RoleAssignmentDetails roleAssignment = client.CreateRoleAssignment(options);
-                #endregion
-            }
+            #region Snippet:CreateRoleAssignment
+            RoleAssignmentOptions options = new RoleAssignmentOptions(sqlAdminRoleId, principalId);
+            client.CreateRoleAssignment(options);
+            #endregion
 
-            {
-                #region Snippet:RetrieveRoleAssignment
-                RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(principalId);
-                #endregion
-            }
+            #region Snippet:RetrieveRoleAssignment
+            RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(principalId);
+            #endregion
 
+            #region Snippet:ListRoleAssignments
+            IReadOnlyList<RoleAssignmentDetails> roleAssignments = client.GetRoleAssignments().Value;
+            foreach (RoleAssignmentDetails assignment in roleAssignments)
             {
-                #region Snippet:ListRoleAssignments
-                IReadOnlyList<RoleAssignmentDetails> roleAssignments = client.GetRoleAssignments().Value;
-                foreach (RoleAssignmentDetails assignment in roleAssignments)
-                {
-                    Console.WriteLine(assignment.Id);
-                }
-                #endregion
+                Console.WriteLine(assignment.Id);
             }
+            #endregion
 
-            {
-                #region Snippet:DeleteRoleAssignment
-                RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(principalId);
+            #region Snippet:DeleteRoleAssignment
+            client.DeleteRoleAssignmentById(roleAssignment.Id);
+            #endregion
 
-                client.DeleteRoleAssignmentById(roleAssignment.Id);
-                #endregion
-            }
         }
     }
 }
