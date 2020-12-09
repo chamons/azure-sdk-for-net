@@ -31,7 +31,7 @@ namespace Azure.Analytics.Synapse.Samples
             RoleAssignmentOptions request = new RoleAssignmentOptions(roleId:role.Id, principalId:principalId);
             RoleAssignmentDetails roleAssignmentAdded = client.CreateRoleAssignment(request);
 
-            RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(principalId);
+            RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(roleAssignmentAdded.Id);
             Debug.WriteLine($"Role {roleAssignment.RoleId} is assigned to {roleAssignment.PrincipalId}. Role assignment id: {roleAssignment.Id}");
 
             IReadOnlyList<RoleAssignmentDetails> roleAssignments = client.GetRoleAssignments().Value;
