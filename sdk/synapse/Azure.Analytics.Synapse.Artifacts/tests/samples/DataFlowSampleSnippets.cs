@@ -11,7 +11,7 @@ namespace Azure.Analytics.Synapse.Artifacts.Samples
 {
     public partial class DataFlowSnippets : SampleFixture
     {
-        [OneTimeSetUp]
+        [Test]
         public void DataFlowSample()
         {
             #region Snippet:CreateDataFlowClient
