@@ -17,9 +17,9 @@ namespace Azure.Analytics.Synapse.ManagedPrivateEndpoints.Samples
         public void TestManagedPrivateEndpoint()
         {
             #region Snippet:CreateClient
-            /*@@*/string workspaceUrl = TestEnvironment.WorkspaceUrl;
             // Replace the string below with your actual workspace url.
-            //@@ string workspaceUrl = "my-workspace-url";
+            string workspaceUrl = "<my-workspace-url>";
+            /*@@*/workspaceUrl = TestEnvironment.WorkspaceUrl;
             ManagedPrivateEndpointsClient client = new ManagedPrivateEndpointsClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential(includeInteractiveCredentials: true));
             #endregion
 

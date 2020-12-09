@@ -71,7 +71,7 @@ The Azure.Analytics.Synapse.AccessControl package supports synchronous and async
 
 ```C# Snippet:CreateAccessControlClient
 // Replace the string below with your actual workspace url.
-string workspaceUrl = "my-workspace-url";
+string workspaceUrl = "<my-workspace-url>";
 AccessControlClient client = new AccessControlClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential());
 ```
 

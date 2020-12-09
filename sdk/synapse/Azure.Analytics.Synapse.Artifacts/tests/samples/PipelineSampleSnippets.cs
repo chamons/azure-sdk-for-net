@@ -15,9 +15,9 @@ namespace Azure.Analytics.Synapse.Artifacts.Samples
         public void PipelineSample()
         {
             #region Snippet:CreatePipelineClient
-            /*@@*/string workspaceUrl = TestEnvironment.WorkspaceUrl;
             // Replace the string below with your actual workspace url.
-            //@@ string workspaceUrl = "my-workspace-url";
+            string workspaceUrl = "<my-workspace-url>";
+            /*@@*/workspaceUrl = TestEnvironment.WorkspaceUrl;
             PipelineClient client = new PipelineClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential());
             #endregion
 

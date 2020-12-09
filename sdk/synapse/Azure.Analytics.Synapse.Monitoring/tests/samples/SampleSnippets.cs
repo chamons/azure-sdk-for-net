@@ -15,9 +15,9 @@ namespace Azure.Analytics.Synapse.Monitoring.Samples
         public void MonitoringSample()
         {
             #region Snippet:CreateMonitoringClient
-            /*@@*/string workspaceUrl = TestEnvironment.WorkspaceUrl;
             // Replace the string below with your actual workspace url.
-            //@@ string workspaceUrl = "my-workspace-url";
+            string workspaceUrl = "<my-workspace-url>";
+            /*@@*/workspaceUrl = TestEnvironment.WorkspaceUrl;
             MonitoringClient client = new MonitoringClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential());
             #endregion
 

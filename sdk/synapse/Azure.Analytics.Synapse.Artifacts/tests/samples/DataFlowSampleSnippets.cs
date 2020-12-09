@@ -15,9 +15,9 @@ namespace Azure.Analytics.Synapse.Artifacts.Samples
         public void DataFlowSample()
         {
             #region Snippet:CreateDataFlowClient
-            /*@@*/string workspaceUrl = TestEnvironment.WorkspaceUrl;
             // Replace the string below with your actual workspace url.
-            //@@ string workspaceUrl = "my-workspace-url";
+            string workspaceUrl = "<my-workspace-url>";
+            /*@@*/workspaceUrl = TestEnvironment.WorkspaceUrl;
             DataFlowClient client = new DataFlowClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential());
             #endregion
 

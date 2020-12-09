@@ -15,9 +15,9 @@ namespace Azure.Analytics.Synapse.Artifacts.Samples
         public void LinkedServiceSample()
         {
             #region Snippet:CreateLinkedServiceClient
-            /*@@*/string workspaceUrl = TestEnvironment.WorkspaceUrl;
             // Replace the string below with your actual workspace url.
-            //@@ string workspaceUrl = "my-workspace-url";
+            string workspaceUrl = "<my-workspace-url>";
+            /*@@*/workspaceUrl = TestEnvironment.WorkspaceUrl;
             LinkedServiceClient client = new LinkedServiceClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential());
             #endregion
 

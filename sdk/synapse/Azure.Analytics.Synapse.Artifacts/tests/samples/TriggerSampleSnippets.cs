@@ -15,9 +15,9 @@ namespace Azure.Analytics.Synapse.Artifacts.Samples
         public void CreateClient()
         {
             #region Snippet:CreateTriggerClient
-            /*@@*/string workspaceUrl = TestEnvironment.WorkspaceUrl;
             // Replace the string below with your actual workspace url.
-            //@@ string workspaceUrl = "my-workspace-url";
+            string workspaceUrl = "<my-workspace-url>";
+            /*@@*/workspaceUrl = TestEnvironment.WorkspaceUrl;
             TriggerClient client = new TriggerClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential());
             #endregion
 
