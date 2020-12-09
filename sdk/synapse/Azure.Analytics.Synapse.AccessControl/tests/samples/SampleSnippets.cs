@@ -28,11 +28,11 @@ namespace Azure.Analytics.Synapse.AccessControl.Samples
 
             #region Snippet:CreateRoleAssignment
             RoleAssignmentOptions options = new RoleAssignmentOptions(sqlAdminRoleId, principalId);
-            client.CreateRoleAssignment(options);
+            string assignmentId = client.CreateRoleAssignment(options).Value.Id;
             #endregion
 
             #region Snippet:RetrieveRoleAssignment
-            RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(principalId);
+            RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(assignmentId);
             #endregion
 
             #region Snippet:ListRoleAssignments
