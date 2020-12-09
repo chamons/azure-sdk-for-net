@@ -18,7 +18,7 @@ namespace Azure.Analytics.Synapse.AccessControl.Samples
         {
             #region Snippet:CreateAccessControlClient
             /*@@*/string workspaceUrl = TestEnvironment.WorkspaceUrl;
-            //Replace the string below with your actual workspace url.
+            // Replace the string below with your actual workspace url.
             //@@ string workspaceUrl = "my-workspace-url";
             AccessControlClient client = new AccessControlClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential());
             #endregion

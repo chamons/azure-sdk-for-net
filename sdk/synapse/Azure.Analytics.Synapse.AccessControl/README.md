@@ -59,10 +59,21 @@ The way you control access to Synapse resources is to create role assignments. A
 The Azure.Analytics.Synapse.AccessControl package supports synchronous and asynchronous APIs. The following section covers some of the most common Azure Synapse Analytics access control related tasks:
 
 ### Role assignment examples
+* [Create access control client](#create-access-control-client)
 * [Create a role assignment](#create-a-role-assignment)
 * [Retrieve a role assignment](#retrieve-a-role-assignment)
 * [List role assignments](#list-role-assignments)
 * [Delete a role assignment](#delete-a-role-assignment)
+
+### Create access control client
+
+`CreateAccessControlClient` creates a role assignment.
+
+```C# Snippet:CreateAccessControlClient
+// Replace the string below with your actual workspace url.
+string workspaceUrl = "my-workspace-url";
+AccessControlClient client = new AccessControlClient(endpoint: new Uri(workspaceUrl), credential: new DefaultAzureCredential());
+```
 
 ### Create a role assignment
 
@@ -97,6 +108,8 @@ foreach (RoleAssignmentDetails assignment in roleAssignments)
 `DeleteRoleAssignmentById` deletes a role assignment by the given principal ID.
 
 ```C# Snippet:DeleteRoleAssignment
+RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(principalId);
+
 client.DeleteRoleAssignmentById(roleAssignment.Id);
 ```
 
