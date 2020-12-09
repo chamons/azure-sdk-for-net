@@ -176,7 +176,7 @@
         },
         "managedVirtualNetworkSettings": {
             "type": "object",
-            "value": {
+            "defaultValue": {
                 "allowedAadTenantIdsForLinking": [],
                 "preventDataExfiltration": false
             }
