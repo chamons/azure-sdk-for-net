@@ -81,7 +81,7 @@ AccessControlClient client = new AccessControlClient(endpoint: new Uri(workspace
 
 ```C# Snippet:CreateRoleAssignment
 RoleAssignmentOptions options = new RoleAssignmentOptions(sqlAdminRoleId, principalId);
-RoleAssignmentDetails roleAssignment = client.CreateRoleAssignment(options);
+client.CreateRoleAssignment(options);
 ```
 
 ### Retrieve a role assignment
@@ -108,8 +108,6 @@ foreach (RoleAssignmentDetails assignment in roleAssignments)
 `DeleteRoleAssignmentById` deletes a role assignment by the given principal ID.
 
 ```C# Snippet:DeleteRoleAssignment
-RoleAssignmentDetails roleAssignment = client.GetRoleAssignmentById(principalId);
-
 client.DeleteRoleAssignmentById(roleAssignment.Id);
 ```
 
