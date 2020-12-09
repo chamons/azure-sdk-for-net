@@ -173,6 +173,9 @@
         "libraryRequirementsContent": {
             "defaultValue": "",
             "type": "String"
+        },
+        "managedVirtualNetworkSettings": {
+            "type": "object"
         }
     },
     "variables": {
@@ -205,7 +208,8 @@
                 "sqlAdministratorLogin": "[parameters('sqlAdministratorLogin')]",
                 "sqlAdministratorLoginPassword": "[parameters('sqlAdministratorLoginPassword')]",
                 "adlaResourceId": "[parameters('adlaResourceId')]",
-                "managedVirtualNetwork": "[parameters('managedVirtualNetwork')]"
+                "managedVirtualNetwork": "[parameters('managedVirtualNetwork')]",
+                "managedVirtualNetworkSettings": "[parameters('managedVirtualNetworkSettings')]"
             },
             "resources": [
                 {
