@@ -64,7 +64,7 @@
                 ""
             ],
             "type": "String",
-            "defaultValue": ""
+            "defaultValue": "default"
         },
         "tagValues": {
             "defaultValue": {},
@@ -175,7 +175,11 @@
             "type": "String"
         },
         "managedVirtualNetworkSettings": {
-            "type": "object"
+            "type": "object",
+            "value": {
+                "allowedAadTenantIdsForLinking": [],
+                "preventDataExfiltration": false
+            }
         }
     },
     "variables": {
