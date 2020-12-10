@@ -12,7 +12,7 @@ namespace Azure.Analytics.Synapse.Artifacts.Samples
     public partial class TriggerSnippets : SampleFixture
     {
         [Test]
-        public void CreateClient()
+        public void TriggerSample()
         {
             #region Snippet:CreateTriggerClient
             // Replace the string below with your actual workspace url.
