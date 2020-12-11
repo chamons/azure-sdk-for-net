@@ -22,11 +22,11 @@ namespace Azure.Analytics.Synapse.Samples
         {
             string endpoint = TestEnvironment.EndpointUrl;
             MonitoringClient client = new MonitoringClient(new Uri(endpoint), new DefaultAzureCredential());
-            
+
             SparkJobListViewResponse sparkJobList = client.GetSparkJobList();
-            foreach (var sparkJob in sparkJobList.SparkJobs) 
+            foreach (var sparkJob in sparkJobList.SparkJobs)
             {
-                if (sparkJob.State == "Running") 
+                if (sparkJob.State == "Running")
                 {
                     Console.WriteLine ($"{sparkJob.Name} has been running for {sparkJob.RunningDuration}");
                 }
