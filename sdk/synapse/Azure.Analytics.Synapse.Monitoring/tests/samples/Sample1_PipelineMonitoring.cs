@@ -32,7 +32,7 @@ namespace Azure.Analytics.Synapse.Samples
                 }
                 else if (sparkJob.State == "Queued")
                 {
-                    Console.WriteLine($"{sparkJob.Name} has been in queued for {sparkJob.QueuedDuration}");
+                    Console.WriteLine($"{sparkJob.Name} has been in queuedgit for {sparkJob.QueuedDuration}");
                 }
                 else {
                     Console.WriteLine ($"{sparkJob.Name} has been in {sparkJob.State} for {sparkJob.QueuedDuration}");
