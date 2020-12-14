@@ -24,7 +24,7 @@ namespace Azure.Analytics.Synapse.Samples
 
             var client = new NotebookClient(endpoint: new Uri(endpoint), credential: new DefaultAzureCredential());
 
-            var cell = new NotebookCell("code", null, new string[] {
+            var cell = new NotebookCell("code", new NotebookMetadata (), new string[] {
                 "from azureml.opendatasets import NycTlcYellow\n",
                 "\n",
                 "data = NycTlcYellow()\n",
