@@ -16,7 +16,6 @@ namespace Azure.Analytics.Synapse.Samples
     public partial class ExecuteSparkStatement
     {
         [Test]
-        [Ignore("https://github.com/Azure/azure-sdk-for-net/issues/17455")]
         public void ExecuteSparkStatementSync()
         {
             // Environment variable with the Synapse workspace endpoint.
@@ -38,6 +37,9 @@ namespace Azure.Analytics.Synapse.Samples
 
             SparkSession sessionCreated = client.CreateSparkSession(request);
 
+            // Waiting session creation completion
+            sessionCreated = PollSparkSession(client, sessionCreated);
+
             SparkSession session = client.GetSparkSession(sessionCreated.Id);
             Debug.WriteLine($"Session is returned with name {session.Name} and state {session.State}");
 
@@ -47,6 +49,9 @@ namespace Azure.Analytics.Synapse.Samples
                 Code = @"print(""Hello world\n"")"
             };
             SparkStatement statementCreated = client.CreateSparkStatement(sessionCreated.Id, sparkStatementRequest);
+
+            // Wait operation completion
+            statementCreated = PollSparkStatement(client, sessionCreated.Id, statementCreated);
 
             SparkStatement statement = client.GetSparkStatement(sessionCreated.Id, statementCreated.Id);
             Debug.WriteLine($"Statement is returned with id {statement.Id} and state {statement.State}");
