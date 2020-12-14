@@ -30,7 +30,8 @@ namespace Azure.Analytics.Synapse.Samples
                 {
                     Console.WriteLine ($"{sparkJob.Name} has been running for {sparkJob.RunningDuration}");
                 }
-                else {
+                else
+                {
                     Console.WriteLine ($"{sparkJob.Name} has been in queued for {sparkJob.QueuedDuration}");
                 }
             }
