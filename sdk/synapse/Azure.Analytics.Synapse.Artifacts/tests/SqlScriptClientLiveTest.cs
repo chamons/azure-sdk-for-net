@@ -4,25 +4,25 @@
 using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using Azure.Analytics.Synapse.Monitoring;
-using Azure.Analytics.Synapse.Monitoring.Models;
+using Azure.Analytics.Synapse.Artifacts;
+using Azure.Analytics.Synapse.Artifacts.Models;
 using Azure.Core.TestFramework;
 using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class MonitoringClientLiveTests: RecordedTestBase<SynapseTestEnvironment>
+    public class SqlScriptClientLiveTest: RecordedTestBase<SynapseTestEnvironment>
     {
-        public MonitoringClientLiveTests(bool isAsync) : base(isAsync)
+        public SqlScriptClientLiveTest(bool isAsync) : base(isAsync)
         {
         }
 
-        private MonitoringClient TriggerRunClient()
+        private SqlScriptClient CreateClient()
         {
-            return InstrumentClient(new MonitoringClient(
+            return InstrumentClient(new SqlScriptClient(
                 new Uri(TestEnvironment.EndpointUrl),
                 TestEnvironment.Credential,
-                InstrumentClientOptions(new MonitoringClientOptions())
+                InstrumentClientOptions(new ArtifactsClientOptions())
             ));
         }
 

@@ -4,25 +4,25 @@
 using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using Azure.Analytics.Synapse.Monitoring;
-using Azure.Analytics.Synapse.Monitoring.Models;
+using Azure.Analytics.Synapse.ManagedPrivateEndpoints;
+using Azure.Analytics.Synapse.ManagedPrivateEndpoints.Models;
 using Azure.Core.TestFramework;
 using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class MonitoringClientLiveTests: RecordedTestBase<SynapseTestEnvironment>
+    public class ManagedPrivateEndpointsClientLiveTest: RecordedTestBase<SynapseTestEnvironment>
     {
-        public MonitoringClientLiveTests(bool isAsync) : base(isAsync)
+        public ManagedPrivateEndpointsClientLiveTest(bool isAsync) : base(isAsync)
         {
         }
 
-        private MonitoringClient TriggerRunClient()
+        private ManagedPrivateEndpointsClient TriggerRunClient()
         {
-            return InstrumentClient(new MonitoringClient(
+            return InstrumentClient(new ManagedPrivateEndpointsClient(
                 new Uri(TestEnvironment.EndpointUrl),
                 TestEnvironment.Credential,
-                InstrumentClientOptions(new MonitoringClientOptions())
+                InstrumentClientOptions(new ManagedPrivateEndpointsClientOptions())
             ));
         }
 

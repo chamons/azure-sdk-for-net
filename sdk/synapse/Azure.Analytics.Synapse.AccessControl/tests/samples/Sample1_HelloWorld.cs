@@ -5,6 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using Azure.Core.TestFramework;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Analytics.Synapse.AccessControl;
 using Azure.Analytics.Synapse.AccessControl.Models;
 using Azure.Identity;
@@ -15,7 +17,7 @@ namespace Azure.Analytics.Synapse.Samples
     /// <summary>
     /// This sample demonstrates how to submit Spark job in Azure Synapse Analytics using synchronous methods of <see cref="AccessControlClient"/>.
     /// </summary>
-    public partial class Sample1_HelloWorld : SampleFixture
+    public partial class Sample1_HelloWorld : SamplesBase<SynapseTestEnvironment>
     {
         [Test]
         public void AddAndRemoveRoleAssignmentSync()
