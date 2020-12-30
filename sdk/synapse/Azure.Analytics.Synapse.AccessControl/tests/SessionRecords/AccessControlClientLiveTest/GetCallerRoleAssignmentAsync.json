@@ -1,0 +1,35 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/rbac/getMyAssignedRoles?api-version=2020-02-01-preview",
+      "RequestMethod": "POST",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-e1c40ca23391694293db82262ac647f9-1806662d0089ee41-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.AccessControl/1.0.0-alpha.20201231.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "eb23afb7d8fc576dbae561fd49a9bd19",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Length": "40",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 31 Dec 2020 21:05:19 GMT",
+        "Server": "Microsoft-HTTPAPI/2.0",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "x-ms-client-request-id": "eb23afb7d8fc576dbae561fd49a9bd19",
+        "x-ms-request-id": "dd8b50f2-c9f8-482b-a1d7-3883a9a967f9"
+      },
+      "ResponseBody": "[\u00226e4bf58a-b8e1-4cc3-bbf9-d73143322b78\u0022]"
+    }
+  ],
+  "Variables": {
+    "AZURE_SYNAPSE_WORKSPACE_URL": "https://workspacechhamosynapse.dev.azuresynapse.net",
+    "RandomSeed": "710232935"
+  }
+}
