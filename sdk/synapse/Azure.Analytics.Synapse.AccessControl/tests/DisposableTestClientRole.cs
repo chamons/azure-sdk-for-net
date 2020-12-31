@@ -3,11 +3,10 @@
 
 using System;
 using System.Threading.Tasks;
-using System.Collections.Generic;
+using System.Linq;
 using Azure.Analytics.Synapse.AccessControl;
 using Azure.Analytics.Synapse.AccessControl.Models;
 using Azure.Core.TestFramework;
-using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
@@ -28,32 +27,17 @@ namespace Azure.Analytics.Synapse.Tests
 
         public static async ValueTask<DisposableTestClientRole> Create (AccessControlClient client, TestRecording recording)
         {
-            string roleID = await GetRole (client);
-            string principalId = GenerateGuid (recording);
+            string roleID = await GetAdminRoleId (client);
+            string principalId = recording.Random.NewGuid().ToString();
             RoleAssignmentDetails assignment = await client.CreateRoleAssignmentAsync(new RoleAssignmentOptions(roleID, principalId));
             return new DisposableTestClientRole (client, roleID, assignment.Id, principalId);
         }
 
         public async ValueTask DisposeAsync() => await _client.DeleteRoleAssignmentByIdAsync(RoleAssignmentId);
 
-        private static async Task<string> GetRole (AccessControlClient client)
+        private static async Task<string> GetAdminRoleId (AccessControlClient client)
         {
-            AsyncPageable<SynapseRole> roles = client.GetRoleDefinitionsAsync();
-            await foreach (SynapseRole role in roles)
-            {
-                if (role.Name == "Workspace Admin")
-                {
-                    return role.Id;
-                }
-            }
-            throw new InvalidOperationException ("Unable to find 'Workspace Admin' role in workspace");
-        }
-
-        private static string GenerateGuid (TestRecording recording)
-        {
-            var bytes = new byte[16];
-            recording.Random.NextBytes (bytes);
-            return new Guid (bytes).ToString();
+            return (await client.GetRoleDefinitionsAsync().ToListAsync()).First (x => x.Name == "Workspace Admin").Id;
         }
     }
 }
