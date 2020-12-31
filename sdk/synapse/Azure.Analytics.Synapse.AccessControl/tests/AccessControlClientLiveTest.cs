@@ -26,18 +26,16 @@ namespace Azure.Analytics.Synapse.Tests
             ));
         }
 
-        // [Test]
-        // public async Task CreateRoleAssignment()
-        // {
-            // AccessControlClient client = CreateClient();
-            // string roleID = await GetRole (client);
-            // string principalId = GenerateGuid ();
+        [Test]
+        public async Task CreateRoleAssignment()
+        {
+            AccessControlClient client = CreateClient();
+            await using DisposableTestClientRole role = await DisposableTestClientRole.Create (client, this.Recording);
 
-            // var assignment = await client.CreateRoleAssignmentAsync(new RoleAssignmentOptions(roleID, principalId));
-
-            // Assert.AreEqual(roleID, assignment.Value.RoleId);
-            // Assert.AreEqual(principalId, assignment.Value.PrincipalId);
-        // }
+            Assert.NotNull(role.RoleId);
+            Assert.NotNull(role.RoleAssignmentId);
+            Assert.NotNull(role.PrincipalId);
+        }
 
         [Test]
         public async Task GetRoleAssignment()
@@ -66,39 +64,26 @@ namespace Azure.Analytics.Synapse.Tests
         public async Task DeleteRoleAssignments()
         {
             AccessControlClient client = CreateClient();
-            var role = await GetRole (client);
-            Response<IReadOnlyList<RoleAssignmentDetails>> roleAssignments = await client.GetRoleAssignmentsAsync();
-            int deleteCount = 0;
-            foreach (var r in roleAssignments.Value)
-            {
-                if (role == r.RoleId) {
-                    Console.WriteLine ($"Deleting {role} from princ {r.PrincipalId} and assignment {r.Id}");
-                    Response response = await client.DeleteRoleAssignmentByIdAsync (r.Id);
-                    switch (response.Status) {
-                        case 200:
-                        case 204:
-                            deleteCount += 1;
-                            break;
-                        default:
-                            Assert.Fail($"Unexpected status ${response.Status} returned");
-                            break;
-                    }
-                }
+
+            await using DisposableTestClientRole role = await DisposableTestClientRole.Create (client, this.Recording);
+
+            Response response = await client.DeleteRoleAssignmentByIdAsync (role.RoleAssignmentId);
+            switch (response.Status) {
+                case 200:
+                case 204:
+                    break;
+                default:
+                    Assert.Fail($"Unexpected status ${response.Status} returned");
+                    break;
             }
-            Console.WriteLine(deleteCount);
         }
 
-        private static async Task<string> GetRole (AccessControlClient client)
+        [Test]
+        public async Task GetCallerRoleAssignment()
         {
-            AsyncPageable<SynapseRole> roles = client.GetRoleDefinitionsAsync();
-            await foreach (SynapseRole role in roles)
-            {
-                if (role.Name == "Workspace Admin")
-                {
-                    return role.Id;
-                }
-            }
-            throw new InvalidOperationException ("Unable to find 'Workspace Admin' role in workspace");
+            AccessControlClient client = CreateClient();
+            Response<IReadOnlyList<string>> assignments = await client.GetCallerRoleAssignmentsAsync ();
+            Assert.GreaterOrEqual(assignments.Value.Count, 1);
         }
     }
 }
