@@ -45,7 +45,7 @@ namespace Azure.Analytics.Synapse.Tests
             AccessControlClient client = CreateClient();
             await using DisposableTestClientRole role = await DisposableTestClientRole.Create (client, this.Recording);
 
-            RoleAssignmentDetails roleAssignment = await client.GetRoleAssignmentByIdAsync(role.PrincipalId);
+            RoleAssignmentDetails roleAssignment = await client.GetRoleAssignmentByIdAsync(role.RoleAssignmentId);
 
             Assert.AreEqual(role.RoleId, roleAssignment.RoleId);
             Assert.AreEqual(role.PrincipalId, roleAssignment.PrincipalId);
@@ -68,13 +68,24 @@ namespace Azure.Analytics.Synapse.Tests
             AccessControlClient client = CreateClient();
             var role = await GetRole (client);
             Response<IReadOnlyList<RoleAssignmentDetails>> roleAssignments = await client.GetRoleAssignmentsAsync();
+            int deleteCount = 0;
             foreach (var r in roleAssignments.Value)
             {
                 if (role == r.RoleId) {
                     Console.WriteLine ($"Deleting {role} from princ {r.PrincipalId} and assignment {r.Id}");
-                    await client.DeleteRoleAssignmentByIdAsync (role);
+                    Response response = await client.DeleteRoleAssignmentByIdAsync (r.Id);
+                    switch (response.Status) {
+                        case 200:
+                        case 204:
+                            deleteCount += 1;
+                            break;
+                        default:
+                            Assert.Fail($"Unexpected status ${response.Status} returned");
+                            break;
+                    }
                 }
             }
+            Console.WriteLine(deleteCount);
         }
 
         private static async Task<string> GetRole (AccessControlClient client)
