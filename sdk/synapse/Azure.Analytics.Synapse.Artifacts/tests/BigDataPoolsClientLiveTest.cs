@@ -26,9 +26,23 @@ namespace Azure.Analytics.Synapse.Tests
             ));
         }
 
-        // [Test]
-        // public async Task Foo()
-        // {
-        // }
+        [Ignore("This test case cannot be automated due to the inability to configure infrastructure to test against.")]
+        [Test]
+        public async Task ListPools()
+        {
+            BigDataPoolsClient client = CreateClient();
+            BigDataPoolResourceInfoListResult pools = await client.ListAsync ();
+            Assert.GreaterOrEqual(1, pools.Value.Count);
+        }
+
+        [Ignore("This test case cannot be automated due to the inability to configure infrastructure to test against.")]
+        [Test]
+        public async Task GetPool()
+        {
+            const string PoolName = "sparkchhamosyna";
+            BigDataPoolsClient client = CreateClient();
+            BigDataPoolResourceInfo pool = await client.GetAsync (PoolName);
+            Assert.AreEqual(PoolName, pool.Name);
+        }
     }
 }
