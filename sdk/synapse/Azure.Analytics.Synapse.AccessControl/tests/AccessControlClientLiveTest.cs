@@ -16,7 +16,7 @@ namespace Azure.Analytics.Synapse.Tests
     {
         internal class DisposableClientRole : IAsyncDisposable
         {
-            protected readonly AccessControlClient _client;
+            private readonly AccessControlClient _client;
             public RoleAssignmentDetails Assignment;
 
             private DisposableClientRole (AccessControlClient client, RoleAssignmentDetails assignment)

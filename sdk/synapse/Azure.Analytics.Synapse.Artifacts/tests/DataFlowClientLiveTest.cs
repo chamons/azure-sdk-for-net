@@ -12,36 +12,6 @@ namespace Azure.Analytics.Synapse.Tests
 {
     public class DataFlowClientLiveTest: RecordedTestBase<SynapseTestEnvironment>
     {
-        internal class DisposableDataFlow : IAsyncDisposable
-        {
-            protected readonly DataFlowClient _client;
-            public DataFlowResource Resource;
-
-            private DisposableDataFlow (DataFlowClient client, DataFlowResource resource)
-            {
-                _client = client;
-                Resource = resource;
-            }
-
-            public string Name => Resource.Name;
-
-            public static async ValueTask<DisposableDataFlow> Create (DataFlowClient client, TestRecording recording) =>
-                new DisposableDataFlow (client, await CreateResource(client, recording));
-
-            public static async ValueTask<DataFlowResource> CreateResource (DataFlowClient client, TestRecording recording)
-            {
-                string name = recording.GenerateAssetName("DataFlow");
-                DataFlowCreateOrUpdateDataFlowOperation create = await client.StartCreateOrUpdateDataFlowAsync (name, new DataFlowResource (new DataFlow ()));
-                return await create.WaitForCompletionAsync();
-            }
-
-            public async ValueTask DisposeAsync()
-            {
-                DataFlowDeleteDataFlowOperation operation = await _client.StartDeleteDataFlowAsync (Name);
-                await operation.WaitForCompletionAsync ();
-            }
-        }
-
         public DataFlowClientLiveTest(bool isAsync) : base(isAsync)
         {
         }
