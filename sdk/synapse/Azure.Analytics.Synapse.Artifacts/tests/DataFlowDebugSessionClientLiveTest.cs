@@ -2,8 +2,9 @@
 // Licensed under the MIT License.
 
 using System;
-using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Azure.Analytics.Synapse.Artifacts;
 using Azure.Analytics.Synapse.Artifacts.Models;
 using Azure.Core.TestFramework;
@@ -65,6 +66,7 @@ namespace Azure.Analytics.Synapse.Tests
             ));
         }
 
+        [Ignore ("SYNAPSE_API_ISSUE issues preventing test from working")]
         [Test]
         public async Task AddDataFlow()
         {
@@ -80,9 +82,33 @@ namespace Azure.Analytics.Synapse.Tests
             Assert.NotNull (response.JobVersion);
         }
 
-        /*
-        public virtual Azure.AsyncPageable<Azure.Analytics.Synapse.Artifacts.Models.DataFlowDebugSessionInfo> QueryDataFlowDebugSessionsByWorkspaceAsync(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
-        public virtual System.Threading.Tasks.Task<Azure.Analytics.Synapse.Artifacts.DataFlowDebugSessionExecuteCommandOperation> StartExecuteCommandAsync(Azure.Analytics.Synapse.Artifacts.Models.DataFlowDebugCommandRequest request, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
-        */
+        [Test]
+        public async Task QuerySessions()
+        {
+            DataFlowClient flowClient = CreateFlowClient();
+            DataFlowDebugSessionClient debugClient = CreateDebugClient();
+
+            await using DisposableDataFlow flow = await DisposableDataFlow.Create (flowClient, this.Recording);
+            await using DisposableDataFlowDebugSession debugSession = await DisposableDataFlowDebugSession.Create (debugClient, this.Recording);
+
+            AsyncPageable<DataFlowDebugSessionInfo> sessions = debugClient.QueryDataFlowDebugSessionsByWorkspaceAsync ();
+            Assert.GreaterOrEqual((await sessions.ToListAsync()).Count, 1);
+        }
+
+        [Ignore ("SYNAPSE_API_ISSUE issues preventing test from working")]
+        [Test]
+        public async Task ExecuteCommand()
+        {
+            DataFlowClient flowClient = CreateFlowClient();
+            DataFlowDebugSessionClient debugClient = CreateDebugClient();
+
+            await using DisposableDataFlow flow = await DisposableDataFlow.Create (flowClient, this.Recording);
+            await using DisposableDataFlowDebugSession debugSession = await DisposableDataFlowDebugSession.Create (debugClient, this.Recording);
+
+            // SYNAPSE_API_ISSUE - What payload do we need here?
+            DataFlowDebugSessionExecuteCommandOperation executeOperation = await debugClient.StartExecuteCommandAsync (new DataFlowDebugCommandRequest (debugSession.SessionId, new object ()));
+            DataFlowDebugCommandResponse response = await executeOperation.WaitForCompletionAsync();
+            Assert.AreEqual (200, response.Status);
+        }
     }
 }
