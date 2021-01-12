@@ -7,7 +7,7 @@ namespace Azure.Core.TestFramework
     /// Base class for tests that need to run live but are not recorded and don't need sync/async testing support of <see cref="ClientTestBase"/>
     /// </summary>
     /// <typeparam name="TEnvironment">The <see cref="TestEnvironment"/> implementation to use.</typeparam>
-    [LiveOnly]
+    //[LiveOnly]
     public class LiveTestBase<TEnvironment> where TEnvironment : TestEnvironment, new()
     {
         protected LiveTestBase()

@@ -135,6 +135,7 @@ namespace Azure.Analytics.Synapse.Spark
         {
             switch (jobState)
             {
+                case "running":
                 case "succeeded":
                 case "failed":
                 case "cancelled":
@@ -143,6 +144,7 @@ namespace Azure.Analytics.Synapse.Spark
 
             switch (livyState)
             {
+                case "running":
                 case "error":
                 case "dead":
                 case "success":

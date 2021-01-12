@@ -7,7 +7,7 @@ using NUnit.Framework;
 namespace Azure.Core.TestFramework
 {
     [NonParallelizable]
-    [LiveOnly]
+    //[LiveOnly]
     public abstract class SamplesBase<TEnvironment>: LiveTestBase<TEnvironment> where TEnvironment : TestEnvironment, new()
     {
         private string _previousClientId;

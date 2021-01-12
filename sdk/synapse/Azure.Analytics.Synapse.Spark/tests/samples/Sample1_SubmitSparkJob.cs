@@ -37,49 +37,53 @@ namespace Azure.Analytics.Synapse.Samples
             SparkBatchClient client = new SparkBatchClient(new Uri(endpoint), sparkPoolName, new DefaultAzureCredential());
             #endregion
 
-            #region Snippet:SubmitSparkBatchJob
-            string name = $"batch-{Guid.NewGuid()}";
-            string file = string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/net/wordcount/wordcount.zip", fileSystem, storageAccount);
-            SparkBatchJobOptions request = new SparkBatchJobOptions(name, file)
+            for (int i = 0 ; i < 5; ++i)
             {
-                ClassName = "WordCount",
-                Arguments =
+                #region Snippet:SubmitSparkBatchJob
+                string name = $"batch-{Guid.NewGuid()}";
+                string file = string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/net/wordcount/wordcount.zip", fileSystem, storageAccount);
+                SparkBatchJobOptions request = new SparkBatchJobOptions(name, file)
                 {
-                    string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/net/wordcount/shakespeare.txt", fileSystem, storageAccount),
-                    string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/net/wordcount/result/", fileSystem, storageAccount),
-                },
-                DriverMemory = "28g",
-                DriverCores = 4,
-                ExecutorMemory = "28g",
-                ExecutorCores = 4,
-                ExecutorCount = 2
-            };
-
-            SparkBatchOperation createOperation = client.StartCreateSparkBatchJob(request);
-            while (!createOperation.HasCompleted)
-            {
-                System.Threading.Thread.Sleep(2000);
-                createOperation.UpdateStatus();
-            }
-            SparkBatchJob jobCreated = createOperation.Value;
-            #endregion
-
-            #region Snippet:ListSparkBatchJobs
-            Response<SparkBatchJobCollection> jobs = client.GetSparkBatchJobs();
-            foreach (SparkBatchJob job in jobs.Value.Sessions)
-            {
-                Console.WriteLine(job.Name);
+                    ClassName = "WordCount",
+                    Arguments =
+                    {
+                        string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/net/wordcount/shakespeare.txt", fileSystem, storageAccount),
+                        string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/net/wordcount/result/", fileSystem, storageAccount),
+                    },
+                    DriverMemory = "28g",
+                    DriverCores = 4,
+                    ExecutorMemory = "28g",
+                    ExecutorCores = 4,
+                    ExecutorCount = 2
+                };
+                Console.WriteLine ($"Starting job {i}");
+                SparkBatchOperation createOperation = client.StartCreateSparkBatchJob(request);
+                while (!createOperation.HasCompleted)
+                {
+                    System.Threading.Thread.Sleep(2000);
+                    createOperation.UpdateStatus();
+                }
+                SparkBatchJob jobCreated = createOperation.Value;
+                Console.WriteLine ($"Done starting job {i}");
             }
             #endregion
 
-            #region Snippet:GetSparkBatchJob
-            SparkBatchJob retrievedJob = client.GetSparkBatchJob (jobCreated.Id);
-            Debug.WriteLine($"Job is returned with name {retrievedJob.Name} and state {retrievedJob.State}");
-            #endregion
+            // #region Snippet:ListSparkBatchJobs
+            // Response<SparkBatchJobCollection> jobs = client.GetSparkBatchJobs();
+            // foreach (SparkBatchJob job in jobs.Value.Sessions)
+            // {
+            //     Console.WriteLine(job.Name);
+            // }
+            // #endregion
 
-            #region Snippet:CancelSparkBatchJob
-            Response operation = client.CancelSparkBatchJob(jobCreated.Id);
-            #endregion
+            // #region Snippet:GetSparkBatchJob
+            // SparkBatchJob retrievedJob = client.GetSparkBatchJob (jobCreated.Id);
+            // Debug.WriteLine($"Job is returned with name {retrievedJob.Name} and state {retrievedJob.State}");
+            // #endregion
+
+            // #region Snippet:CancelSparkBatchJob
+            // Response operation = client.CancelSparkBatchJob(jobCreated.Id);
+            // #endregion
         }
     }
 }
