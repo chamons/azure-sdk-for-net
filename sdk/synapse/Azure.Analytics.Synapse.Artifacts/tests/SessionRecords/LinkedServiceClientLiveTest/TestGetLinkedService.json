@@ -6,7 +6,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1c238bbc2abe4b4a9d2e16ba068fc10a-a7175edacfcb1e48-00",
+        "traceparent": "00-81614c00a83fe64c8aeeba80d3a466ad-e84ac230b5e5da46-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -19,11 +19,11 @@
       "ResponseHeaders": {
         "Content-Length": "22775",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:45 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:31 GMT",
         "Server": "Microsoft-HTTPAPI/2.0",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "x-ms-client-request-id": "b9f25988b14616a556170ded1d11e3a8",
-        "x-ms-request-id": "48ce0477-95af-48d1-9349-6a96c2efea9b"
+        "x-ms-request-id": "24ef48e7-6b88-4918-8809-3e0b7534d967"
       },
       "ResponseBody": {
         "value": [
@@ -650,7 +650,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-b8163a9c3256a849aa1e6d1feefa65b5-35e5b4fdc9228045-00",
+        "traceparent": "00-8af4c2568b143545bd7bab5d51f085c3-104188a0547af54c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -664,7 +664,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "699",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:45 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:31 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -674,8 +674,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "3e77cf971af90204e107125ce209514c",
-        "x-ms-correlation-request-id": "27965cac-f16e-4640-b88f-9b371464817a",
-        "x-ms-request-id": "49e8c3f4-450e-4044-be98-a56b1951dfc3",
+        "x-ms-correlation-request-id": "6150c764-50ee-45b8-8e33-1e1480eb9fad",
+        "x-ms-request-id": "962421c2-ccc9-4172-b092-ed74ab717ff2",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -706,7 +706,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9c74236e833cda4f9b106e8808a2bd94-ef683f516684ef4d-00",
+        "traceparent": "00-0ffd3a74196c4941833052690c19cb05-78523b922c1b7a40-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -720,7 +720,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "584",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:45 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:31 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -730,8 +730,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "65cc7835982b018cf01746a1cc072c4e",
-        "x-ms-correlation-request-id": "71b08b24-e578-4994-a963-12f7fb6e03b2",
-        "x-ms-request-id": "913b6190-7a98-4d50-a763-f9b235d51bc5",
+        "x-ms-correlation-request-id": "0a7ac450-82eb-4971-88c4-50a9b505c5d5",
+        "x-ms-request-id": "b8a2ac11-9cb2-489a-8b6c-13333f61ab14",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -757,7 +757,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0e5987953522e24894fce3c2ec6fddb0-6ea86691e1dd7f4b-00",
+        "traceparent": "00-3abb170c22b03d48af8d87a22c88a905-8da9bf82c00f9146-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -771,7 +771,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:45 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:31 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -781,8 +781,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "7ddda1800f596def55f0d73f9e49344c",
-        "x-ms-correlation-request-id": "e9091c2a-86cb-4daa-b3ed-403de0417973",
-        "x-ms-request-id": "461acbc0-e998-4838-af49-9b57dca99c96",
+        "x-ms-correlation-request-id": "cb149d75-0042-4adf-ae18-439843541b34",
+        "x-ms-request-id": "7941bdda-4c18-457f-8926-73b03ff7b2d5",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -804,7 +804,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ab5ee2351d87dd45a5d963cd2a618682-ae0c91ae19716f42-00",
+        "traceparent": "00-817610489580cd47880ea479e46341a9-019d3a0aa7cba543-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -818,7 +818,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:45 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:31 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -828,8 +828,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "a5b7c0c57d44ff7d43764de1d46236da",
-        "x-ms-correlation-request-id": "0c927218-7165-4815-abb9-93270790a3a3",
-        "x-ms-request-id": "bd5b6bcf-73d2-4b5d-b37d-aefa378f5140",
+        "x-ms-correlation-request-id": "26809cd8-93fe-43da-8872-6a5736f479e2",
+        "x-ms-request-id": "c83743ac-183e-41f8-beab-af510eb32b61",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -851,7 +851,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-15195cfccd33064896ca7a5f969b11ec-91ade1d6e892c340-00",
+        "traceparent": "00-4c38b83c3ea5ad4b9ceb9e3244fe57a9-f300b01517094f46-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -865,7 +865,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:32 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -875,8 +875,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "40dbc3dad42c25f3885e103bc04d62a7",
-        "x-ms-correlation-request-id": "e7abb7d2-2572-435c-a27e-da7749fb2ecf",
-        "x-ms-request-id": "bff73bac-898e-4c77-89dc-e997b1dfea86",
+        "x-ms-correlation-request-id": "c3b70de2-f932-4743-9a8e-054146d0a880",
+        "x-ms-request-id": "acbe00c4-74b6-4721-8fb2-51376ef3a544",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -898,7 +898,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e9b9508521a94a44ad176997a964d6db-8156f97ddeb9f649-00",
+        "traceparent": "00-e7bd758cf54a15459179265d5aec9ad1-18e25fc138f9c040-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -912,7 +912,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:32 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -922,8 +922,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "0bdbf9e3864f030a23de3ae3c20d99f2",
-        "x-ms-correlation-request-id": "874cbe41-593f-44bd-b795-c605597e061d",
-        "x-ms-request-id": "e07dbaf6-ee40-4fd9-9663-9d89030de211",
+        "x-ms-correlation-request-id": "a5e5ff5a-db58-4119-adfb-0316fd8c871f",
+        "x-ms-request-id": "da0cf6aa-306b-4c4c-b769-29b2980d3d6f",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -945,7 +945,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-5f4afb0fed46334a8a0d6d0c733d2b1a-0bafc6dc843a144b-00",
+        "traceparent": "00-294fd8d6e23a0242962bf3a09fd4b455-b65f830f4843f64a-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -959,7 +959,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:32 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -969,8 +969,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "db64fdb9f36df120cd911de66d423ef6",
-        "x-ms-correlation-request-id": "a737a08d-7934-4a83-a30c-4ec12f195aba",
-        "x-ms-request-id": "ba193cda-d82a-4db0-93ac-3e9d3069162a",
+        "x-ms-correlation-request-id": "72bee207-c2cd-46ea-8359-fec78195ca71",
+        "x-ms-request-id": "2e035c6b-ace7-475a-b4ab-24734c86c305",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -992,7 +992,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d8da873b4b27c948b4c5f489efe1caf9-92eeecb8de15234a-00",
+        "traceparent": "00-15a7048a29d8674e903e7fc435e14e51-154dcd3cb143844e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1006,7 +1006,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:32 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1016,8 +1016,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "dafda6132a87538ab9d81c4d990f637a",
-        "x-ms-correlation-request-id": "5316fa57-e8d8-4903-8e39-f0b854d3956d",
-        "x-ms-request-id": "0a86a80c-ccb6-4c7c-8894-ff89262c7788",
+        "x-ms-correlation-request-id": "a3affe1d-d20e-4d9c-ab83-ac9b212ad6b2",
+        "x-ms-request-id": "35ba041e-268e-4dc6-9c45-957a7df29375",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1039,7 +1039,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f1779a0015a7c842947802d660abba51-6b5868e22a8c7945-00",
+        "traceparent": "00-563126341cb7b448bf42fa4baf400ad6-6b7aca10fcd3e44d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1053,7 +1053,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:32 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1063,8 +1063,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "c3811dc587e8ef39d9e93dbd692395e1",
-        "x-ms-correlation-request-id": "7ad4681e-ac22-4823-be25-df62fbdb578d",
-        "x-ms-request-id": "8168d7fb-7f1a-4644-be25-f3046464e40e",
+        "x-ms-correlation-request-id": "6ab91b0c-e0b2-453d-9428-2ae383d931df",
+        "x-ms-request-id": "b5bd3417-fb58-4885-9166-8185badff28d",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1086,7 +1086,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-541630335cc52844a3f528cd9663d942-81b13681c56a1547-00",
+        "traceparent": "00-417ed430517764429617f5a5d64912df-7dfa47bb3fb91a41-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1100,7 +1100,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:32 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1110,8 +1110,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "1bd044a0bf108e6b72102195d6d257be",
-        "x-ms-correlation-request-id": "ca166735-5694-4d11-b17d-30958351a8b8",
-        "x-ms-request-id": "e3fa1da3-45bc-4aed-97d5-a768d8f78baa",
+        "x-ms-correlation-request-id": "bd69cc15-322f-4f2f-8e86-92f1031885d6",
+        "x-ms-request-id": "98c23d18-b9b6-4ced-9d8e-9129a0706a78",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1133,7 +1133,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8c02ffaa97306347900daed14fd0fac1-8cd99f5bb5dc8740-00",
+        "traceparent": "00-ad96b8030d9f36449d6bdb883fd14c3c-2f3eb7d72fc79b4a-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1147,7 +1147,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:32 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1157,8 +1157,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "4f20a22e7ac08b0d6d0e009dedcde995",
-        "x-ms-correlation-request-id": "7b9bfe17-163c-49ea-be53-075d5b2f9d75",
-        "x-ms-request-id": "33b64866-a048-474e-93b0-d46b57c012b3",
+        "x-ms-correlation-request-id": "e9563032-d097-43cc-8a9a-a3409af573e4",
+        "x-ms-request-id": "7328889d-3515-4157-9751-4a81d40292dc",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1180,7 +1180,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1509cccdc2287840a9e66fbd18eb4293-c55f178e4ec9504e-00",
+        "traceparent": "00-7422180bcaeaf0489eb6a9b71233810a-f83994fd3d758b4d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1194,7 +1194,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:33 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1204,8 +1204,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "55ad3b42473f066ab2f251d866a41906",
-        "x-ms-correlation-request-id": "af310b0f-dc8a-4660-93b4-2d8fd06942bd",
-        "x-ms-request-id": "06889fc7-6168-4f2d-98dd-ffa8a56d0ace",
+        "x-ms-correlation-request-id": "f8057469-1559-4048-9052-3e765d9ba40c",
+        "x-ms-request-id": "c53715d9-95dd-46f1-a743-a73c49def1d3",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1227,7 +1227,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-fe4c7b165bf9f64aaf500a5f8d574386-2db90a947916b84f-00",
+        "traceparent": "00-17a519066e0cdd49803e15ad042bea36-7c9326b04c2fc745-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1241,7 +1241,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:33 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1251,8 +1251,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "c78f7f91460325203744ae01becea1a4",
-        "x-ms-correlation-request-id": "0bc5cbb0-63e7-4a12-a4e3-8484748da050",
-        "x-ms-request-id": "19ee2b0b-0bd1-4666-a5eb-f02276d17a73",
+        "x-ms-correlation-request-id": "47084ddf-4a20-423e-8148-63e0d622da36",
+        "x-ms-request-id": "83bc3a0a-0025-425a-864d-f6993ee2bcad",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1274,7 +1274,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-387f6e358a79c54f8eb3c723ed031532-c7a91d74ad6ece4d-00",
+        "traceparent": "00-d2f4d31eb517e34398426379608c58b6-5229eb06c8c16549-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1288,7 +1288,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:33 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1298,8 +1298,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "9b528b260225e67e371a9dcd293425c8",
-        "x-ms-correlation-request-id": "364ecf02-7c4f-49f3-b737-bdbfff457afd",
-        "x-ms-request-id": "b7596d18-9d9b-4031-8dc0-660095d938a6",
+        "x-ms-correlation-request-id": "760c3765-02e0-48e9-94fb-d3a615641c0e",
+        "x-ms-request-id": "767409e9-bf65-4c38-9125-58e9e55d7dd6",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1321,7 +1321,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-77bf1acd805ef348bd59dc2b0e5ed8d5-457c56c210f19946-00",
+        "traceparent": "00-94857f93abab1c48952a4825081840b7-cd8d2fae73f5ab48-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1335,7 +1335,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:33 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1345,8 +1345,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "6d0bfaf5223efc921a871efa996848e3",
-        "x-ms-correlation-request-id": "5d3a12b6-2857-451c-a0de-d0b60545e2c7",
-        "x-ms-request-id": "bcadf52d-45ce-480c-932c-a718eeabd1ba",
+        "x-ms-correlation-request-id": "a4b5705e-13d4-42dc-91ba-479c1cf839d8",
+        "x-ms-request-id": "6f696def-8c69-4269-b78f-bfa3170dd337",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1368,7 +1368,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f02b145443246c4ca9685962ce0303dc-cd6410bb1624d942-00",
+        "traceparent": "00-05b5aa9480efe74e9f41b35b9d101017-e9516ff542756145-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1382,7 +1382,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:33 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1392,8 +1392,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "dab1ac517d528fe100a890e9a853fc02",
-        "x-ms-correlation-request-id": "1e84754f-d1a0-44d8-9fc2-a0a5ddb9aad6",
-        "x-ms-request-id": "c0814a89-639a-4a1e-9cb7-a8e5992e96ea",
+        "x-ms-correlation-request-id": "9ed177e0-b381-4dc4-9909-d17cc63e79bd",
+        "x-ms-request-id": "e23a2403-4c0b-4e01-b5eb-957718b6bebc",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1415,7 +1415,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-98ea2ce12a4c374c916c529262a80eca-b1b06bcf22b86546-00",
+        "traceparent": "00-e1d6c8385e0a304c9506f43c9c8c07f5-f470d6785fede24c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1429,7 +1429,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:33 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1439,8 +1439,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "c40ce61e33c20466f955809de4844dce",
-        "x-ms-correlation-request-id": "429a369b-57f3-4c5a-9a6e-6a1143561e4d",
-        "x-ms-request-id": "3f6ab1a1-e927-42b5-b699-403ed8f21e32",
+        "x-ms-correlation-request-id": "d38dacad-126a-4430-854d-11f438f8d7ef",
+        "x-ms-request-id": "be19e8e3-5a4d-40f0-8bd9-17074806d8e8",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1462,7 +1462,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-26405e2f55674c44a8ba384cdfb4a568-97c46eb40ca39048-00",
+        "traceparent": "00-c247d1ba268e3249a28dc223ece1d4c1-0ef4b25e0186634c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1476,7 +1476,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:33 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1486,8 +1486,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "7c7cb9d24b837776197b6c9591a954c7",
-        "x-ms-correlation-request-id": "43068acd-f79f-4174-9f78-74d133a0f46e",
-        "x-ms-request-id": "3fec4683-58cc-4976-846a-b0bf5b4aafea",
+        "x-ms-correlation-request-id": "34152f6c-5016-41e3-a710-d7f7771f377a",
+        "x-ms-request-id": "a813e9a2-313d-406b-a565-a8b32af60897",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1509,7 +1509,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2e5d5cfd9521c543a76411c81a1d4804-c962ae42c74c964e-00",
+        "traceparent": "00-8e238d2e6fb736488c44597fcb496ef5-fb0678e1b67f634d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1523,7 +1523,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:33 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1533,8 +1533,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "b2db1c8b835b1d2145ace0fcfc43ab7c",
-        "x-ms-correlation-request-id": "e7ae0d9e-f240-4c03-8e69-59ca701bcc9e",
-        "x-ms-request-id": "6c94b946-be6c-488b-8823-3aa939fed422",
+        "x-ms-correlation-request-id": "f864f4d5-81b6-42a9-bf01-9007bdfb9bca",
+        "x-ms-request-id": "f192d1c2-aec8-4c88-b9f4-fa8208ba0966",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1556,7 +1556,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-415e40290c27304d97a72f32394c09ed-32ff897871172844-00",
+        "traceparent": "00-40d6e49de81fa34a8fcb5107542c25ee-ebc3fa5eec7b5948-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1570,7 +1570,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1580,8 +1580,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "ee17c15b80d7d37e6f95ab46c7d17350",
-        "x-ms-correlation-request-id": "8ba51564-f1b2-48c9-ab86-b6df29418a17",
-        "x-ms-request-id": "81faa5f9-376c-4202-9afa-3d7153d0516c",
+        "x-ms-correlation-request-id": "4c7cf9b4-3c9d-4285-a04c-855242571182",
+        "x-ms-request-id": "31d2b6a9-f7e9-4e1b-9f91-d97e5c26032c",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1603,7 +1603,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-faaf0ec69a495848948e42f3b98baffa-b5150066bd4c6f4d-00",
+        "traceparent": "00-a051491ddaf1534c948a90b077810047-10bf9845d17dff46-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1617,7 +1617,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1627,8 +1627,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "c812b9019aa84e72985e36d76b7a7ad5",
-        "x-ms-correlation-request-id": "22bc82b9-f2c0-4722-9500-e0327638ae76",
-        "x-ms-request-id": "ec308a4f-237c-45df-8cba-90d76d32151f",
+        "x-ms-correlation-request-id": "bd93d785-d8e4-4e39-900d-7a0344bc6965",
+        "x-ms-request-id": "3bb153b4-2788-40d1-8c75-c1cff6bd68ee",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1650,7 +1650,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1977447dad8e4847ae5164a7ebaf1eb1-4c4632163500c04e-00",
+        "traceparent": "00-a1def5d98fcd174fbb11e72f89720d2e-01dd4b765a148f41-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1664,7 +1664,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1674,8 +1674,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "d03af0d065910bf09d0843c6d8da5674",
-        "x-ms-correlation-request-id": "65b7f53b-92ce-4321-bb68-7d45b88ec4e8",
-        "x-ms-request-id": "37b8830b-a661-48d7-8e66-dee308649a11",
+        "x-ms-correlation-request-id": "56d7278c-61da-4705-bd18-923c695753cd",
+        "x-ms-request-id": "ad88d90b-39ba-4d18-bfea-44c8e1218f76",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1697,7 +1697,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a8b62afe9080eb43a11827f33958d37e-19751ce56b666f4a-00",
+        "traceparent": "00-0e7df368b9455346b5e3fa3a9621d4b4-4ff396068e02d848-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1711,7 +1711,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1721,8 +1721,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "43fa8f39e331c0d44fc8557849a767f5",
-        "x-ms-correlation-request-id": "346c283c-049e-43b2-a8d8-6d8f0667964d",
-        "x-ms-request-id": "3da43fcd-7ca4-4956-b8be-32c1a9cc799f",
+        "x-ms-correlation-request-id": "fd6eeacb-c225-4cf3-b129-5b018d084ff0",
+        "x-ms-request-id": "d26abca7-978f-4b6a-89d1-85b804b0d4c3",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1744,7 +1744,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-fca8c514a438a24aa8083bf7e6496aeb-fdd5e8216c20e247-00",
+        "traceparent": "00-ec79a87c0458c2488795a9dd867e5cf5-40f65fd618531140-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1758,7 +1758,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1768,8 +1768,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "d676d51ba2979bbec9072a9f57ac75be",
-        "x-ms-correlation-request-id": "21d85d8e-11c0-4975-86ee-d6258c11d79f",
-        "x-ms-request-id": "31b3a396-b542-4fbc-a1ba-976e60b17066",
+        "x-ms-correlation-request-id": "b6d59f29-d50f-4845-aecf-c3ae13e3c717",
+        "x-ms-request-id": "d7fc057c-014d-4cad-a248-63fb2d0a392b",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1791,7 +1791,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a1b9db7d4752994d820d7e6656313ea2-f00b360401106744-00",
+        "traceparent": "00-b4863b0408856747813f50cf63490625-dbfe3566daca1f45-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1805,7 +1805,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1815,8 +1815,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "db9dc108377feda41c7981c81077c1f5",
-        "x-ms-correlation-request-id": "e451b4b7-dea5-4385-9885-8b9dc7425c55",
-        "x-ms-request-id": "244d99df-671e-497c-aa74-e3f60358a380",
+        "x-ms-correlation-request-id": "3a5bebf6-b83a-4060-b4db-f4ddfce8528e",
+        "x-ms-request-id": "ed1688ea-b186-4380-a2da-860dfc585251",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1838,7 +1838,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-5dbe231fcab2744286a62484e1e977bc-4e918355846ccb40-00",
+        "traceparent": "00-f5fbf01454b4404fa20f12b18f4c283a-f4a8924753600c48-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1852,7 +1852,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1862,8 +1862,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "02aa4da07f6496ddd05e7929b83469a2",
-        "x-ms-correlation-request-id": "fb1ca7c6-096f-4a51-b71e-085c8ec040c4",
-        "x-ms-request-id": "e0290793-3abf-421c-a499-6774399ad1f4",
+        "x-ms-correlation-request-id": "0a44b363-fe2d-412e-8615-78c7fb5fe136",
+        "x-ms-request-id": "3d25e345-9f51-4285-9d9f-80d882727990",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1885,7 +1885,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8575b60740a82348a997e6eeed9b4d64-5c50f6eb44dfce44-00",
+        "traceparent": "00-a22fd1b867e87d45b04f923be2eabe50-c079138df1388348-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1899,7 +1899,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1909,8 +1909,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "886f96538c09e4763188ba1d21f58b51",
-        "x-ms-correlation-request-id": "816ded62-2f50-40e1-ac65-d6cebb268488",
-        "x-ms-request-id": "c504072f-c000-47a7-996d-e61d8204e84c",
+        "x-ms-correlation-request-id": "f5512fcd-3d40-40bf-91a6-1aeb881c6b63",
+        "x-ms-request-id": "c043a82a-7834-4481-b08b-354b193c02fd",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1932,7 +1932,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0abb86c1b7312244870da39954a2aee2-d1b51111c4fbf14e-00",
+        "traceparent": "00-7b6946024e25ec47af7eb8b0a6a59b4c-9e470242aecfeb4b-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1946,7 +1946,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:34 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -1956,8 +1956,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "0afe34467201885ae4060a20bd7a35e8",
-        "x-ms-correlation-request-id": "a7b91706-4c85-451f-b08e-1ae55f6e6a07",
-        "x-ms-request-id": "280dee92-568f-4293-9087-6a304b4b0091",
+        "x-ms-correlation-request-id": "e6d9bf0b-8fb1-40ca-ae22-396ee7db9c6e",
+        "x-ms-request-id": "d7da29cf-fce6-47bf-9294-73e6fe283c95",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -1979,7 +1979,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1ade156c9019ca46ab87a18d5e522940-51bf991afc0d494e-00",
+        "traceparent": "00-ed93a6affa5cd94ba4850fb08a489829-ce99b70aa971074b-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1993,7 +1993,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2003,8 +2003,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "7975de10380714ebd7c6d1dbc5bf74db",
-        "x-ms-correlation-request-id": "ed35430f-9fd1-45ed-9018-412e32815e61",
-        "x-ms-request-id": "427a5899-a89f-4acd-9fc7-7fcc22323500",
+        "x-ms-correlation-request-id": "f52a8f99-2cc3-449e-ae01-5151b5f2e5cf",
+        "x-ms-request-id": "f2c52341-8929-444c-ac5e-4a58ded1246b",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2026,7 +2026,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-dbe22b0e067d95449e87e397c8759c6e-d0642fb223a62249-00",
+        "traceparent": "00-e334567e45b5ea47baf429fd51c05bf3-07df35e8691a894f-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2040,7 +2040,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2050,8 +2050,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "83e327d35e35e0a03ce7a302815526b6",
-        "x-ms-correlation-request-id": "3cc6e44e-e12f-4951-9583-81116fe849cb",
-        "x-ms-request-id": "bb213eab-6df3-4406-b63c-486d62dcfe65",
+        "x-ms-correlation-request-id": "44f339b0-6324-4138-ab4c-0eb43a0e8617",
+        "x-ms-request-id": "08a5881e-04c8-4540-9283-c9522c9c58ed",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2073,7 +2073,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f4d9a2adbfa6ee4cad892c7b299f65b1-d1ee53f4708bf04a-00",
+        "traceparent": "00-546976bda9f6714b9a43f4fb2ea089a1-5ba0225151bd584d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2087,7 +2087,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2097,8 +2097,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "430dd25312800d4948ea333ba07ec324",
-        "x-ms-correlation-request-id": "130bf264-5231-4e5f-b78a-3dd43cb4571f",
-        "x-ms-request-id": "2482860d-039d-4c99-bef5-f11a1d4b787a",
+        "x-ms-correlation-request-id": "2d695a30-ba31-4944-8845-b9715f31b609",
+        "x-ms-request-id": "20434d0b-8752-4249-a61b-06275015ff0c",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2120,7 +2120,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-96aadcaeebc355429fd40b3f113905da-42fb4cc5586ce24d-00",
+        "traceparent": "00-e7970273301b644783a41a96478532a6-da564057c1692f4f-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2134,7 +2134,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2144,8 +2144,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "954d2f92b197b1b23d953c2095e89381",
-        "x-ms-correlation-request-id": "179ea39a-5012-41f0-82e3-92fed7cbf674",
-        "x-ms-request-id": "8e74845b-6ff4-4d58-83b8-03f45b56cfbe",
+        "x-ms-correlation-request-id": "7d413695-30dd-4c53-9201-6dcc90a50c27",
+        "x-ms-request-id": "49730f29-ee76-415e-a91c-1c473fdda170",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2167,7 +2167,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-77895829a17431409603899b84121596-f3930b7b1e39f549-00",
+        "traceparent": "00-5a7ecb68aca2d8409421164f421a0518-5f0092360c20bd40-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2181,7 +2181,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2191,8 +2191,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "f2881b9f31b2c15aded63b4b2b653fbd",
-        "x-ms-correlation-request-id": "d94d02cf-e639-4177-a63b-5397602541ef",
-        "x-ms-request-id": "8cd141a1-473c-4de6-b58c-9ffae26a4b59",
+        "x-ms-correlation-request-id": "a3f0f800-d9d0-499c-bee5-e2ac97ab81b5",
+        "x-ms-request-id": "85a9fd03-2c27-4e1a-9486-acd5cd9a3807",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2214,7 +2214,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-fca3e82ecbdd2b44b3ce7033a574f5dc-13a3daa82f0b1643-00",
+        "traceparent": "00-1f1f8fac5a9cc4448d0d2e55c79de137-bcdd0c5145d4924f-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2228,7 +2228,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2238,8 +2238,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "51707e249107a21e1f5b05ead529775f",
-        "x-ms-correlation-request-id": "08e351fa-588c-404a-bd7c-04c53726f756",
-        "x-ms-request-id": "408855fd-579f-4df1-a5b9-aea9f8ab0dc0",
+        "x-ms-correlation-request-id": "db0cc076-5eaf-4b40-a132-fd4fe29db683",
+        "x-ms-request-id": "1451c83e-9dd6-4e51-aa1c-9bbcdafa7911",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2261,7 +2261,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ada14cbd202ef04fb37e263db7347ebd-44474bdb06315647-00",
+        "traceparent": "00-2f24ff4bab40714db4335963ef621441-48d7ebf81653ab4e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2275,7 +2275,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2285,8 +2285,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "859cb156d0f66172d48cb7c1766786d8",
-        "x-ms-correlation-request-id": "21b50bb5-9f27-4664-badf-db549972b208",
-        "x-ms-request-id": "0ad0b1f7-99c0-47c5-aecf-b0dc1071e7dd",
+        "x-ms-correlation-request-id": "5b31d7df-9e9c-48ba-9a62-aac8e6c6a965",
+        "x-ms-request-id": "57400afd-d2ec-4910-98a0-eaabbfc5d5ca",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2308,7 +2308,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-07085215f28b704b8f1348a5556eecaf-f3ceccaf87c2b843-00",
+        "traceparent": "00-28347149d5712146ada5279916bf3341-5ee3148bc62a9a4e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2322,7 +2322,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2332,8 +2332,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "16fc7e5641780d79fce6d3572b70ebb4",
-        "x-ms-correlation-request-id": "23bf97b6-c453-4c2a-8d2a-8eabfbc599cf",
-        "x-ms-request-id": "f9cd9706-1189-4ab1-b31a-7d3fde9457b7",
+        "x-ms-correlation-request-id": "f1368f7a-30fa-4d21-97a4-ed047afb605c",
+        "x-ms-request-id": "bf6a54b9-5ad6-4573-bf1c-1b1eaf7253f2",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2355,7 +2355,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7ceb2ebda6b235418f24904daeab7677-e396905518ab234d-00",
+        "traceparent": "00-742ff58e90e9d34099c47afc277f1ed9-384a35f7624b3842-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2369,7 +2369,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:35 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2379,8 +2379,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "79f4db5ebac853c70c0f7c7bd95d2bb7",
-        "x-ms-correlation-request-id": "902a2ba8-bb6e-48d2-b724-8399db3f4e75",
-        "x-ms-request-id": "bf6424f8-1672-4001-80e5-df7f07e9d491",
+        "x-ms-correlation-request-id": "24c75f35-953f-416d-be78-3c5f19c1bee2",
+        "x-ms-request-id": "799274a5-99d1-423c-aec8-1c24204fba9b",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2402,7 +2402,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-c32a1efd8b3b06499a3ded30e00e0a50-c49ae18a77e93544-00",
+        "traceparent": "00-964c1f50da594f4c822276036c88cddc-cb44167d55341448-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2416,7 +2416,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:49 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2426,8 +2426,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "56942cd5612c14e7378e880ffd1b3564",
-        "x-ms-correlation-request-id": "60d5bcaa-e0c2-4c27-8897-a82f62818087",
-        "x-ms-request-id": "5bf569bf-ee47-4939-9481-7c326da059cf",
+        "x-ms-correlation-request-id": "44465cef-cbcc-4c31-b72a-489dcf6d2ea5",
+        "x-ms-request-id": "06641da1-1238-49ef-a93d-9a1cb1997f3b",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2449,7 +2449,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-86355b44c7e77243ba6a3b21286cdfe8-1d9f26171c1a9848-00",
+        "traceparent": "00-5e4000c6252cd942bed189d51ea99fdc-61d9446f8f085f42-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2463,7 +2463,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:50 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2473,8 +2473,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "9a6202a00c739b0fb7a80a69c5fe349f",
-        "x-ms-correlation-request-id": "186168b2-740b-4006-b308-3d5c88135bcb",
-        "x-ms-request-id": "465ed18b-ffa9-4dd6-abe3-534fc4235a08",
+        "x-ms-correlation-request-id": "73a38f19-5c3b-4c9a-94df-60f9e12a7b0c",
+        "x-ms-request-id": "37582481-bcaf-4b7e-977a-d6368e1fd2cf",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2496,7 +2496,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-adf39e2ee931034b8c053c9f321af916-0a6fca9c8ee86d4f-00",
+        "traceparent": "00-97aac67582a6c747af519b068e01124a-d4190064db84c24c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2510,7 +2510,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:50 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2520,8 +2520,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "fe821bba95dbfd88f4df423a31b756f1",
-        "x-ms-correlation-request-id": "a6943d74-f99e-4b2e-9f50-9a02afc5df27",
-        "x-ms-request-id": "cb4c1f3a-243b-45f3-ad97-890b48c5bb3c",
+        "x-ms-correlation-request-id": "117af199-314d-4c40-8147-15cf44464f3b",
+        "x-ms-request-id": "bb8dbf38-2249-4c9a-bc7e-e4f58ad911aa",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2543,7 +2543,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7a274a47af96104e8e584232e0330ddd-ebda2fdf71a8ee4a-00",
+        "traceparent": "00-80953aa033f28d4fa8bb017d1e3dce95-ad52ef2bd7dec144-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2557,7 +2557,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:50 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2567,8 +2567,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "d7da18d991fbc8441df89f83577e4f39",
-        "x-ms-correlation-request-id": "3bf0c841-1354-4cb5-b8ed-2ba3ef7ac939",
-        "x-ms-request-id": "cff0d08f-7f92-4b46-a31d-2ce0dbef7f00",
+        "x-ms-correlation-request-id": "07020398-7890-4baf-90f8-fac69bc9d366",
+        "x-ms-request-id": "e4d99005-ed7f-4105-8359-ce677986d37e",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2590,7 +2590,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6483feb683ec6c4d8de885d3c65c9c9a-8d2c4d03e568d54a-00",
+        "traceparent": "00-faa9d12c0866e24b99c7f2c47beb8548-98d4318a29058342-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2604,7 +2604,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:50 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2614,8 +2614,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "e155e95a37990b897a65a694cad56aff",
-        "x-ms-correlation-request-id": "06a8c6f4-8085-49ab-9e50-fcfaad632f3f",
-        "x-ms-request-id": "7f80a9a2-60d3-4a32-ba86-04bde142694f",
+        "x-ms-correlation-request-id": "89911ef1-980d-4085-94d7-11d8ce7f7f07",
+        "x-ms-request-id": "1d9b46ab-edc9-4abc-8bf9-f87175980d64",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2637,7 +2637,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-4e733b09a8783a478b2e2a89fdb8dfbc-9a077b99a86fdb45-00",
+        "traceparent": "00-7b4ddac14241d64992068e7e51566f73-e7b4b953d9f34443-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2651,7 +2651,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:50 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2661,8 +2661,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "ac8f19525c2329a4d6b9e1e2f504a575",
-        "x-ms-correlation-request-id": "64030d10-f912-49fc-85ed-fa527be88821",
-        "x-ms-request-id": "c9377155-3ea5-4649-9516-28a119703f32",
+        "x-ms-correlation-request-id": "7905544d-165c-4ee3-8c69-c182066a6d00",
+        "x-ms-request-id": "f7ab9649-c396-4e69-9d04-4d6aef01337a",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2684,7 +2684,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-86b099edb2721047bd4da5ab3d8dd9c7-1af2b668399a9644-00",
+        "traceparent": "00-a48d804574f71443b65f357ddbdb54d6-185fc9130f863e4d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2698,7 +2698,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:50 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2708,8 +2708,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "48e0098f7462a2578fcf5c95eab0fe47",
-        "x-ms-correlation-request-id": "2e843f6e-4a96-4d5b-b397-95eab38b02ae",
-        "x-ms-request-id": "7a545f4a-8759-4357-9a96-12b983be5408",
+        "x-ms-correlation-request-id": "38c39735-91fa-475e-903c-484a3487e61e",
+        "x-ms-request-id": "fb0050a0-6f3e-4566-b585-0c4d9e1cbdb7",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2731,7 +2731,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-c112f088197a094bb884bdd9a9b218a3-6a9e9525b2b12c49-00",
+        "traceparent": "00-0a9e97bee71be84cae86ad432e9ecd8e-183f0671c0bf9f48-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2745,7 +2745,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:50 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2755,8 +2755,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "3d31a08ea2eefd15452c0adf55a61575",
-        "x-ms-correlation-request-id": "db23330d-1cbb-45d1-9739-64d6ab62c82e",
-        "x-ms-request-id": "76a7fa23-db1c-482b-aeb5-d98b2874892f",
+        "x-ms-correlation-request-id": "15a3f6ff-af7b-4c30-ae95-aeaa4b47091e",
+        "x-ms-request-id": "8d78d5ef-cd92-4544-82d0-40558bc1677d",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2778,7 +2778,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-25e302fde9da504ea4c5ecc2810096be-dec3fbb1b1cedb45-00",
+        "traceparent": "00-376fcbedb7eab9439726631b52dd86c0-65721389dfc43c43-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2792,7 +2792,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:50 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:36 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2802,8 +2802,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "c10430bf21f4dd9cc1ed1d54000e3e26",
-        "x-ms-correlation-request-id": "924f962f-abe8-4990-a5db-2ed754861d44",
-        "x-ms-request-id": "e7163708-dd83-47c0-b91e-a8dd9537dc8a",
+        "x-ms-correlation-request-id": "b15c5d27-03e2-492a-bd5a-11be5406d818",
+        "x-ms-request-id": "2aa9454c-e48c-4fd7-ac9e-718c169cfdd6",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2825,7 +2825,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7e299bb652917346a7db0c5f86e3e89a-2817e4a390875446-00",
+        "traceparent": "00-3095ddd30a6a6d4785bf7c135d3bae02-790453afe6e5d64a-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2839,7 +2839,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:51 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:37 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2849,8 +2849,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "555499ba68d2ec87f3e3033669784ce8",
-        "x-ms-correlation-request-id": "88c65cf5-7729-4232-99c3-6e2a67d33049",
-        "x-ms-request-id": "d45f9bdf-6326-40e1-92ca-e56d0e56be62",
+        "x-ms-correlation-request-id": "bde13b82-272b-4fb4-9280-ba7805989217",
+        "x-ms-request-id": "9b7ad6b8-bd4e-4501-8fc3-daa9be482ba7",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2872,7 +2872,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7bf44b7a751a584cba171421e9dbf6e1-a01013427cd59943-00",
+        "traceparent": "00-bba0cf15aa533e4eb6726a4b0695ddac-116cf1c392c12444-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2886,7 +2886,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:51 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:37 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2896,8 +2896,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "b9d5e6b93dab6c5303547c0085c0fd36",
-        "x-ms-correlation-request-id": "6b59ce59-0032-4715-b79b-49d02ebd506c",
-        "x-ms-request-id": "32bd4a28-bc92-4259-8619-b7fc2cfba54d",
+        "x-ms-correlation-request-id": "1cbc4cf8-692c-4256-8bf2-acc8b89efbdd",
+        "x-ms-request-id": "26b96c6a-a684-4931-9bb7-9dcb3b244db9",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2919,7 +2919,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9882ca1059b19e40ad348d5575c3eb17-6b871753f5fb234b-00",
+        "traceparent": "00-99f4cd8eb63a9d478c456c74f3bb542f-da56c2a8e56c724c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2933,7 +2933,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:51 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:37 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2943,8 +2943,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "bb25e4edc05257a3a917cd111e667349",
-        "x-ms-correlation-request-id": "9213f782-672b-453b-8992-903292051c09",
-        "x-ms-request-id": "e6b964c0-136e-49ed-8fbd-3f5e5d5a2fee",
+        "x-ms-correlation-request-id": "d2f52542-28a1-4c16-b18d-60cba7132e1f",
+        "x-ms-request-id": "b1fd47c9-4c31-4250-b0c9-9cee1c85f9e1",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -2966,7 +2966,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-c9094643a6d4c14bb20d751a9ea48fc3-d6bd99eac826fc4e-00",
+        "traceparent": "00-e01ed3aa7b232d4681c0d30959965803-2f7f5ffc6f2b3f4e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -2980,7 +2980,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:51 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:37 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -2990,8 +2990,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "199a34a084397c7a46e7517deb866733",
-        "x-ms-correlation-request-id": "194f071d-cf37-4950-bd50-c7526f6995a9",
-        "x-ms-request-id": "ec0bf46d-895c-4b89-9af7-0bd328d291b6",
+        "x-ms-correlation-request-id": "1b9e9665-a579-4d99-b60d-86d7971b9c54",
+        "x-ms-request-id": "aee4898d-e711-4092-bcd8-34851d21880e",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -3013,7 +3013,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0cf3d3dc6957c94486e6b950f1b3c9e7-7b354c850f5a4f49-00",
+        "traceparent": "00-54f318542a016642a384ac11f84116ba-4ebcc35daa2f144b-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3026,11 +3026,11 @@
       "ResponseHeaders": {
         "Content-Length": "22381",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:51 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:37 GMT",
         "Server": "Microsoft-HTTPAPI/2.0",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "x-ms-client-request-id": "8548cce59052f996437d109370414d9d",
-        "x-ms-request-id": "1e91bd9a-700d-4cd4-a4c4-c3de3417fbb3"
+        "x-ms-request-id": "8daccea2-88be-4b86-8695-23f1ee1cd82c"
       },
       "ResponseBody": {
         "value": [
@@ -3644,7 +3644,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8c2961c1e2929c41a6ab88c45b1c5cf9-6a1f44f89b887f4d-00",
+        "traceparent": "00-757b2dede65cef45b0ca08b406fcce3a-4e6c0424caaf8d4d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3658,7 +3658,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:51 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:37 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -3668,8 +3668,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "506033e1e42668fd69a8756a6e256c22",
-        "x-ms-correlation-request-id": "58ccff51-e210-4939-b55f-83cef6569062",
-        "x-ms-request-id": "9df35ac2-a82c-4c54-bd45-4021c39291cb",
+        "x-ms-correlation-request-id": "9a2d05c0-5872-4543-ba50-2b371625c54e",
+        "x-ms-request-id": "288ff349-d5e9-4295-a511-2347c8384d77",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -3691,7 +3691,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-443277cb5701ec46bb35777d9f0b9de6-e96d4e82cb6c0543-00",
+        "traceparent": "00-ac8734e5f6c3ef458fad58bd7d7ed122-ff19ae85c582ad4c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3705,7 +3705,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:51 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:37 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -3715,8 +3715,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "522b99b0ed1d0ff69ea0d5bb74e60c05",
-        "x-ms-correlation-request-id": "6f6f06cf-b047-4097-9f77-33d5be84d331",
-        "x-ms-request-id": "8ed6f4fb-94d5-4af3-b44e-103305d009aa",
+        "x-ms-correlation-request-id": "6889ce3c-c415-4b26-9221-5d76d51a892f",
+        "x-ms-request-id": "a2794e66-15a0-4853-bd62-93f845fc3093",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -3738,7 +3738,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2ece39647c60864cb28fb7fcc51acdc7-09c29a9a4823bc47-00",
+        "traceparent": "00-e07e247860dc704db776007c8d6e8945-b8e9957fded3a64d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3752,7 +3752,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:51 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:37 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -3762,8 +3762,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "b79cb49a1726010ccee01baa1b2c8b1e",
-        "x-ms-correlation-request-id": "3bd3b1c9-0486-442c-8f02-59be9ea0b86b",
-        "x-ms-request-id": "1cdccee3-9d4f-4a29-a833-a9d5bb6c898c",
+        "x-ms-correlation-request-id": "a7b73c51-14dc-4444-a3e6-4b550b5786e1",
+        "x-ms-request-id": "b8b03273-ed56-491e-a454-73bdbb8e2e20",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -3785,7 +3785,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7f71295e7e4ed043bb2c2556ad8d37bd-fe131e614b7c7b4c-00",
+        "traceparent": "00-ed1c3ff59cdde2489e279ab8cda6f29c-50a92fcd621f3b42-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3799,7 +3799,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -3809,8 +3809,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "d6e3ed11fa15f37f3d50b1850e42f483",
-        "x-ms-correlation-request-id": "a8eefaa4-445c-405c-8f25-52d68028150b",
-        "x-ms-request-id": "c72fd85e-1a41-4003-9472-ae9f626bbb69",
+        "x-ms-correlation-request-id": "1c1bd802-7108-441e-94e5-0f3252660b78",
+        "x-ms-request-id": "0a7e0f40-850d-44ff-aad2-e64e761457f1",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -3832,7 +3832,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ae5b0b80aeda7049b20dd57270770249-acb896dfb6859d4d-00",
+        "traceparent": "00-7dbce7bbccbf7245a297eba0d9498722-bdec65f0c1064d4e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3846,7 +3846,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -3856,8 +3856,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "b9d0709bb48899fc8d29833dd24bf472",
-        "x-ms-correlation-request-id": "323ff4a4-33de-40b8-8625-826598cd8c91",
-        "x-ms-request-id": "abe28cbe-33a7-452e-b8c9-1ad6bcede6c2",
+        "x-ms-correlation-request-id": "881e998c-6200-4080-a141-d54099bb7b1e",
+        "x-ms-request-id": "ea0f694b-e6fe-484b-84d3-60a98d65b276",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -3879,7 +3879,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ffa4f0f20c81cc4b90181795fccd29cf-bb2e65c4c8ae2447-00",
+        "traceparent": "00-23f93355a0307b47a8c21cf833b85b34-9e7a37566d455040-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3893,7 +3893,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -3903,8 +3903,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "86a9b71435039fef35a979d66586f38c",
-        "x-ms-correlation-request-id": "02cbc1e8-5c41-424a-bff9-c2b6c7669f63",
-        "x-ms-request-id": "1276e9a9-e2c4-43be-a5f1-27bb84a79617",
+        "x-ms-correlation-request-id": "4c016681-a37f-40e8-b941-3f8e630e7ce1",
+        "x-ms-request-id": "6a464743-7695-47a2-b8f5-1f0f0442d749",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -3926,7 +3926,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ba43c714be08f445971bea51495a41a2-e3cc1272c1a2b547-00",
+        "traceparent": "00-5d7c6edbedf2fa43ab6ffb87acb436fd-1efa919374a06442-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3940,7 +3940,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -3950,8 +3950,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "ab0e98ecd25b5c95f14a49ec774121f2",
-        "x-ms-correlation-request-id": "6e108b7e-6da4-4a63-adf3-40d94679417e",
-        "x-ms-request-id": "259783f1-32f6-4c84-8f2f-a5ec328fde25",
+        "x-ms-correlation-request-id": "4a371123-bef7-4da4-ac7e-a8e7b91c1a1b",
+        "x-ms-request-id": "c025510b-a133-4a64-b03a-88e4d65ff355",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -3973,7 +3973,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d8a8743c8f62e247a31687813e02e289-0f213cc00bdaf442-00",
+        "traceparent": "00-88963819d33f9a43a52bf7aafffb452b-5ac2b2067f931048-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -3987,7 +3987,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -3997,8 +3997,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "56713f5c6d98667f803184df3b263306",
-        "x-ms-correlation-request-id": "83fcc9fc-7dd6-4dfb-8820-a353e4c5cb72",
-        "x-ms-request-id": "ba5c7a70-95bf-4bb6-905a-8b0aef4af175",
+        "x-ms-correlation-request-id": "a519a0b6-3622-45bb-b04a-8d74ab358c54",
+        "x-ms-request-id": "34dc07fa-688a-4303-8b35-8d32f4883cc3",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4020,7 +4020,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-34b8bfb32d3cb140b4cf73dc8d5b6fc2-075b2b6d0d568d4d-00",
+        "traceparent": "00-8581f12159760e4e89a07c11c234ad5f-eee5da72d4f0874a-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4034,7 +4034,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4044,8 +4044,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "3951f736483c4216224c94b8ec0327f3",
-        "x-ms-correlation-request-id": "2b079687-63d5-4023-8485-5cd130c3d999",
-        "x-ms-request-id": "de99a76d-5fdc-4ac6-880b-e8f2e70d8c17",
+        "x-ms-correlation-request-id": "87adf541-74e5-4e03-9841-1328a6c4c013",
+        "x-ms-request-id": "a09542fb-79c7-4975-b669-34163007a3e1",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4067,7 +4067,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2d69b5b53e93954195afeb7b40aa3aba-a9b93a9d29c1484e-00",
+        "traceparent": "00-236a9619c7a26c4bbdc76f37c084685a-9e35e0fafce1ce41-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4081,7 +4081,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4091,8 +4091,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "257987879c157ef318a82a2a4db521cb",
-        "x-ms-correlation-request-id": "9a866032-8537-4b38-b565-4c212eef7be0",
-        "x-ms-request-id": "845babda-8b57-4606-8406-fc4bfb2f20ba",
+        "x-ms-correlation-request-id": "e22289a9-f343-4330-b974-7eb56b6070b6",
+        "x-ms-request-id": "90753a68-49b1-43db-92ba-3a148f19f157",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4114,7 +4114,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-810c414f4710574388a2d36f93bea5ec-919e71c965674747-00",
+        "traceparent": "00-d1c6ade6d7de7c4cafb8b038098cdae2-6c103ec0f9332345-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4128,7 +4128,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4138,8 +4138,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "7fb54316e8f013b5282e344cd8c7797d",
-        "x-ms-correlation-request-id": "bb258ffb-32bb-4611-8d51-e43a78b6e6ba",
-        "x-ms-request-id": "e2d1aa49-6f08-4a05-8700-0c4e1df1e63f",
+        "x-ms-correlation-request-id": "1e17a710-761e-491d-8445-d8314ef9978b",
+        "x-ms-request-id": "5703b08f-da60-44b0-8fe5-96ddd44d4e5d",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4161,7 +4161,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a6478937d885144b93a6313f0a57d1f6-0d4a2e694379c04d-00",
+        "traceparent": "00-074842f9b718dc4abf68da9f875850a2-9c52d0e1e48a554e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4175,7 +4175,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:52 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:38 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4185,8 +4185,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "b35890090dac99f003d320931eecf46d",
-        "x-ms-correlation-request-id": "b0b62d77-248f-492f-beaa-697fa9d14245",
-        "x-ms-request-id": "61bdbe58-d82a-4045-b450-d6472e8fbc2d",
+        "x-ms-correlation-request-id": "5d7732b2-7fed-4f11-ab81-aa6c980d47e6",
+        "x-ms-request-id": "e147dc08-fc5c-4f2f-81a5-0ff8c9e7c345",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4208,7 +4208,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-04e8320f1baf6441ad3651d799c43873-6996097a36cac94e-00",
+        "traceparent": "00-4b348dbb0892d345b228c6cb8e1770e6-d4d6164ed02ea344-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4222,7 +4222,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4232,8 +4232,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "a9a2c92ba84d9f02d266fde768a7a551",
-        "x-ms-correlation-request-id": "050a7052-319e-454e-b0ee-73a1ebdd1568",
-        "x-ms-request-id": "848c5ccd-3675-4ac0-be93-b247b785b5e3",
+        "x-ms-correlation-request-id": "7d955430-d968-4c30-ae36-a3eb193e2d32",
+        "x-ms-request-id": "a5149e8e-4a1f-4ac6-97e3-1189f4be7847",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4255,7 +4255,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-c480cce5edbe7c4f99f69f52bb48a6fa-2e3e8f0130966347-00",
+        "traceparent": "00-ad01f11bd10ad840ac8aa573547a90db-113501ba29f03241-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4269,7 +4269,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4279,8 +4279,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "bc21ac2f6e5d081f521c7b1dc721f53c",
-        "x-ms-correlation-request-id": "e4be9062-8fbe-4ba4-ad2f-09d2a6120139",
-        "x-ms-request-id": "c609ab39-ca5b-4b07-af7c-2807d43ef3c4",
+        "x-ms-correlation-request-id": "8a2e4a2d-afc2-4fda-867c-c105c32ce1b7",
+        "x-ms-request-id": "6144b365-2909-4c10-9bcc-e879b05acab7",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4302,7 +4302,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-90648a9a26cd8c499ad88016a5d55083-d6b2e84d8516f640-00",
+        "traceparent": "00-48ae37ffdde40c41aad1fe6687ec2cb2-9825e7af8a188d4c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4316,7 +4316,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4326,8 +4326,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "0f20c739d02460308eb8e1451008315c",
-        "x-ms-correlation-request-id": "468b2ec3-6201-4965-8ba6-3f3f4a4e9bda",
-        "x-ms-request-id": "74847f0b-971a-4862-9c8a-f6ac0f919fc8",
+        "x-ms-correlation-request-id": "3e88ad97-468f-4efa-be26-f34ad782fd35",
+        "x-ms-request-id": "98851c20-8e45-431a-bce7-cde79a05701e",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4349,7 +4349,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-3eaa2f75aff3da4c9b506e98639e5c1c-91d01d5dc002c945-00",
+        "traceparent": "00-29e3135b96f9a54ca1d705ebe7661e95-4b14a66a4e01464f-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4363,7 +4363,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4373,8 +4373,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "7164cf2d37cabd0faa9a56312ce5d8b0",
-        "x-ms-correlation-request-id": "18ce75a7-c767-4c6f-ab43-9bf510dab876",
-        "x-ms-request-id": "f81e073d-2edc-4699-82b5-34a600c2257f",
+        "x-ms-correlation-request-id": "160fee58-1e19-4273-a580-a0ef2469e3bb",
+        "x-ms-request-id": "3dffeebd-982b-4ccf-ace3-6e63cc2aefaf",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4396,7 +4396,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a62e1c9332387843959fef0b374a413f-aecfd4873fb9ce46-00",
+        "traceparent": "00-3a4baa54de8eec46b072f4e2146d5b42-4b7a525dcadcd446-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4410,7 +4410,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4420,8 +4420,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "a0adc07095865e2c7cc02ea48cd9f749",
-        "x-ms-correlation-request-id": "22697c5a-2e1a-46cf-9b5f-bff1a444335c",
-        "x-ms-request-id": "ed53ff7a-525e-4445-abf4-1d4e2def571a",
+        "x-ms-correlation-request-id": "e71d0d40-d671-4c5c-ae2b-a80dbeef8288",
+        "x-ms-request-id": "f988a056-2d9c-4bf7-aa93-fa839b5fc835",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4443,7 +4443,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6788ef598e6d724aaa9d3bbc194e3c4f-970dc062d5fd4348-00",
+        "traceparent": "00-43e491ccc45ab84f9e94fc5f56cd104d-370c4293eb16c445-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4457,7 +4457,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4467,8 +4467,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "f7ef1fea84bc0272b763658a79ff34a9",
-        "x-ms-correlation-request-id": "a629fb17-d934-4213-874d-07f46ff22a86",
-        "x-ms-request-id": "dff76751-2547-43a6-a420-808abc5c2442",
+        "x-ms-correlation-request-id": "45a09015-9fe4-4f1a-966f-337a64dc24ee",
+        "x-ms-request-id": "d86a654d-ab01-4170-9d64-00ce040635d9",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4490,7 +4490,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-dce06dc5b9b7eb46b7a22360480de6a7-b4e68787919a1147-00",
+        "traceparent": "00-e1efb2d7b968a44695df25ea1cf180f1-ce57a905932a0b47-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4504,7 +4504,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4514,8 +4514,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "50d531e0905b97d5a205f40a096b30d1",
-        "x-ms-correlation-request-id": "ef4bba08-6c6b-4cc9-929a-72ac7ce4a2cd",
-        "x-ms-request-id": "4b4fd96b-b403-4728-bb6f-141b597f6701",
+        "x-ms-correlation-request-id": "851c35ae-4457-456e-a583-568f9bfef6f2",
+        "x-ms-request-id": "875bde7a-cad4-4119-a2f5-2d26df73c841",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4537,7 +4537,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0b26e29fa0a51048a5ec2e4d010b5e0f-6906838b431e3041-00",
+        "traceparent": "00-b16950686ab2304e845ec43eb57d3c9b-e77db97e5ada7148-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4551,7 +4551,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4561,8 +4561,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "0c460ca2e0f5ecf34eabe92330a2e47d",
-        "x-ms-correlation-request-id": "c720387e-43ec-43aa-9f44-b3d485d2d70f",
-        "x-ms-request-id": "e00700d7-aaa1-432b-8494-2255b579f7ec",
+        "x-ms-correlation-request-id": "d91fd459-e5db-4f6f-9284-174c42c76d01",
+        "x-ms-request-id": "5fa26af5-fba2-4217-963e-fa26f8ebdea6",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4584,7 +4584,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-b2f0b8b72d2b7144a1dc949ea74803f8-85bb0c6381771649-00",
+        "traceparent": "00-1977e8566b38c943b325b8129e8c2227-27e75f8d9ba65843-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4598,7 +4598,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:53 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:39 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4608,8 +4608,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "5bc4858ba7045aee495755b68f68f84b",
-        "x-ms-correlation-request-id": "41c9011c-575d-4551-a32a-d1938f767c52",
-        "x-ms-request-id": "2c571dc1-4304-494e-bcf5-d9547c89731c",
+        "x-ms-correlation-request-id": "1336906b-ba68-44b9-9d41-441399490b68",
+        "x-ms-request-id": "20d9045e-a7da-4622-b376-11ae1364f35e",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4631,7 +4631,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-44169079572da04eb74d8dfb0b32b926-8a8192e6b98d7647-00",
+        "traceparent": "00-6102e60b94e9204880d321e1f43c0428-dd25920badd41346-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4645,7 +4645,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4655,8 +4655,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "6de8933327b900b33de802afa6b267ff",
-        "x-ms-correlation-request-id": "d1ae3e3c-4fd8-4056-9842-3ffbbaff5126",
-        "x-ms-request-id": "3fa03bd9-e4e6-4b07-a856-64cfa268edc3",
+        "x-ms-correlation-request-id": "5236db35-bafb-4211-8393-46e61076daa4",
+        "x-ms-request-id": "64a82b36-1cc7-4fe5-864a-82a9057c61ec",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4678,7 +4678,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-36e2f732ebe052498af48c6bd5772dd0-91e34b3a69ca8247-00",
+        "traceparent": "00-82997ace7cf9ec4ab38a145a7cee5891-c47fc613f6959d49-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4692,7 +4692,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4702,8 +4702,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "837e7721d4a7fbcd1debc39d8a3c5ce6",
-        "x-ms-correlation-request-id": "2feb3b7d-051c-4ab3-ab3a-6c4be209b3d7",
-        "x-ms-request-id": "8f5a64b5-b147-4bba-840a-71608c542d24",
+        "x-ms-correlation-request-id": "20be4721-5f7c-4efb-b2b0-32a68ad3ffdb",
+        "x-ms-request-id": "29578c9f-7e98-43ac-b664-ddea2c128311",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4725,7 +4725,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9a28cc6339889e499743a7a25e7d22c7-01b8ac9153aca346-00",
+        "traceparent": "00-2b31531b3eca7d458bc88bd93eb1650c-3ae9f1e68c8fcf46-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4739,7 +4739,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4749,8 +4749,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "9cef9db277ba63c3d1c31e1ba43fb396",
-        "x-ms-correlation-request-id": "2a682ddd-a204-4249-961c-dd450cb4b25e",
-        "x-ms-request-id": "6a5f4965-6602-4f85-b571-20df3a506c73",
+        "x-ms-correlation-request-id": "e127a0d8-9ecd-461e-80b1-986c12f46fce",
+        "x-ms-request-id": "d4b7d07e-7c21-4a9d-a165-6e261533e4f7",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4772,7 +4772,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e769d7aea618f9409af145df2a138192-562e2790992d0346-00",
+        "traceparent": "00-fe43b946938d984b95969b5c0c6dece1-61e378ec15edd94d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4786,7 +4786,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4796,8 +4796,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "189555f075e95ea4c6ec4fcd64167500",
-        "x-ms-correlation-request-id": "8dd3e58f-cf6d-4ce9-a2f2-c9c5a333b99a",
-        "x-ms-request-id": "0ced9884-6994-4040-bd20-8635af458561",
+        "x-ms-correlation-request-id": "9563a19d-bd96-49e1-89e1-4085401e3dcf",
+        "x-ms-request-id": "226214bb-a4e1-4a49-8fde-d6c7fc7a19de",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4819,7 +4819,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-159998f164bda84db58e0347d0b31b7c-3600da224d3fae41-00",
+        "traceparent": "00-387006c22ee73c4b9ea57da1b0679938-e7a0abbd3f80764e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4833,7 +4833,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4843,8 +4843,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "08fd1c8bcbc2a945b31ab1e3b6b156de",
-        "x-ms-correlation-request-id": "70795c3b-68fd-4bd1-a39c-1c953861d962",
-        "x-ms-request-id": "633c95ef-3c6e-4c37-903e-f7f67a0c9f28",
+        "x-ms-correlation-request-id": "efbc1ad4-b065-48ec-8036-a99dbe82d74f",
+        "x-ms-request-id": "ceb0c401-8602-4359-bb77-f607f67cad67",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4866,7 +4866,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-914dfcae7ed15b4e8444d874f7488c36-bcca07be9fcc784e-00",
+        "traceparent": "00-ea2ae5d790ef5b43a7d06ed35539d2d1-cb25c6abf675f74f-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4880,7 +4880,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4890,8 +4890,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "34ad2c3744a63dfcf991d5cd27f6ffbb",
-        "x-ms-correlation-request-id": "baa39039-b5c4-42fc-8693-45c366f67393",
-        "x-ms-request-id": "33e38cab-db9d-4ee3-9270-1bef8f9fc7f1",
+        "x-ms-correlation-request-id": "6ccd920f-68be-4a17-8e69-3a2d5d053ed0",
+        "x-ms-request-id": "2f0cce48-3fdc-40be-b73a-ad0dffe92ca4",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4913,7 +4913,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2b53839ee5c2c44ba538a3f810ed87b4-e0f43dfa79d55549-00",
+        "traceparent": "00-8c3d4d494fb64b47859005405ed698c9-cbe2f966b21c5944-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4927,7 +4927,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4937,8 +4937,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "88901d4eaa4125d310ec64cfc3c0a714",
-        "x-ms-correlation-request-id": "a211ca66-11d6-4ef7-95e1-92516eb76213",
-        "x-ms-request-id": "67f87592-32df-4af1-96fa-ce8085a59070",
+        "x-ms-correlation-request-id": "b8f22d0a-d590-4e9c-8f61-aaf5bed854e9",
+        "x-ms-request-id": "3aaf25fa-dbaf-4776-b2ef-c3b0d8d3c9f2",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -4960,7 +4960,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-c051cd08b7ab5c478ac6982be9c387a5-72e4215cd6afb744-00",
+        "traceparent": "00-c83b3170b4b27c4b92300c04d13d850a-3d03a4409722c747-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -4974,7 +4974,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -4984,8 +4984,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "389571954069465a20bf0f31f57882bd",
-        "x-ms-correlation-request-id": "6ddae58a-a01e-4259-a667-3ba1818bd77d",
-        "x-ms-request-id": "cbe13c66-90dc-4d15-aafd-08ef25c15db6",
+        "x-ms-correlation-request-id": "a05b5c85-46e8-4052-a95b-4b1f7f8ff986",
+        "x-ms-request-id": "962664d4-1d95-496e-847a-6042eac33bdf",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5007,7 +5007,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1efb6e5d21e0b24bad1944a1d5ae9a5d-545a429be67ebb4d-00",
+        "traceparent": "00-5e4ecb3663f1f144ae575c98ef1d9eb3-52c33b1bceee5e45-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5021,7 +5021,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:54 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:40 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5031,8 +5031,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "9995f61bce218c9c588724bae02d7a39",
-        "x-ms-correlation-request-id": "514828b5-883e-483e-b651-81c389d16990",
-        "x-ms-request-id": "cbf5784c-3665-4a9c-bd50-c333ded81e17",
+        "x-ms-correlation-request-id": "42f6d42e-0745-4fef-b89f-308a14e322db",
+        "x-ms-request-id": "97ea8527-7f65-4754-9e3d-32f7434551f1",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5054,7 +5054,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-48d9e0ef7d829b4b8ab6361675302338-d8a10335ec2e934d-00",
+        "traceparent": "00-a4950fad6a510c4eb53d5224869a0a1a-26436be0626edf4b-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5068,7 +5068,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5078,8 +5078,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "b637c0e9c7600d51c24968829ba23098",
-        "x-ms-correlation-request-id": "80b16c39-6929-48e2-bbc9-4548001173dc",
-        "x-ms-request-id": "68b6f38e-9dc4-4021-8e7a-83a1115f1a57",
+        "x-ms-correlation-request-id": "c2c2b31d-3db2-49a7-b2f8-140b78ef75e3",
+        "x-ms-request-id": "52de9bc4-ac20-419d-9c89-53c461c1b6f3",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5101,7 +5101,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7a91ec080578f548bbbde9d55766d6cd-bbd7f923a915b547-00",
+        "traceparent": "00-95e0796a54b56649882397f569dec8bd-5174be2676a9c643-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5115,7 +5115,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5125,8 +5125,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "ccb3a76a0d2bc7f3d408dfe11b9f66f2",
-        "x-ms-correlation-request-id": "bb45f76f-0df3-4682-972e-3c953aed5bb2",
-        "x-ms-request-id": "bb6e44e3-6924-4c49-87d7-674f27714606",
+        "x-ms-correlation-request-id": "fda9b36d-d4e4-41d6-bcf2-241e7dbdc5d1",
+        "x-ms-request-id": "51265365-d633-416a-ab13-6bd6274249ac",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5148,7 +5148,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8d9f361aa2a2884b9e1809348442e7bd-7527281bd5658f4e-00",
+        "traceparent": "00-efee928611a3fc4a9103d8dd9d2174c9-80bbbb05c2478044-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5162,7 +5162,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5172,8 +5172,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "3447d545cb40545ca487d6d7661af1b6",
-        "x-ms-correlation-request-id": "1858f9fd-67ea-4a35-a852-a1654210df20",
-        "x-ms-request-id": "9a30edbd-bc3f-45a1-a20c-2f3e1199088c",
+        "x-ms-correlation-request-id": "404772dd-d652-456d-9105-85fe8e29efb9",
+        "x-ms-request-id": "bd36f7ae-ad8b-4eb4-9603-51a0ced23223",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5195,7 +5195,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9a7c61d9a7fde748973baa93afe7bc92-f8fdc161548a144c-00",
+        "traceparent": "00-7a554d7726928f49a56ca9a5f2051e90-68de087130e01642-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5209,7 +5209,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5219,8 +5219,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "38508c57ad79dc0dcd70e158e770f123",
-        "x-ms-correlation-request-id": "728c349a-9bc6-4752-b0c9-65928b788a10",
-        "x-ms-request-id": "caa96052-9c05-44df-a43e-7dd57ddb1b6b",
+        "x-ms-correlation-request-id": "2e8b8f82-7fd3-4fd5-9339-7a83f674f5f6",
+        "x-ms-request-id": "a3348224-d8d4-41db-ab4d-73289cd05802",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5242,7 +5242,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f14284900b7a8c4eaa2529cf38ece980-c6f10194114d2542-00",
+        "traceparent": "00-96aafe476919a345acdaf553f6dca971-33d76ff875d39e48-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5256,7 +5256,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5266,8 +5266,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "c53c75e3fc5a9e574b5f27a4361b60ba",
-        "x-ms-correlation-request-id": "4faa2b9e-11ab-4971-8c2c-3a257d602370",
-        "x-ms-request-id": "2b02761b-24c0-4954-9e9c-a6a367b611ff",
+        "x-ms-correlation-request-id": "382f6315-3ce3-4ccf-893f-7b6877060f8a",
+        "x-ms-request-id": "60b6e1ab-b08f-4ca9-af6a-9279662b0b17",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5289,7 +5289,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-bfd016e185a4404ba75152046b8eefaf-6e3a656059d55a46-00",
+        "traceparent": "00-eb1ae4b5e3795946a741f00401832dd9-e1de71f70bb87e44-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5303,7 +5303,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5313,8 +5313,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "8f8a29172e4f9879c86b66cfe9046c34",
-        "x-ms-correlation-request-id": "51e4daa0-8032-400f-8e91-8fff0b842a47",
-        "x-ms-request-id": "de9e2d64-e494-47c3-82fe-399635c34386",
+        "x-ms-correlation-request-id": "17a7ab8a-67b4-4466-8fab-2bae40bca8c5",
+        "x-ms-request-id": "d780b902-8a27-44f8-aeec-9f6fdae319c0",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5336,7 +5336,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0cd6a088462e4e4cbed36c18706e0862-0cb6be7c0dcecb49-00",
+        "traceparent": "00-0c89a665420e2841826f03fe7884a938-5312c4c881581f41-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5350,7 +5350,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5360,8 +5360,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "f1f4b3952bdd5b5b35b1ed198569a5b1",
-        "x-ms-correlation-request-id": "bfa15c79-916c-410d-8b61-ed363e35acbb",
-        "x-ms-request-id": "a11daef5-c68f-4e77-915f-5ba19fdf579d",
+        "x-ms-correlation-request-id": "fed813e9-0746-478d-96ee-7a606fd18aa7",
+        "x-ms-request-id": "00fc8ff0-72b3-4bd1-b0ee-f71b53434c13",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5383,7 +5383,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-5b18b2a127fd3f46abb0ded1892f326a-8301619e63f2cf41-00",
+        "traceparent": "00-362e32afcf8c9446ac3c9279407eeb79-2ff98d06f5148a47-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5397,7 +5397,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5407,8 +5407,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "be40270f62e5b4d4fca4fdef9587b446",
-        "x-ms-correlation-request-id": "9df20a41-578e-4752-b2e0-df9fe772f6c8",
-        "x-ms-request-id": "2907751a-95f6-4087-a86f-90298da9e87e",
+        "x-ms-correlation-request-id": "73291a92-1950-4edc-ae83-8fe3b1cc7f6c",
+        "x-ms-request-id": "bb4b723d-7068-4487-aa65-48c369d6e69f",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5430,7 +5430,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2b40a520fcf8d14c88280dd0d11fba77-564aa7e92797da4c-00",
+        "traceparent": "00-ea8dd136d518c44891f557b5fe43ca3a-3790c2847687ad49-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5444,7 +5444,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:55 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:41 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5454,8 +5454,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "830ef2f26f27ecdccd2e5a9d405f125e",
-        "x-ms-correlation-request-id": "bf1559a8-d639-44c6-ab57-ad577d15ff2e",
-        "x-ms-request-id": "a34ddbae-60aa-4633-a92b-49472a1ff121",
+        "x-ms-correlation-request-id": "bfc022ba-100c-4529-ad53-13d115914bc7",
+        "x-ms-request-id": "7ec13156-5c8e-4026-b57b-9de0f83e9a0e",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5477,7 +5477,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d34f1c9ac36ec64c964476aea527ec82-7c0edf3cc4bdce4a-00",
+        "traceparent": "00-2fcd527751ced3479cd320bd29ba3676-8c9e4156622e554c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5491,7 +5491,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5501,8 +5501,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "c1bfb5c5aec3324fdf3ff5392d6bc6ad",
-        "x-ms-correlation-request-id": "c7a0a302-a68f-4567-b5e9-b9e469292c94",
-        "x-ms-request-id": "36ce82db-06a8-4ed0-84f6-6ec4a734e826",
+        "x-ms-correlation-request-id": "97491312-7a06-4359-b03e-1cd3a032b1df",
+        "x-ms-request-id": "937f7746-5bd1-4ee8-89fa-047593880643",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5524,7 +5524,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-bb63c2613be40e4e94184389c1c3c1f1-8c38937ca8de824a-00",
+        "traceparent": "00-0ba5fb367c900247a46a2bea24dd2052-b21328155eb83a45-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5538,7 +5538,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5548,8 +5548,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "9327a6fc225aa08a4b54f0b60837749c",
-        "x-ms-correlation-request-id": "c2bf94de-a0c5-487c-9e5e-13a6437501ff",
-        "x-ms-request-id": "2784b1d2-1254-43d8-90c5-83b1f5c99770",
+        "x-ms-correlation-request-id": "8ad40116-a0c0-456e-9f6a-ddb77322f219",
+        "x-ms-request-id": "e3609058-9bf6-4a5e-a6a0-cfb9066e986d",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5571,7 +5571,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ef410d2d61bab1419e097d91836ddafe-549b2f0f01e64f4e-00",
+        "traceparent": "00-e42a0047f7589342b2b4fcb3c757d835-0ab01375bd0c1d4c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5585,7 +5585,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5595,8 +5595,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "e02a9e91f2c84483a3dca4e77aa2be61",
-        "x-ms-correlation-request-id": "e0eb4441-b8ca-46e4-b84b-49c901cd1135",
-        "x-ms-request-id": "c61815b3-fa35-4db7-aee6-65195eef3398",
+        "x-ms-correlation-request-id": "49305524-12b2-4403-ba8b-d8cf4de1b500",
+        "x-ms-request-id": "65e5def0-5f3c-4b79-a692-ac71c586dd57",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5618,7 +5618,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-46c997cab33dd54e82c2a926491d73ee-c1dc4e4207500f4e-00",
+        "traceparent": "00-c698a4424e100549a4915fc02e7a6eb1-8e7a8c53c7f7e445-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5632,7 +5632,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5642,8 +5642,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "9aa0ad687f38a3042a1f766fbd982aa7",
-        "x-ms-correlation-request-id": "de4d44cd-0eb3-4af9-a47d-2230cf5ae8a9",
-        "x-ms-request-id": "c9ccbc05-87ab-4c99-8389-7974eb171698",
+        "x-ms-correlation-request-id": "459ea8d1-4337-462d-b6fc-3647ebf8391a",
+        "x-ms-request-id": "1b651e0f-c2d7-4720-9fa9-fb981ec8535a",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5665,7 +5665,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-bbea1fdbc90e6b4e960ca27246ff7af3-f22de9cc924dd14b-00",
+        "traceparent": "00-f87906d0f9e5384bad6a89ad05e308eb-0ed6306c4e005042-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5679,7 +5679,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5689,8 +5689,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "8fa758cbe6410ae423e2ef7e7ea326a8",
-        "x-ms-correlation-request-id": "6ac277da-004c-472a-9bce-b5762baa1e46",
-        "x-ms-request-id": "6c07395b-21b3-48bd-aaeb-6cad0bd4572f",
+        "x-ms-correlation-request-id": "0a36ffca-f959-4b69-a31a-fa4804307ac5",
+        "x-ms-request-id": "47f1a380-3dad-44e4-b841-bdc5ff497b40",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5712,7 +5712,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-961b98fcf12d524a89f58e05d7854928-70238a2d57f7f046-00",
+        "traceparent": "00-519c6194c74f5847ba7cefce5ff84fe0-1631fa034a597d43-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5726,7 +5726,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5736,8 +5736,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "5b4d8e96d99712649a86b5a87c13860b",
-        "x-ms-correlation-request-id": "c773e6b3-88c3-48a9-8970-968f960b1c8c",
-        "x-ms-request-id": "87c29313-cc05-4520-b360-b5da637df7f2",
+        "x-ms-correlation-request-id": "c51ddfb7-2e0c-446f-bd39-e9c8498127a0",
+        "x-ms-request-id": "549c8b2a-05fe-4913-855e-3e661121d408",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5759,7 +5759,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-80ed431c906f1147a770040c77c30164-bfa6e8c2ecee8f4f-00",
+        "traceparent": "00-8161280706fba54a9fbacbb633141133-1f1ab74b9480cb49-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5773,7 +5773,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5783,8 +5783,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "211bfcb22efa8220c896765590852587",
-        "x-ms-correlation-request-id": "922c10c7-0d93-427d-b29f-2386b36a9c2e",
-        "x-ms-request-id": "642dc908-c83f-40cf-9d12-3b006d424c3c",
+        "x-ms-correlation-request-id": "b30dd5dc-b0d8-4fab-bd58-b38169fd37e3",
+        "x-ms-request-id": "f4d21244-e227-436a-a7b4-a7dbc2642595",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5806,7 +5806,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-edaf555c98285a4dbec5de0030cfbc5a-7bf7985fb5f7ec46-00",
+        "traceparent": "00-b916761bc443be4aad096ef0851fbfd6-1b680457d9b8b54e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5820,7 +5820,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5830,8 +5830,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "2ed9cdf9ce4af110f395f4bb303c8d0f",
-        "x-ms-correlation-request-id": "9b9b73ab-0165-4730-9974-7a9aa229611b",
-        "x-ms-request-id": "3b6811a4-fd87-4246-b297-904f3a15bafa",
+        "x-ms-correlation-request-id": "41ff8c7f-0aac-4ea6-a9de-f3170e3bd40b",
+        "x-ms-request-id": "f2595cb7-fb8f-45ab-90f1-9af8a3ab55f0",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5853,7 +5853,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-632de69eb3fe9b4cbe2df78466c55c0c-5962a7b28909ec4e-00",
+        "traceparent": "00-b5c392d25c08084e8ffce53cd0cdda2f-e3c3454eaefe2041-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5867,7 +5867,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:56 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:42 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5877,8 +5877,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "81cce35c048767ad6ecb9301620f8214",
-        "x-ms-correlation-request-id": "6527f708-55c9-4265-9023-191b4f7eaade",
-        "x-ms-request-id": "95313c22-e0c1-4e6e-9d70-c7bb6386d623",
+        "x-ms-correlation-request-id": "66455734-d164-47c7-a565-97156ccf85cb",
+        "x-ms-request-id": "d04e4ae8-b0b8-4b2b-8c9d-8da8b5fe617d",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5900,7 +5900,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e686561442985246922fc6a808640379-e5103167fb8af043-00",
+        "traceparent": "00-8c87464df4a0dd49a4f3771f7929c2ee-6bbd3c5644c51844-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5914,7 +5914,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:57 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5924,8 +5924,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "aeaf2d61573ae3c1eb292d653a64528c",
-        "x-ms-correlation-request-id": "7f63097f-e804-4d8c-acd6-e5add81328fa",
-        "x-ms-request-id": "05ed4a20-9392-47a8-b63b-7d8094c2abc6",
+        "x-ms-correlation-request-id": "85de67ba-9a27-4957-b510-7f9bd624c7a0",
+        "x-ms-request-id": "65ce1923-6403-4279-8a78-cce80d44496c",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5947,7 +5947,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a8b04678f9ae1142a2a4465a27bba56e-da85305e73cb014b-00",
+        "traceparent": "00-31016889c8d15249ab2745856b9c23e5-8baa6002094f704d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -5961,7 +5961,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:57 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -5971,8 +5971,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "acf86608a3b9f4ff2071c07f3b0f8fe4",
-        "x-ms-correlation-request-id": "4286736f-46da-4f33-99a8-9de4742e38c1",
-        "x-ms-request-id": "b5fcf43b-90fe-4631-8fb5-3456dcaa2d68",
+        "x-ms-correlation-request-id": "d36e23f2-b43d-45fb-bf4f-4cd65911bbd3",
+        "x-ms-request-id": "c875a9c1-4ba4-4749-8d94-7f276e3dfa60",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -5994,7 +5994,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-3e4fcea253bad2418228ffd3c57cf409-c19f53b09d36dc43-00",
+        "traceparent": "00-3fdae3f7b9957a46ad6bd58e733b82e0-0d518cf9ba87ee43-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6005,13 +6005,13 @@
       "RequestBody": null,
       "StatusCode": 200,
       "ResponseHeaders": {
-        "Content-Length": "8427",
+        "Content-Length": "8869",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:57 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Server": "Microsoft-HTTPAPI/2.0",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "x-ms-client-request-id": "0259df13df8c04d522e8965ed6482d09",
-        "x-ms-request-id": "8e86582a-1c5e-4c88-8c37-567d8a8d504e"
+        "x-ms-request-id": "cfd7d640-2dac-4f6c-9a51-d0731cd8f1a0"
       },
       "ResponseBody": {
         "value": [
@@ -6242,6 +6242,18 @@
                 "dataLakeStoreUri": "adl://test.azuredatalakestore.net/"
               }
             }
+          },
+          {
+            "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/linkedservices/LinkedSercive681108007",
+            "name": "LinkedSercive681108007",
+            "type": "Microsoft.Synapse/workspaces/linkedservices",
+            "etag": "02073b83-0000-0800-0000-6000bcc90000",
+            "properties": {
+              "type": "AzureDataLakeStore",
+              "typeProperties": {
+                "dataLakeStoreUri": "adl://test.azuredatalakestore.net/"
+              }
+            }
           }
         ]
       }
@@ -6252,7 +6264,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2a79d6a7da641c4d862b47465b1dafea-928370f4f7936a48-00",
+        "traceparent": "00-1d2339685e80794293d7237eff6b013f-952c55b922922745-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6266,7 +6278,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:57 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6276,8 +6288,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "fbf80678d516bd5b2ebb8ec89742a7db",
-        "x-ms-correlation-request-id": "1ec30d8f-ef41-42cb-b5f2-4e18c26fbdc6",
-        "x-ms-request-id": "949f8137-bb81-46e3-8a80-0be56b2a240c",
+        "x-ms-correlation-request-id": "eab0ac96-583a-483a-a9d2-aef988fc7012",
+        "x-ms-request-id": "7e6a0a4c-22a9-42c5-ae27-7cfe9a772e4a",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6299,7 +6311,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-91a7081769547442b912d17157a1092e-e30a197c34a4574b-00",
+        "traceparent": "00-5ca885c2826a71428fbeb90537be6893-716473d9b6b99c41-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6313,7 +6325,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:58 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6323,8 +6335,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "5a52499a4f0a29ff91f38ad00da11ed7",
-        "x-ms-correlation-request-id": "afa7c236-ef6d-48f3-9cef-9f95e855fe01",
-        "x-ms-request-id": "ae6b3cdf-ee50-49ea-8808-6e4e24c52153",
+        "x-ms-correlation-request-id": "17bdbbac-50a3-40c9-a3a6-195b5ede9e86",
+        "x-ms-request-id": "1f7adab4-f0e5-4c04-994d-a2ec700e0a88",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6346,7 +6358,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a07c7dffed0def4c961e1da731583356-734f21b71ce5e741-00",
+        "traceparent": "00-ca6e12d59f7dbd49b0690abf49c3d901-3b682baea5f8e045-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6360,7 +6372,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:58 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6370,8 +6382,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "3406b64493163dcd849cd4d1500c6de0",
-        "x-ms-correlation-request-id": "63cb594d-e383-4171-bbb1-9e09218c1b68",
-        "x-ms-request-id": "e51e1f70-5f87-4131-9a68-4aaa90d00e95",
+        "x-ms-correlation-request-id": "8f09555d-31b9-4ed0-be1c-bb138e626040",
+        "x-ms-request-id": "c6b6852b-bcda-4862-b5e0-8b8ed3595600",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6393,7 +6405,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-85b6db6199653846bdf969d06c457200-46e7f4173f53814f-00",
+        "traceparent": "00-0aca8deb452a7b4d942993f71f6f9398-e0ca688ede8e8642-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6407,7 +6419,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:58 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6417,8 +6429,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "8dc3ba41d2f529fe06cf6a234b8ab08c",
-        "x-ms-correlation-request-id": "b8cd5bbc-bbf2-43ca-8606-8cfce0ffa15e",
-        "x-ms-request-id": "48074604-3a1f-49eb-86ba-fff925dfc234",
+        "x-ms-correlation-request-id": "33559c68-81e3-4553-b265-113136e8a9bc",
+        "x-ms-request-id": "fccb9c61-7846-4fe7-bb39-7d867c793d33",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6440,7 +6452,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d11c6a6ef56b594a9d899eed2ebbb5de-361c52e285e66a4e-00",
+        "traceparent": "00-2fce7416ffe5c74993f60973e72d1189-c66c60eb83afbb44-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6454,7 +6466,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:58 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6464,8 +6476,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "e084b69c723c07c57b15d56e7a2ed884",
-        "x-ms-correlation-request-id": "3609ae55-4b42-4a4a-a52c-67320d13af88",
-        "x-ms-request-id": "c79e8e15-0f23-4b8f-8cec-bae2854f5b55",
+        "x-ms-correlation-request-id": "49fbde61-a789-49d0-afab-5059c6c1d86d",
+        "x-ms-request-id": "04b0fd82-baeb-4c07-b2d3-9e43e177a93f",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6487,7 +6499,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-dd3a9f98cbb12846a34e5302f3f475fb-365d6671f78a1f4d-00",
+        "traceparent": "00-34bfdd0a4b9265438e602a7654e83191-b7fc5a442ee1ca44-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6501,7 +6513,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:58 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:43 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6511,8 +6523,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "528fa98691dd71e2b7dc2d4728aaf1fa",
-        "x-ms-correlation-request-id": "95b61a23-4554-4743-96de-4e31826a2ec4",
-        "x-ms-request-id": "95540656-e429-4931-acc9-6e2e2e3bea2f",
+        "x-ms-correlation-request-id": "8f819b64-ea5a-4a05-9028-d230a1946e4a",
+        "x-ms-request-id": "8c14e24b-6c8f-4d76-90bf-5e31bb06759f",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6534,7 +6546,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a857f8d1d0ea404088b32bb485bbb465-18236263b3e3cc48-00",
+        "traceparent": "00-cebcd19b5761ea458b857dd8f5082acc-b0d189d06a996341-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6548,7 +6560,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:58 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6558,8 +6570,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "9a3447eb8c88cea4f5bc11e0fd8fafd8",
-        "x-ms-correlation-request-id": "69e2a085-3130-41f7-98ee-7f640ad42e78",
-        "x-ms-request-id": "788e392e-8846-4854-a1ef-440d5c66dfef",
+        "x-ms-correlation-request-id": "20606fa9-0e66-434e-8be9-8a6201761777",
+        "x-ms-request-id": "a43aa11f-e427-44f5-ad92-e989d5337ae4",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6581,7 +6593,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ac1750191c21e64685e6a4d641f726da-7256ae6b69e5b544-00",
+        "traceparent": "00-c892ca4dc973994aa782f8ee49d2ac27-b71bc9db2bd9a647-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6595,7 +6607,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:58 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6605,8 +6617,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "a19ce5f75efa0bafd412295f457dded1",
-        "x-ms-correlation-request-id": "f40e768a-ac13-49fc-a1b5-0ec0a69f84ba",
-        "x-ms-request-id": "6ced4a7a-8c0b-48fc-9aa6-73f4e68f52a4",
+        "x-ms-correlation-request-id": "ceaad637-081e-4f48-a817-429347a3e44c",
+        "x-ms-request-id": "e765f132-25ca-4e81-a66e-38dfa9160403",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6628,7 +6640,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6a19be58beaea146b50da10ff6298184-872771350bef3a41-00",
+        "traceparent": "00-cf7ec0405ba1914f88a88f6709c8aab3-b0fa2d8b406cd240-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6642,7 +6654,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6652,8 +6664,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "3283da243efaf9fc05c15d217f017427",
-        "x-ms-correlation-request-id": "39bbf19c-f8c2-409e-936a-230205d7a87f",
-        "x-ms-request-id": "b9499109-7742-4cf7-8084-cedec9b13994",
+        "x-ms-correlation-request-id": "90a66f84-f188-409d-9bc6-8930475aae47",
+        "x-ms-request-id": "69cbe37d-20ab-45c8-8aef-f8e66b407f3d",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6675,7 +6687,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9a3fdc4e8ae2594084e417d48a509cfa-7d40729d651c0d46-00",
+        "traceparent": "00-06cac0e71f287c4489f2fb31168f0d60-9c7b6f7ce4c29543-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6689,7 +6701,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6699,8 +6711,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "4350552d4f0d8d009828c57663448977",
-        "x-ms-correlation-request-id": "4f9c2bbf-5020-4c73-8e25-b1c6e9f8f4cd",
-        "x-ms-request-id": "19864cd3-8295-4432-a8d8-9ef5ec3c9266",
+        "x-ms-correlation-request-id": "f4463a24-0762-41d3-8bf4-5e83b9e4ef0a",
+        "x-ms-request-id": "3fb697c7-627e-4e24-984e-d91fb2dd3844",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6722,7 +6734,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-790ec31df12135478672b9170589eafc-9778a622fad5eb44-00",
+        "traceparent": "00-a6ad5e8e4532b147ba0ddf7739a75796-4628a4d8afc02040-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6736,7 +6748,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6746,8 +6758,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "22bc40dd7c0cb9dde8a39c38008d8bd2",
-        "x-ms-correlation-request-id": "1ee72f5e-3a74-4ddb-8504-b0f1e1f09ead",
-        "x-ms-request-id": "b340684d-e419-4953-b1f8-cc35f49bf96a",
+        "x-ms-correlation-request-id": "da59e4fa-01c6-4315-886e-f2a7eb20c339",
+        "x-ms-request-id": "762fe80a-1b1e-4507-8fe1-e5941d18fe41",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6769,7 +6781,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-b7aab88005cc25468c3d65255ff2d904-adf08de072d2914d-00",
+        "traceparent": "00-9944c01e4f01f54aaa4e5768fa069ab2-f87a1bf009731c4e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6783,7 +6795,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6793,8 +6805,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "ef32019d9b2dd4c3daf699d1788696c1",
-        "x-ms-correlation-request-id": "d7aeceab-6ed9-4fe3-aecd-f641807c5186",
-        "x-ms-request-id": "233e86ff-4101-406b-9219-41592e795c91",
+        "x-ms-correlation-request-id": "838a0aba-4982-462d-a798-3a6ff8570ced",
+        "x-ms-request-id": "0facda85-4aab-476c-92cf-4a568a76d40a",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6816,7 +6828,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-169ed6fd48970945ac3c85cc4405b82f-494dfb9c5eb62845-00",
+        "traceparent": "00-d29c6fe34fc2444881b7a126711eb958-7fbc13471efac94d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6830,7 +6842,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6840,8 +6852,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "3f44e6385245b01b77975a6ab3c78c0b",
-        "x-ms-correlation-request-id": "d63d7115-595b-434e-ad54-b00c3c34cfee",
-        "x-ms-request-id": "5acb6e49-9c0a-4c60-8031-2fe966f6c065",
+        "x-ms-correlation-request-id": "1003429d-043f-4b1b-892f-59f8262914c9",
+        "x-ms-request-id": "f434ba9d-640c-4c14-b437-240b1e05f21e",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6863,7 +6875,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-c411fb9dad69284cb88f9e943ee2b777-248ff70484394245-00",
+        "traceparent": "00-a95f097302b7c9438143231f608c03fb-f9f739ae9d7d1c45-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6877,7 +6889,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6887,8 +6899,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "61d8f39d991241497ce74715e20b4062",
-        "x-ms-correlation-request-id": "261edc6d-f4f9-4e55-afa7-4cc6196ae825",
-        "x-ms-request-id": "a0cd94e7-1119-4883-8fb2-896e588141a8",
+        "x-ms-correlation-request-id": "ce43129d-bffb-43ce-a8de-877b5622f873",
+        "x-ms-request-id": "7647ab9a-715d-4aa0-9d5e-2f43bfd16c97",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6910,7 +6922,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e07c7d21282d6f4ea2043cecc660e7fe-3265ddd467144747-00",
+        "traceparent": "00-c838cda1bbf2e14f868a771074be233a-700e64ef64e0ff46-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6924,7 +6936,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:44 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6934,8 +6946,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "1a00da0c4b494b8ce681779641582113",
-        "x-ms-correlation-request-id": "4459a668-5401-4819-8229-4669a9062ab0",
-        "x-ms-request-id": "cc34023e-368f-4626-aa38-742a31b66417",
+        "x-ms-correlation-request-id": "40ce3940-d84a-4bca-a5f4-32bcd4ee1f26",
+        "x-ms-request-id": "a959339b-203e-45f8-9ff4-2231e290bd05",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -6957,7 +6969,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-df92a5163cf0ff4eb8aa32c68af3e194-96be9dfb35379e4f-00",
+        "traceparent": "00-b02ebfda99987d44ba281d661415d664-e544cdc711d93e41-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -6971,7 +6983,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:45 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -6981,8 +6993,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "84348e6934ae9eae9c02c35e0a05ce6c",
-        "x-ms-correlation-request-id": "004cb390-ae10-4d25-be65-dc1c156dd783",
-        "x-ms-request-id": "53416828-6733-476b-9604-e71bef583f4d",
+        "x-ms-correlation-request-id": "9f751527-35d5-4614-80c2-7cc6271d8023",
+        "x-ms-request-id": "2368f22a-1675-4914-9b8e-858a5ec12114",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -7004,7 +7016,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8c484915a068324b9015c7cf8da579aa-ecac46eb8235c542-00",
+        "traceparent": "00-aeb41be17db35148a9d005b09526f3c1-994d83441d225049-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -7018,7 +7030,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "439",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:50:59 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:45 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -7028,8 +7040,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "d85df75672c751c2668c7b9122b20023",
-        "x-ms-correlation-request-id": "043439c8-7308-42f1-b3d1-1397966cc7d8",
-        "x-ms-request-id": "358ecef3-3f76-4973-ae69-ebc0bc3a9372",
+        "x-ms-correlation-request-id": "b640593b-ea65-4a06-95ba-fd220e2a7025",
+        "x-ms-request-id": "15bd492c-fdb4-4df1-a4bf-1c41e53f6109",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -7051,7 +7063,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-71e9cbf20c8c754bae7478f8ce8b1813-8543b87da4796940-00",
+        "traceparent": "00-f692a2adaa591642b16c9313d95c1579-5d5cf89ed3c3f94b-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -7065,7 +7077,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "441",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:51:00 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:45 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -7075,8 +7087,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "54ac34c5bbd7d7b32b617d47882e40e0",
-        "x-ms-correlation-request-id": "46357439-eca2-4002-ad5e-401e9e1f2e4e",
-        "x-ms-request-id": "623d584d-dcba-47b2-90d9-f58390644e1d",
+        "x-ms-correlation-request-id": "0219df8f-6e03-4c77-9a30-d8febbfa7c99",
+        "x-ms-request-id": "107a79de-8339-4075-ae86-d46190ce2691",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -7098,7 +7110,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1bb8c2fbb43b6746b2f51044b56759a5-1ef42fda8975c042-00",
+        "traceparent": "00-78485b047ebe844689c2489c17221ebf-27b2a01f16c40b40-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -7112,7 +7124,7 @@
         "Cache-Control": "no-cache",
         "Content-Length": "443",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:51:00 GMT",
+        "Date": "Thu, 14 Jan 2021 22:22:45 GMT",
         "Expires": "-1",
         "Pragma": "no-cache",
         "Server": [
@@ -7122,8 +7134,8 @@
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "X-Content-Type-Options": "nosniff",
         "x-ms-client-request-id": "49400bb349fbf74ccce31e22b91d7ce9",
-        "x-ms-correlation-request-id": "8a5d2627-ed38-49f3-85f5-7f58b6601f9b",
-        "x-ms-request-id": "19fcb369-acf3-4627-98ff-bd2b57b889c7",
+        "x-ms-correlation-request-id": "c9e4c725-ca27-4476-8823-ddcf4abd80ee",
+        "x-ms-request-id": "74cd9d20-d6b1-423b-9727-70d2313546b9",
         "X-Powered-By": "ASP.NET"
       },
       "ResponseBody": {
@@ -7137,6 +7149,53 @@
           }
         },
         "etag": "0207786f-0000-0800-0000-6000bcaf0000"
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/linkedservices/LinkedSercive681108007?api-version=2019-06-01-preview",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-b19c59c6bd12df4698cb1dbe28717219-9185c177de2dbf4c-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "d6989f0179599a944485ac65f47ac837",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Cache-Control": "no-cache",
+        "Content-Length": "441",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 22:22:45 GMT",
+        "Expires": "-1",
+        "Pragma": "no-cache",
+        "Server": [
+          "Microsoft-IIS/10.0",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+        "X-Content-Type-Options": "nosniff",
+        "x-ms-client-request-id": "d6989f0179599a944485ac65f47ac837",
+        "x-ms-correlation-request-id": "5d4f8052-6c90-4814-8599-815faf0b6aad",
+        "x-ms-request-id": "a6b694af-c97e-437f-8ce5-140852fff7ee",
+        "X-Powered-By": "ASP.NET"
+      },
+      "ResponseBody": {
+        "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/linkedservices/LinkedSercive681108007",
+        "name": "LinkedSercive681108007",
+        "type": "Microsoft.Synapse/workspaces/linkedservices",
+        "properties": {
+          "type": "AzureDataLakeStore",
+          "typeProperties": {
+            "dataLakeStoreUri": "adl://test.azuredatalakestore.net/"
+          }
+        },
+        "etag": "02073b83-0000-0800-0000-6000bcc90000"
       }
     }
   ],

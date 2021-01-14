@@ -6,7 +6,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-94da5cda540a3344b5320ed535532212-b11da3ddd0d1bb49-00",
+        "traceparent": "00-2078cda93cdc3d44b3b6a76529b6dd7e-0ec528f1435e034d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -18,20 +18,20 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "7eaf0959-936c-4b2b-a92f-40b528caf3c1",
+        "x-ms-activity-id": "632bd3f3-825c-409b-b825-750cbcdaae73",
         "x-ms-client-request-id": [
           "a7728803abc0a3fd9b6ea51b6bbc7217",
           "a7728803abc0a3fd9b6ea51b6bbc7217"
         ],
-        "x-ms-request-id": "9c0dc2b6-dda9-4302-ad41-a76e6da1f3e9",
-        "x-ms-response-time-ms": "81"
+        "x-ms-request-id": "0d0566da-0148-4090-8a70-2cb41fe8366e",
+        "x-ms-response-time-ms": "52"
       },
       "ResponseBody": {
         "from": 0,
@@ -486,7 +486,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-4c9d2253e427c841abb43664f0bfe07c-6cd2294701033f4a-00",
+        "traceparent": "00-a00285b960fd3f41874a9b18e0ea54bd-f05fc40614fea14b-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -498,14 +498,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "a8839904-eb72-4a13-899c-51c73ff1432f",
+        "x-ms-activity-id": "dbe07d68-2dc3-4821-8a95-49409f83969e",
         "x-ms-client-request-id": [
           "3a2a3bab6e2055dfbc371acf2f84e193",
           "3a2a3bab6e2055dfbc371acf2f84e193"
@@ -522,8 +522,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 3:18:38 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "91eba7a3-05e0-4ca5-90c1-93bf85674b47",
-        "x-ms-response-time-ms": "27"
+        "x-ms-request-id": "f4912a8d-ec30-439b-a387-0e09eb5abd41",
+        "x-ms-response-time-ms": "30"
       },
       "ResponseBody": {
         "id": 131,
@@ -554,7 +554,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-65c72f43b8e55f49b43a3a7cc88b05f4-68575c98d8bb9640-00",
+        "traceparent": "00-fb2832123739fc4bbeb657b4d06bf9b9-3f5a28b4060dee49-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -566,14 +566,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "2f11de1d-7a36-4dba-8b09-72ca0cf9654e",
+        "x-ms-activity-id": "b8ea5898-e46b-42ad-b38d-4b41ee1b359d",
         "x-ms-client-request-id": [
           "8b8d40dd82d3328aadca8eb45897acc8",
           "8b8d40dd82d3328aadca8eb45897acc8"
@@ -590,8 +590,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 3:26:59 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "11f611c2-6cae-4ba7-8d7e-f0bd3e802bd2",
-        "x-ms-response-time-ms": "25"
+        "x-ms-request-id": "84084c0e-65ea-4643-b918-8be39cdcd2c8",
+        "x-ms-response-time-ms": "26"
       },
       "ResponseBody": {
         "id": 134,
@@ -622,7 +622,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-823ed9b60abd8f44b1374d085e00f4af-dd35b57c91c23c4b-00",
+        "traceparent": "00-7e8d120853f5eb4dac4118ede2310d94-3445a7ebf204934d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -634,14 +634,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "902b79a6-127f-490c-bba2-5a57e8acb6e5",
+        "x-ms-activity-id": "3e4bb164-3583-4ec8-ab47-021a93feeac6",
         "x-ms-client-request-id": [
           "5d5f8b73bfff958ba81cea88902d7316",
           "5d5f8b73bfff958ba81cea88902d7316"
@@ -658,8 +658,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 3:33:44 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "8684f6db-bf16-482e-93b0-75396b3d48af",
-        "x-ms-response-time-ms": "23"
+        "x-ms-request-id": "86d56b28-db06-43a7-a910-2e7cba9fd63f",
+        "x-ms-response-time-ms": "24"
       },
       "ResponseBody": {
         "id": 137,
@@ -690,7 +690,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e2931d7ae02afb4fb4ebd279d45c32a2-b447550be71cc34e-00",
+        "traceparent": "00-6f99213162019647931d0e9da4d12acc-e3d3da2407f09446-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -702,14 +702,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "0517bc54-e891-4ab4-bd23-5efd3bd674b9",
+        "x-ms-activity-id": "fef85bd8-4fca-4fc2-8c95-9e608e00df7c",
         "x-ms-client-request-id": [
           "2b3d118ce72e2844b0f88c55df2bfd25",
           "2b3d118ce72e2844b0f88c55df2bfd25"
@@ -726,8 +726,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:18:21 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "8f40581e-8298-4932-9940-53c95f20fa20",
-        "x-ms-response-time-ms": "26"
+        "x-ms-request-id": "d050a0cf-526b-460e-b732-3605c95f2b96",
+        "x-ms-response-time-ms": "24"
       },
       "ResponseBody": {
         "id": 146,
@@ -758,7 +758,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1cfe259aafb6a444b77e728edaf17b46-c1765ada80dc7b45-00",
+        "traceparent": "00-7ba58e97cfe4a74f89c2ef7ba9a2f922-ebaf3a459143144c-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -770,14 +770,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "e6d567f9-14b7-4955-9067-cc23cea3995c",
+        "x-ms-activity-id": "b392f8bd-5073-4d5d-a5f8-6dcba4b79574",
         "x-ms-client-request-id": [
           "a45c528b83251e94b5f8e2b69801a17f",
           "a45c528b83251e94b5f8e2b69801a17f"
@@ -794,8 +794,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:25:29 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "3fc4fb57-e0c2-4fc9-a932-5f6ecf3bb370",
-        "x-ms-response-time-ms": "25"
+        "x-ms-request-id": "f8881160-9c14-42b4-9f85-41e797f1583b",
+        "x-ms-response-time-ms": "24"
       },
       "ResponseBody": {
         "id": 147,
@@ -826,7 +826,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-5ef242a301521046b499f28f62198e83-67b7298c660d0848-00",
+        "traceparent": "00-86f8a5d4b04c354cafadb6a019f8e644-9562b7d3b6ed5a41-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -838,14 +838,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "6e43ed48-f4f4-470e-98eb-ffbf5ca8cda1",
+        "x-ms-activity-id": "2c6fa845-3f2a-4b36-844c-07e4d73c85c1",
         "x-ms-client-request-id": [
           "4628775681598c994636ac063235b57d",
           "4628775681598c994636ac063235b57d"
@@ -862,8 +862,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:25:55 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "3951434e-97c6-4d90-a4b9-e78434643474",
-        "x-ms-response-time-ms": "26"
+        "x-ms-request-id": "6177d8a3-3174-4c39-a069-bf4556657384",
+        "x-ms-response-time-ms": "24"
       },
       "ResponseBody": {
         "id": 148,
@@ -894,7 +894,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9251828d766aa14f91c14b73e50eaa9a-ab2225ee58741645-00",
+        "traceparent": "00-951d751f3f1c9543b44ed66bc559c906-4ed73451a935e845-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -906,14 +906,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "ba568106-fca0-4894-a4a7-348726f95cd0",
+        "x-ms-activity-id": "1843d0de-3612-4afd-b990-18908ddd957b",
         "x-ms-client-request-id": [
           "3efdc41fcfd108f17d1f7536048e90ae",
           "3efdc41fcfd108f17d1f7536048e90ae"
@@ -930,8 +930,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:26:57 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "c5a38021-7de4-41c6-99f9-5123f135b7da",
-        "x-ms-response-time-ms": "26"
+        "x-ms-request-id": "12ee1b11-8322-486c-8500-bab2a1301cc7",
+        "x-ms-response-time-ms": "23"
       },
       "ResponseBody": {
         "id": 149,
@@ -962,7 +962,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a8ac3f3d2ee20a4580df8639426252b0-6cd80786d8e6e546-00",
+        "traceparent": "00-33f95cdd7a8dcb44a366f1524cc276ae-1fad4781d4d7a442-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -974,14 +974,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:46 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:51 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "747dee51-69bc-48b8-bbdf-1de3764cff99",
+        "x-ms-activity-id": "66f75343-8e99-439d-8f29-451121d0bb1d",
         "x-ms-client-request-id": [
           "67fe0c56b6020accb8cf5eeed68dec7f",
           "67fe0c56b6020accb8cf5eeed68dec7f"
@@ -998,8 +998,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:28:05 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "bda581c7-f2cc-4436-a12b-fdda76de1a16",
-        "x-ms-response-time-ms": "25"
+        "x-ms-request-id": "2a518932-5e2a-43dd-a01c-82fc59d47dc7",
+        "x-ms-response-time-ms": "24"
       },
       "ResponseBody": {
         "id": 150,
@@ -1030,7 +1030,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-490b65b42ee2644b884325334cd83906-be50c3d9d27b9045-00",
+        "traceparent": "00-6e2fe062a997034fbd8906220072b5b7-3f68a188d16e3b48-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1042,14 +1042,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "431207b5-b1fb-4fab-a1b2-e2a934757144",
+        "x-ms-activity-id": "a6600db3-c739-48c1-8d6d-1a25f72924cb",
         "x-ms-client-request-id": [
           "d3966442630487ae861fc83a0b6387b8",
           "d3966442630487ae861fc83a0b6387b8"
@@ -1066,8 +1066,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:29:09 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "9aed45ef-47f1-4ac3-9e69-cb64bf22daa2",
-        "x-ms-response-time-ms": "46"
+        "x-ms-request-id": "6263bfa4-c25a-4cff-a9bb-502d2569cf60",
+        "x-ms-response-time-ms": "26"
       },
       "ResponseBody": {
         "id": 151,
@@ -1098,7 +1098,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-60ddef2a9947544ab49260371489e9a0-11bebb2672648d4c-00",
+        "traceparent": "00-b3dcc8abdffe1545b395fe5869f978d8-08ca07407f604542-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1110,14 +1110,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "56e39c0b-42c9-41a2-918c-32cd7cb8322f",
+        "x-ms-activity-id": "4f995734-28f3-4d64-b932-fbbf5e68161c",
         "x-ms-client-request-id": [
           "25b0fea64e37687af8f38601710332f0",
           "25b0fea64e37687af8f38601710332f0"
@@ -1134,8 +1134,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:29:25 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "408373f3-6b98-4951-9833-f35171d035c7",
-        "x-ms-response-time-ms": "27"
+        "x-ms-request-id": "110988ca-a14c-4637-adfe-2c67a5372a42",
+        "x-ms-response-time-ms": "31"
       },
       "ResponseBody": {
         "id": 152,
@@ -1166,7 +1166,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-656a30971239c344bb23d44194e16d41-ea4ad472476e7744-00",
+        "traceparent": "00-c45ec9046a26b44d9c817a4814aac9dd-9da521ce324e1c4b-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1178,14 +1178,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "bcea8f1c-e1e6-4dec-b57d-0a22678d5838",
+        "x-ms-activity-id": "13377f79-0502-4ea4-b678-46ea8a83024d",
         "x-ms-client-request-id": [
           "9ff4f532bcf7f3aa5e76e1e3ee91fe54",
           "9ff4f532bcf7f3aa5e76e1e3ee91fe54"
@@ -1202,8 +1202,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:30:10 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "84808a39-ae8b-44f3-a893-e8aa39c98eae",
-        "x-ms-response-time-ms": "24"
+        "x-ms-request-id": "84aa8b2d-6b7c-4681-a41b-3e8cfe694794",
+        "x-ms-response-time-ms": "26"
       },
       "ResponseBody": {
         "id": 153,
@@ -1234,7 +1234,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ae1b9fb7eeb9974c9c92907d889c4c37-b4221f2b19c54d47-00",
+        "traceparent": "00-56cd45c71ed0334187817572f29f8ec4-b3c307df1fb73f4e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1246,14 +1246,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "34c79633-a0ef-434b-8df0-f87007798691",
+        "x-ms-activity-id": "ef4b0495-a0d1-487f-81d4-c225f30eba19",
         "x-ms-client-request-id": [
           "d847a548c6dcf448ea2ddb11dcac1683",
           "d847a548c6dcf448ea2ddb11dcac1683"
@@ -1270,8 +1270,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:33:13 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "b8b8abcc-3354-478b-b49c-70d43f990471",
-        "x-ms-response-time-ms": "25"
+        "x-ms-request-id": "168c637c-c952-4fbb-a5ad-8d0a93946357",
+        "x-ms-response-time-ms": "24"
       },
       "ResponseBody": {
         "id": 154,
@@ -1302,7 +1302,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ec9335549662cb419e82593a1c5b98e3-fafe6fddde461f41-00",
+        "traceparent": "00-8b49ae0093b4a64481718ceebb250c39-87d560a41baa7b48-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1314,14 +1314,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "ac33cd77-60f2-44fc-b5db-fdb10ef2d884",
+        "x-ms-activity-id": "85c8624d-854c-4bbe-8f3b-4ffb996d1aec",
         "x-ms-client-request-id": [
           "1607d8ede76feac053bdc6c06c977a66",
           "1607d8ede76feac053bdc6c06c977a66"
@@ -1338,8 +1338,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:37:14 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "494c07cb-560f-462c-aa01-9e6596f5b69b",
-        "x-ms-response-time-ms": "23"
+        "x-ms-request-id": "cfc908e6-e91d-4ef7-b3e0-ed7fb165a8d0",
+        "x-ms-response-time-ms": "25"
       },
       "ResponseBody": {
         "id": 155,
@@ -1370,7 +1370,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d366da6d0c2bdd4fbc52716974397a5a-72a3356060b37446-00",
+        "traceparent": "00-2340b83e87bd6d4b853615a70621bae5-42f4dfeaff0deb4e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1382,14 +1382,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "05cb07c1-dfce-4899-b879-26fb4dfee982",
+        "x-ms-activity-id": "c027f525-6bc7-458c-91a9-54456ed0e1a0",
         "x-ms-client-request-id": [
           "cbb931f459bb6b13ac00b5cae19816b2",
           "cbb931f459bb6b13ac00b5cae19816b2"
@@ -1406,8 +1406,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:43:10 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "f8edc4c0-b3d5-4144-be3f-49f7747abe37",
-        "x-ms-response-time-ms": "27"
+        "x-ms-request-id": "36696191-033a-4a16-8d58-4fbff7daf34f",
+        "x-ms-response-time-ms": "26"
       },
       "ResponseBody": {
         "id": 156,
@@ -1438,7 +1438,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-186d782b573a594187030f9e42a1c976-f4d0fe1dc938f048-00",
+        "traceparent": "00-009c81beedf50746a04489c2061b1dc8-395b06f41a443146-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1450,14 +1450,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "4ce8fe77-9506-4828-86d6-da21e18408ad",
+        "x-ms-activity-id": "fac660c3-3442-4cee-8ce2-925e656160ca",
         "x-ms-client-request-id": [
           "15f65e5fe88a60e5e45d841f00888753",
           "15f65e5fe88a60e5e45d841f00888753"
@@ -1474,7 +1474,7 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:45:35 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "59e04b34-ac95-429a-8456-9acd8b3d0c84",
+        "x-ms-request-id": "4f7bf72a-53b4-45a4-b243-5980037c95ff",
         "x-ms-response-time-ms": "26"
       },
       "ResponseBody": {
@@ -1506,7 +1506,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-cdcb4e519530ac4d9988df63b1a70eb3-9553e61abd8b5a46-00",
+        "traceparent": "00-e7dcd09a390b094498e6b6f95c68bcfb-6497afe0c2f91046-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1518,14 +1518,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "2959227a-820e-4db0-9e36-0feb697ab4e3",
+        "x-ms-activity-id": "1fd55bf6-c1f7-4f18-9bbf-b21bbce130b2",
         "x-ms-client-request-id": [
           "aa1c74b24bf393c7c49b696e32f608bb",
           "aa1c74b24bf393c7c49b696e32f608bb"
@@ -1542,8 +1542,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:47:42 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "028d18e4-7374-4840-8116-8337591ce6eb",
-        "x-ms-response-time-ms": "26"
+        "x-ms-request-id": "977cddf7-1e28-4efa-876c-88b8e11b2250",
+        "x-ms-response-time-ms": "24"
       },
       "ResponseBody": {
         "id": 158,
@@ -1574,7 +1574,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f4de8a9b68539c41abb35f61cd852cb1-88381a4e7484294b-00",
+        "traceparent": "00-d616ef542535404f9fe83a9163eb9c91-b6b2ff7da727d84e-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1586,14 +1586,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:52 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "c4112386-19f7-410a-911b-0059b7b88e32",
+        "x-ms-activity-id": "439a05c9-80b7-45df-b59c-395d8e23b3f6",
         "x-ms-client-request-id": [
           "0e6014a665a00cdc4c58e75dd4f36b24",
           "0e6014a665a00cdc4c58e75dd4f36b24"
@@ -1610,8 +1610,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 7:49:12 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "69bfbc69-ff0b-4216-ab54-e602dee74a9c",
-        "x-ms-response-time-ms": "26"
+        "x-ms-request-id": "2f03288b-2aa5-4742-b87f-611a01996c6e",
+        "x-ms-response-time-ms": "23"
       },
       "ResponseBody": {
         "id": 159,
@@ -1642,7 +1642,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-54d53e219c939341919e74213f0aef25-90d1c288d0d8b14f-00",
+        "traceparent": "00-99b5503ff7a7714291feb8ceea28efbd-e3b290c75da0b14d-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1654,14 +1654,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:47 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:53 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "4bb9db9d-1041-4b93-96f2-312e3bb8d7f2",
+        "x-ms-activity-id": "5725d115-6ba3-46c1-8cb8-6ec0a294fa29",
         "x-ms-client-request-id": [
           "6d1762786b7c14bf966251ee7e762eed",
           "6d1762786b7c14bf966251ee7e762eed"
@@ -1678,8 +1678,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 9:17:55 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "88c9d88d-9087-446b-9f19-e13daeb3cc3c",
-        "x-ms-response-time-ms": "25"
+        "x-ms-request-id": "d80d4ef6-20e8-4ad3-b85c-3054e98ec253",
+        "x-ms-response-time-ms": "26"
       },
       "ResponseBody": {
         "id": 160,
@@ -1710,7 +1710,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-fa303ec4a39cad43a67d17646bda4c74-34a35621a1217645-00",
+        "traceparent": "00-ce67baa12e6a9940b0ede95661edfe60-938752eee329d641-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1722,14 +1722,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:53 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "bd668d33-0525-45aa-b07a-7578c07cdd96",
+        "x-ms-activity-id": "dfaf2845-adfb-4682-91f5-7f4697170e78",
         "x-ms-client-request-id": [
           "ec79c95478274db297105e9a6369bfd0",
           "ec79c95478274db297105e9a6369bfd0"
@@ -1746,8 +1746,8 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 9:22:37 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "f68c1c39-2d15-4066-bb52-e4039c0acf27",
-        "x-ms-response-time-ms": "25"
+        "x-ms-request-id": "587199b6-1360-4e14-9121-324736de1b91",
+        "x-ms-response-time-ms": "28"
       },
       "ResponseBody": {
         "id": 161,
@@ -1778,7 +1778,7 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1bb5ded36ccf0b4181a5df93e4905e53-0088a6caf517d149-00",
+        "traceparent": "00-ba984a2851c5874bbb1e24d2eb56d31d-922324a4e9049942-00",
         "User-Agent": [
           "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
@@ -1790,14 +1790,14 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Thu, 14 Jan 2021 21:39:48 GMT",
+        "Date": "Thu, 14 Jan 2021 22:11:53 GMT",
         "Server": [
           "Kestrel",
           "Microsoft-HTTPAPI/2.0"
         ],
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "Transfer-Encoding": "chunked",
-        "x-ms-activity-id": "d885c764-6821-42fa-be9b-434949935076",
+        "x-ms-activity-id": "6fc95abb-ef01-4b54-80c0-e2fc717b7c03",
         "x-ms-client-request-id": [
           "cff5452f9bdf3a3e554b783d13ee8dd5",
           "cff5452f9bdf3a3e554b783d13ee8dd5"
@@ -1814,7 +1814,7 @@
         "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
         "x-ms-job-submitted-on": "12/18/2020 9:23:36 PM \u002B00:00",
         "x-ms-job-type": "SparkServiceSession",
-        "x-ms-request-id": "ee629b59-7269-4bae-a09f-49c3ea6393c7",
+        "x-ms-request-id": "28fd5bf1-dcf3-4228-9d54-fde4411dcdb0",
         "x-ms-response-time-ms": "26"
       },
       "ResponseBody": {
