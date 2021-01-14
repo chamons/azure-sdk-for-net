@@ -1,0 +1,1415 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-ffcad63575ee5a4597e05551597093af-4177c8ed3af2074d-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "e528d69391d0e4c2918ee179805a2a72",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:42 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "326c20b9-274b-4a4d-a2d9-28a47fe9a75f",
+        "x-ms-client-request-id": [
+          "e528d69391d0e4c2918ee179805a2a72",
+          "e528d69391d0e4c2918ee179805a2a72"
+        ],
+        "x-ms-request-id": "563cef46-f445-4088-a8bd-d4940e26cf51",
+        "x-ms-response-time-ms": "45"
+      },
+      "ResponseBody": {
+        "from": 0,
+        "total": 20,
+        "sessions": [
+          {
+            "id": 122,
+            "appId": null,
+            "appInfo": {
+              "driverLogUrl": null,
+              "sparkUiUrl": null,
+              "isSessionTimedOut": null
+            },
+            "state": "dead",
+            "log": [
+              "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+              "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+              "20/12/16 16:36:26 INFO ShutdownHookManager: Shutdown hook called",
+              "20/12/16 16:36:26 INFO ShutdownHookManager: Deleting directory /tmp/spark-c64d40b2-f8d2-49c9-9d0e-0acdbe683c12",
+              "20/12/16 16:36:26 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+              "20/12/16 16:36:26 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+              "20/12/16 16:36:26 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+              "\nstderr: ",
+              "\nYARN Diagnostics: ",
+              "No YARN application is found with tag livy-batch-0-jw3b0cky in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+            ]
+          },
+          {
+            "id": 123,
+            "appId": null,
+            "appInfo": {
+              "driverLogUrl": null,
+              "sparkUiUrl": null,
+              "isSessionTimedOut": null
+            },
+            "state": "dead",
+            "log": [
+              "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+              "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+              "20/12/16 16:36:27 INFO ShutdownHookManager: Shutdown hook called",
+              "20/12/16 16:36:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-f4073165-ce45-45c1-8487-b59eef60b2c2",
+              "20/12/16 16:36:27 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+              "20/12/16 16:36:27 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+              "20/12/16 16:36:27 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+              "\nstderr: ",
+              "\nYARN Diagnostics: ",
+              "No YARN application is found with tag livy-batch-1-m1d10vol in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+            ]
+          },
+          {
+            "id": 124,
+            "appId": null,
+            "appInfo": {
+              "driverLogUrl": null,
+              "sparkUiUrl": null,
+              "isSessionTimedOut": null
+            },
+            "state": "dead",
+            "log": [
+              "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+              "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+              "20/12/16 16:36:27 INFO ShutdownHookManager: Shutdown hook called",
+              "20/12/16 16:36:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-235b703c-b99d-46eb-867b-6c71f2f5f1e8",
+              "20/12/16 16:36:27 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+              "20/12/16 16:36:27 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+              "20/12/16 16:36:27 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+              "\nstderr: ",
+              "\nYARN Diagnostics: ",
+              "No YARN application is found with tag livy-batch-0-t72xny9b in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+            ]
+          },
+          {
+            "id": 125,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 126,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 127,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 128,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 129,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 130,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 132,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 133,
+            "appId": null,
+            "appInfo": {
+              "driverLogUrl": null,
+              "sparkUiUrl": null,
+              "isSessionTimedOut": null
+            },
+            "state": "dead",
+            "log": [
+              "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+              "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+              "20/12/18 15:21:01 INFO ShutdownHookManager: Shutdown hook called",
+              "20/12/18 15:21:01 INFO ShutdownHookManager: Deleting directory /tmp/spark-b62e0d37-ed07-4c8a-955e-d45275e78b1e",
+              "20/12/18 15:21:01 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+              "20/12/18 15:21:01 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+              "20/12/18 15:21:01 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+              "\nstderr: ",
+              "\nYARN Diagnostics: ",
+              "No YARN application is found with tag livy-batch-0-cjyjdktl in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+            ]
+          },
+          {
+            "id": 135,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 136,
+            "appId": null,
+            "appInfo": {
+              "driverLogUrl": null,
+              "sparkUiUrl": null,
+              "isSessionTimedOut": null
+            },
+            "state": "dead",
+            "log": [
+              "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+              "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+              "20/12/18 15:27:52 INFO ShutdownHookManager: Shutdown hook called",
+              "20/12/18 15:27:52 INFO ShutdownHookManager: Deleting directory /tmp/spark-5f832e7f-4181-448f-b35e-b5186aa237df",
+              "20/12/18 15:27:52 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+              "20/12/18 15:27:52 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+              "20/12/18 15:27:52 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+              "\nstderr: ",
+              "\nYARN Diagnostics: ",
+              "No YARN application is found with tag livy-batch-1-yueoss6z in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+            ]
+          },
+          {
+            "id": 138,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 139,
+            "appId": null,
+            "appInfo": {
+              "driverLogUrl": null,
+              "sparkUiUrl": null,
+              "isSessionTimedOut": null
+            },
+            "state": "dead",
+            "log": [
+              "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+              "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+              "20/12/18 15:34:38 INFO ShutdownHookManager: Shutdown hook called",
+              "20/12/18 15:34:38 INFO ShutdownHookManager: Deleting directory /tmp/spark-1063bc21-6c0b-474d-903e-6529534de88e",
+              "20/12/18 15:34:38 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+              "20/12/18 15:34:38 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+              "20/12/18 15:34:38 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+              "\nstderr: ",
+              "\nYARN Diagnostics: ",
+              "No YARN application is found with tag livy-batch-2-vafwoc7b in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+            ]
+          },
+          {
+            "id": 140,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 141,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 142,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 143,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          },
+          {
+            "id": 144,
+            "appId": null,
+            "appInfo": null,
+            "state": "error",
+            "log": null
+          }
+        ]
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/122",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-050b7e2a5b8ebc45a0fb32f0bb6f8d0c-9117c727c052664c-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "e630ad38532015011d370c8bca8118c9",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "ceb51d42-bc9a-4c7e-965d-e82632ea3bc2",
+        "x-ms-client-request-id": [
+          "e630ad38532015011d370c8bca8118c9",
+          "e630ad38532015011d370c8bca8118c9"
+        ],
+        "x-ms-job-cluster": "https://vnet-593110a0-westus2-41.westus2.cloudapp.azure.com:59434/",
+        "x-ms-job-clusterrequested-on": "12/16/2020 4:34:30 PM \u002B00:00",
+        "x-ms-job-ended-on": "12/16/2020 4:41:16 PM \u002B00:00",
+        "x-ms-job-internal-id": "122",
+        "x-ms-job-livysubmission-on": "12/16/2020 4:36:14 PM \u002B00:00",
+        "x-ms-job-queued-on": "12/16/2020 4:36:13 PM \u002B00:00",
+        "x-ms-job-result": "Failed",
+        "x-ms-job-scheduled-on": "12/16/2020 4:34:30 PM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "ee20d9e7-6295-4240-ba3f-c3784616c565",
+        "x-ms-job-submitted-on": "12/16/2020 4:34:27 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "abf30cb2-8a96-42b3-adf2-f7fe632a32a5",
+        "x-ms-response-time-ms": "29"
+      },
+      "ResponseBody": {
+        "id": 122,
+        "appId": null,
+        "appInfo": {
+          "driverLogUrl": null,
+          "sparkUiUrl": null,
+          "isSessionTimedOut": null
+        },
+        "state": "dead",
+        "log": [
+          "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+          "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+          "20/12/16 16:36:26 INFO ShutdownHookManager: Shutdown hook called",
+          "20/12/16 16:36:26 INFO ShutdownHookManager: Deleting directory /tmp/spark-c64d40b2-f8d2-49c9-9d0e-0acdbe683c12",
+          "20/12/16 16:36:26 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+          "20/12/16 16:36:26 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+          "20/12/16 16:36:26 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+          "\nstderr: ",
+          "\nYARN Diagnostics: ",
+          "No YARN application is found with tag livy-batch-0-jw3b0cky in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+        ]
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/123",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-eef218ec47c7e442b6f396cc913b6252-77973a716624f44d-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "51a9068459849abd3b52daa0de46e586",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "41925b33-00f4-4595-8a16-5f8458840161",
+        "x-ms-client-request-id": [
+          "51a9068459849abd3b52daa0de46e586",
+          "51a9068459849abd3b52daa0de46e586"
+        ],
+        "x-ms-job-cluster": "https://vnet-593110a0-westus2-41.westus2.cloudapp.azure.com:59435/",
+        "x-ms-job-clusterrequested-on": "12/16/2020 4:34:30 PM \u002B00:00",
+        "x-ms-job-ended-on": "12/16/2020 4:41:09 PM \u002B00:00",
+        "x-ms-job-internal-id": "123",
+        "x-ms-job-livysubmission-on": "12/16/2020 4:36:07 PM \u002B00:00",
+        "x-ms-job-queued-on": "12/16/2020 4:36:07 PM \u002B00:00",
+        "x-ms-job-result": "Failed",
+        "x-ms-job-scheduled-on": "12/16/2020 4:34:30 PM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "ee20d9e7-6295-4240-ba3f-c3784616c565",
+        "x-ms-job-submitted-on": "12/16/2020 4:34:27 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "d29b64aa-84cb-4ff0-b87c-f295a98dac3c",
+        "x-ms-response-time-ms": "29"
+      },
+      "ResponseBody": {
+        "id": 123,
+        "appId": null,
+        "appInfo": {
+          "driverLogUrl": null,
+          "sparkUiUrl": null,
+          "isSessionTimedOut": null
+        },
+        "state": "dead",
+        "log": [
+          "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+          "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+          "20/12/16 16:36:27 INFO ShutdownHookManager: Shutdown hook called",
+          "20/12/16 16:36:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-f4073165-ce45-45c1-8487-b59eef60b2c2",
+          "20/12/16 16:36:27 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+          "20/12/16 16:36:27 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+          "20/12/16 16:36:27 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+          "\nstderr: ",
+          "\nYARN Diagnostics: ",
+          "No YARN application is found with tag livy-batch-1-m1d10vol in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+        ]
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/124",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-83da88abc8270b45b97e922ff392da52-e1372e5bab5ff343-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "44633e8f7c9f403bd512c8988437190f",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "9c971423-20b0-4f7b-bd01-3bfc56ee1051",
+        "x-ms-client-request-id": [
+          "44633e8f7c9f403bd512c8988437190f",
+          "44633e8f7c9f403bd512c8988437190f"
+        ],
+        "x-ms-job-cluster": "https://vnet-593110a0-westus2-41.westus2.cloudapp.azure.com:59435/",
+        "x-ms-job-clusterrequested-on": "12/16/2020 4:34:37 PM \u002B00:00",
+        "x-ms-job-ended-on": "12/16/2020 4:41:08 PM \u002B00:00",
+        "x-ms-job-internal-id": "124",
+        "x-ms-job-livysubmission-on": "12/16/2020 4:36:07 PM \u002B00:00",
+        "x-ms-job-queued-on": "12/16/2020 4:36:06 PM \u002B00:00",
+        "x-ms-job-result": "Failed",
+        "x-ms-job-scheduled-on": "12/16/2020 4:34:37 PM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "ee20d9e7-6295-4240-ba3f-c3784616c565",
+        "x-ms-job-submitted-on": "12/16/2020 4:34:35 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "e4552f36-90f5-46d4-be19-4d8e073763e4",
+        "x-ms-response-time-ms": "28"
+      },
+      "ResponseBody": {
+        "id": 124,
+        "appId": null,
+        "appInfo": {
+          "driverLogUrl": null,
+          "sparkUiUrl": null,
+          "isSessionTimedOut": null
+        },
+        "state": "dead",
+        "log": [
+          "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+          "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+          "20/12/16 16:36:27 INFO ShutdownHookManager: Shutdown hook called",
+          "20/12/16 16:36:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-235b703c-b99d-46eb-867b-6c71f2f5f1e8",
+          "20/12/16 16:36:27 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+          "20/12/16 16:36:27 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+          "20/12/16 16:36:27 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+          "\nstderr: ",
+          "\nYARN Diagnostics: ",
+          "No YARN application is found with tag livy-batch-0-t72xny9b in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+        ]
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/125",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-04b7ba219b946849bf0e436a38ee32fb-c88df42008803b48-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "7af41776d9b1dfeef095abce796137d6",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "c3f1a904-afda-4d7b-9262-32f29dd4f257",
+        "x-ms-client-request-id": [
+          "7af41776d9b1dfeef095abce796137d6",
+          "7af41776d9b1dfeef095abce796137d6"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/16/2020 10:16:15 PM \u002B00:00",
+        "x-ms-job-internal-id": "125",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/16/2020 10:16:15 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "3f327791-b5fd-45eb-b57b-0af95a9b5e87",
+        "x-ms-response-time-ms": "26"
+      },
+      "ResponseBody": {
+        "id": 125,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/126",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-cdb554cbeef3f64c921a9d29adbfce28-547b062416e92248-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "8cfb8652d31d082aca687b7190241503",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "8e2df4f6-6ddc-4cc0-b4d4-5193fd5dd668",
+        "x-ms-client-request-id": [
+          "8cfb8652d31d082aca687b7190241503",
+          "8cfb8652d31d082aca687b7190241503"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/16/2020 10:20:44 PM \u002B00:00",
+        "x-ms-job-internal-id": "126",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/16/2020 10:20:43 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "41b3c39c-0dc7-461a-bfc4-8d04c4bbf0f2",
+        "x-ms-response-time-ms": "24"
+      },
+      "ResponseBody": {
+        "id": 126,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/127",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-60fab2e78a46f248bf5d02ec54389de3-cc66cf0cce1b6849-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "c72aca386b51b6d44f84540ad06cc673",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "c00f1584-428d-4795-a22e-82bb947cc85a",
+        "x-ms-client-request-id": [
+          "c72aca386b51b6d44f84540ad06cc673",
+          "c72aca386b51b6d44f84540ad06cc673"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/16/2020 10:25:15 PM \u002B00:00",
+        "x-ms-job-internal-id": "127",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/16/2020 10:25:14 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "04f94076-cbd2-4b9d-887b-a5caa930b25b",
+        "x-ms-response-time-ms": "25"
+      },
+      "ResponseBody": {
+        "id": 127,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/128",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-192432cb1065a64fb8a279bfeaa2c50f-0e86df698b4f904c-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "fe46f1db8d3ba3f1edecaf485d7c4ecb",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "03e04e3c-b8d6-42aa-a0aa-ef3ae68e21c4",
+        "x-ms-client-request-id": [
+          "fe46f1db8d3ba3f1edecaf485d7c4ecb",
+          "fe46f1db8d3ba3f1edecaf485d7c4ecb"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/17/2020 7:22:25 PM \u002B00:00",
+        "x-ms-job-internal-id": "128",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/17/2020 7:22:24 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "a7bebdab-9c7f-4412-9348-a0a161dd0270",
+        "x-ms-response-time-ms": "26"
+      },
+      "ResponseBody": {
+        "id": 128,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/129",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-950ab63e90371c47972e10321075c0a8-b3456b410ae72040-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "af96a77f6f37e785b1453c997e1f375d",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "7f583565-9ba4-4ba6-b95b-9be0af0ae981",
+        "x-ms-client-request-id": [
+          "af96a77f6f37e785b1453c997e1f375d",
+          "af96a77f6f37e785b1453c997e1f375d"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/17/2020 7:27:01 PM \u002B00:00",
+        "x-ms-job-internal-id": "129",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/17/2020 7:27:01 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "582852e1-c6aa-4cfa-a9c2-dbdf1db402e8",
+        "x-ms-response-time-ms": "26"
+      },
+      "ResponseBody": {
+        "id": 129,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/130",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-f8f8d95a4d6e8d4f96220d2077f6983d-8db244b91e957543-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "9f9608a217ddabc8d887d965bb8c58d2",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "8a02d2fd-6b25-4b7e-9bea-8160c9cbef0d",
+        "x-ms-client-request-id": [
+          "9f9608a217ddabc8d887d965bb8c58d2",
+          "9f9608a217ddabc8d887d965bb8c58d2"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/17/2020 7:31:25 PM \u002B00:00",
+        "x-ms-job-internal-id": "130",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/17/2020 7:31:24 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "777a87df-0c11-43fa-a88d-51a801f89749",
+        "x-ms-response-time-ms": "29"
+      },
+      "ResponseBody": {
+        "id": 130,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/132",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-e595dd75d907d64dab1bafb0475f6f91-821cda21e926f045-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "298a883517d66b3c6c5f4df6505824cd",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:43 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "f9cdf25b-e1b6-49cf-90d3-ae0372647bcf",
+        "x-ms-client-request-id": [
+          "298a883517d66b3c6c5f4df6505824cd",
+          "298a883517d66b3c6c5f4df6505824cd"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 3:20:48 PM \u002B00:00",
+        "x-ms-job-internal-id": "132",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 3:20:48 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "e2d34068-2a71-4183-ac14-8133766a4078",
+        "x-ms-response-time-ms": "26"
+      },
+      "ResponseBody": {
+        "id": 132,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/133",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-dd5b7bb15c52384a8c2c3e274bd48a25-503accc2c1f8ad40-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "55a651b4afe668eddfebd7b0951f2b25",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "aee10ff1-1ede-4f4b-88d4-6203fb190c9c",
+        "x-ms-client-request-id": [
+          "55a651b4afe668eddfebd7b0951f2b25",
+          "55a651b4afe668eddfebd7b0951f2b25"
+        ],
+        "x-ms-job-cluster": "https://vnet-593110a0-westus2-41.westus2.cloudapp.azure.com:59433/",
+        "x-ms-job-clusterrequested-on": "12/18/2020 3:20:51 PM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 3:25:55 PM \u002B00:00",
+        "x-ms-job-internal-id": "133",
+        "x-ms-job-livysubmission-on": "12/18/2020 3:20:53 PM \u002B00:00",
+        "x-ms-job-queued-on": "12/18/2020 3:20:53 PM \u002B00:00",
+        "x-ms-job-result": "Failed",
+        "x-ms-job-scheduled-on": "12/18/2020 3:20:51 PM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 3:20:48 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "36b40d73-5be7-45da-8225-2fca8ed19b78",
+        "x-ms-response-time-ms": "26"
+      },
+      "ResponseBody": {
+        "id": 133,
+        "appId": null,
+        "appInfo": {
+          "driverLogUrl": null,
+          "sparkUiUrl": null,
+          "isSessionTimedOut": null
+        },
+        "state": "dead",
+        "log": [
+          "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+          "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+          "20/12/18 15:21:01 INFO ShutdownHookManager: Shutdown hook called",
+          "20/12/18 15:21:01 INFO ShutdownHookManager: Deleting directory /tmp/spark-b62e0d37-ed07-4c8a-955e-d45275e78b1e",
+          "20/12/18 15:21:01 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+          "20/12/18 15:21:01 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+          "20/12/18 15:21:01 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+          "\nstderr: ",
+          "\nYARN Diagnostics: ",
+          "No YARN application is found with tag livy-batch-0-cjyjdktl in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+        ]
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/135",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-ccac17e39c3f354da0e3374acf242463-57ae1a5437a21048-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "f56369ec0e958a87cb2a327ec9d15a80",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "7597941b-2e72-450b-a8bd-aaed4fd4b4e3",
+        "x-ms-client-request-id": [
+          "f56369ec0e958a87cb2a327ec9d15a80",
+          "f56369ec0e958a87cb2a327ec9d15a80"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 3:27:42 PM \u002B00:00",
+        "x-ms-job-internal-id": "135",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 3:27:41 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "4e387340-e0f5-4487-a28d-05bc157d070a",
+        "x-ms-response-time-ms": "26"
+      },
+      "ResponseBody": {
+        "id": 135,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/136",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-76d266c649592941a67eed57c4ca847f-fd0c63a9beaa994e-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "69b00c6203e586ec9b2249ea408cd54d",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "81b0e5d2-5612-442f-bfee-5eb506e77f27",
+        "x-ms-client-request-id": [
+          "69b00c6203e586ec9b2249ea408cd54d",
+          "69b00c6203e586ec9b2249ea408cd54d"
+        ],
+        "x-ms-job-cluster": "https://vnet-593110a0-westus2-41.westus2.cloudapp.azure.com:59433/",
+        "x-ms-job-clusterrequested-on": "12/18/2020 3:27:44 PM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 3:32:48 PM \u002B00:00",
+        "x-ms-job-internal-id": "136",
+        "x-ms-job-livysubmission-on": "12/18/2020 3:27:46 PM \u002B00:00",
+        "x-ms-job-queued-on": "12/18/2020 3:27:46 PM \u002B00:00",
+        "x-ms-job-result": "Failed",
+        "x-ms-job-scheduled-on": "12/18/2020 3:27:44 PM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 3:27:42 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "104b54bf-21d0-4fd0-a2a3-4a07c8e7021a",
+        "x-ms-response-time-ms": "29"
+      },
+      "ResponseBody": {
+        "id": 136,
+        "appId": null,
+        "appInfo": {
+          "driverLogUrl": null,
+          "sparkUiUrl": null,
+          "isSessionTimedOut": null
+        },
+        "state": "dead",
+        "log": [
+          "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+          "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+          "20/12/18 15:27:52 INFO ShutdownHookManager: Shutdown hook called",
+          "20/12/18 15:27:52 INFO ShutdownHookManager: Deleting directory /tmp/spark-5f832e7f-4181-448f-b35e-b5186aa237df",
+          "20/12/18 15:27:52 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+          "20/12/18 15:27:52 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+          "20/12/18 15:27:52 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+          "\nstderr: ",
+          "\nYARN Diagnostics: ",
+          "No YARN application is found with tag livy-batch-1-yueoss6z in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+        ]
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/138",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-a074454e85c61747b5770dafd88b7f78-287e3fa481f78a40-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "e60928342ef4a638c91b89bb7c6f9e0e",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "42441033-ad42-4451-af92-04ed1a12094c",
+        "x-ms-client-request-id": [
+          "e60928342ef4a638c91b89bb7c6f9e0e",
+          "e60928342ef4a638c91b89bb7c6f9e0e"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 3:34:27 PM \u002B00:00",
+        "x-ms-job-internal-id": "138",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 3:34:26 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "5ee21046-3aa3-4c8c-88f9-ac549eb8fc35",
+        "x-ms-response-time-ms": "25"
+      },
+      "ResponseBody": {
+        "id": 138,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/139",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-27be674c7856914db47f86962bf57499-b5c95844b3409143-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "894d5690c16ee93f7ddd5a73c59c4a3e",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "548f4c28-0a95-4ebc-b91f-9ac36273de15",
+        "x-ms-client-request-id": [
+          "894d5690c16ee93f7ddd5a73c59c4a3e",
+          "894d5690c16ee93f7ddd5a73c59c4a3e"
+        ],
+        "x-ms-job-cluster": "https://vnet-593110a0-westus2-41.westus2.cloudapp.azure.com:59433/",
+        "x-ms-job-clusterrequested-on": "12/18/2020 3:34:29 PM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 3:39:33 PM \u002B00:00",
+        "x-ms-job-internal-id": "139",
+        "x-ms-job-livysubmission-on": "12/18/2020 3:34:31 PM \u002B00:00",
+        "x-ms-job-queued-on": "12/18/2020 3:34:31 PM \u002B00:00",
+        "x-ms-job-result": "Failed",
+        "x-ms-job-scheduled-on": "12/18/2020 3:34:29 PM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 3:34:27 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "836ab960-0994-41f2-8cdd-7836f6671db9",
+        "x-ms-response-time-ms": "25"
+      },
+      "ResponseBody": {
+        "id": 139,
+        "appId": null,
+        "appInfo": {
+          "driverLogUrl": null,
+          "sparkUiUrl": null,
+          "isSessionTimedOut": null
+        },
+        "state": "dead",
+        "log": [
+          "\tat org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:929)",
+          "\tat org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)",
+          "20/12/18 15:34:38 INFO ShutdownHookManager: Shutdown hook called",
+          "20/12/18 15:34:38 INFO ShutdownHookManager: Deleting directory /tmp/spark-1063bc21-6c0b-474d-903e-6529534de88e",
+          "20/12/18 15:34:38 INFO MetricsSystemImpl: Stopping azure-file-system metrics system...",
+          "20/12/18 15:34:38 INFO MetricsSystemImpl: azure-file-system metrics system stopped.",
+          "20/12/18 15:34:38 INFO MetricsSystemImpl: azure-file-system metrics system shutdown complete.",
+          "\nstderr: ",
+          "\nYARN Diagnostics: ",
+          "No YARN application is found with tag livy-batch-2-vafwoc7b in 300 seconds. This may be because 1) spark-submit fail to submit application to YARN; or 2) YARN cluster doesn\u0027t have enough resources to start the application in time. Please check Livy log and YARN log to know the details."
+        ]
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/140",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-9dafe3244f18524f949e70cc1da6e519-6ce4369baaaa834c-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "a14ae55573c8348bd40a9fca7930092b",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "b78415d7-b50b-4333-b26f-8b77c5a2f4f9",
+        "x-ms-client-request-id": [
+          "a14ae55573c8348bd40a9fca7930092b",
+          "a14ae55573c8348bd40a9fca7930092b"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 4:49:19 PM \u002B00:00",
+        "x-ms-job-internal-id": "140",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 4:49:18 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "f6725e10-ff87-49d0-8851-5fecac5552ec",
+        "x-ms-response-time-ms": "24"
+      },
+      "ResponseBody": {
+        "id": 140,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/141",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-a4e6fdd63656c443aa7e3a1c0fd05254-62166a4c06e17748-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "e9593b834c3f72dee9206916d3c4e12d",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "677e669b-2ff5-488e-8ec2-1509bf875528",
+        "x-ms-client-request-id": [
+          "e9593b834c3f72dee9206916d3c4e12d",
+          "e9593b834c3f72dee9206916d3c4e12d"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 4:53:56 PM \u002B00:00",
+        "x-ms-job-internal-id": "141",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 4:53:56 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "ede3ebfc-e280-4b80-aea1-7b323ad3d913",
+        "x-ms-response-time-ms": "27"
+      },
+      "ResponseBody": {
+        "id": 141,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/142",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-24a2b50d1af8d549af4c5824ac694ff2-38d7bc8c87343549-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "96664ad0fd251d45cb18b46421746f4d",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "a339b7e4-05eb-4804-b882-d5a4506758cd",
+        "x-ms-client-request-id": [
+          "96664ad0fd251d45cb18b46421746f4d",
+          "96664ad0fd251d45cb18b46421746f4d"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 4:58:48 PM \u002B00:00",
+        "x-ms-job-internal-id": "142",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 4:58:47 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "39f860d1-cef4-419e-b22e-820d629899eb",
+        "x-ms-response-time-ms": "25"
+      },
+      "ResponseBody": {
+        "id": 142,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/143",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-2ba31c6a8cb3b140a84158e26ce66653-501f028f11df654b-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "89ef2fd4614308ff07d7b8a80a75610f",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "d7b4e925-b9b2-4d37-bbbe-e7aaa548bf91",
+        "x-ms-client-request-id": [
+          "89ef2fd4614308ff07d7b8a80a75610f",
+          "89ef2fd4614308ff07d7b8a80a75610f"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 5:25:42 PM \u002B00:00",
+        "x-ms-job-internal-id": "143",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 5:25:41 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "e0c4cf84-9836-4153-a5bb-5eec7a44cd42",
+        "x-ms-response-time-ms": "26"
+      },
+      "ResponseBody": {
+        "id": 143,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    },
+    {
+      "RequestUri": "https://workspacechhamosynapse.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/sparkchhamosyna/batches/144",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-72f960d2434a6846bd144fce33be7129-cdb62d931af22545-00",
+        "User-Agent": [
+          "azsdk-net-Analytics.Synapse.Spark/1.0.0-alpha.20210114.1",
+          "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
+        ],
+        "x-ms-client-request-id": "2ef9722872c98506f53c1e26977a5174",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Thu, 14 Jan 2021 21:39:44 GMT",
+        "Server": [
+          "Kestrel",
+          "Microsoft-HTTPAPI/2.0"
+        ],
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Transfer-Encoding": "chunked",
+        "x-ms-activity-id": "b81bbf93-fb73-4671-abae-05373a987acb",
+        "x-ms-client-request-id": [
+          "2ef9722872c98506f53c1e26977a5174",
+          "2ef9722872c98506f53c1e26977a5174"
+        ],
+        "x-ms-job-clusterrequested-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-ended-on": "12/18/2020 5:31:37 PM \u002B00:00",
+        "x-ms-job-internal-id": "144",
+        "x-ms-job-livysubmission-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-queued-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-result": "Cancelled",
+        "x-ms-job-scheduled-on": "1/1/0001 12:00:00 AM \u002B00:00",
+        "x-ms-job-scheduler-state": "Ended",
+        "x-ms-job-submitted-by-name": "00b81593-6414-45e8-98bf-c0396b2972ee",
+        "x-ms-job-submitted-on": "12/18/2020 5:31:37 PM \u002B00:00",
+        "x-ms-job-type": "SparkServiceBatch",
+        "x-ms-request-id": "5f10034e-ad54-46f1-827d-2eb73b18c4f2",
+        "x-ms-response-time-ms": "24"
+      },
+      "ResponseBody": {
+        "id": 144,
+        "appId": null,
+        "appInfo": null,
+        "state": "error",
+        "log": null
+      }
+    }
+  ],
+  "Variables": {
+    "AZURE_SYNAPSE_SPARK_POOL_NAME": "sparkchhamosyna",
+    "AZURE_SYNAPSE_WORKSPACE_URL": "https://workspacechhamosynapse.dev.azuresynapse.net",
+    "RandomSeed": "606627008"
+  }
+}
