@@ -4,6 +4,8 @@
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using Azure.Core.TestFramework;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Analytics.Synapse.Spark;
 using Azure.Analytics.Synapse.Spark.Models;
 using Azure.Identity;
@@ -14,7 +16,7 @@ namespace Azure.Analytics.Synapse.Samples
     /// <summary>
     /// This sample demonstrates how to submit Spark job in Azure Synapse Analytics using asynchronous methods of <see cref="SparkSessionClient"/>.
     /// </summary>
-    public partial class Sample2_ExecuteSparkStatementAsync : SampleFixture
+    public partial class Sample2_ExecuteSparkStatementAsync : SamplesBase<SynapseTestEnvironment>
     {
         [Test]
         public async Task ExecuteSparkStatementSync()

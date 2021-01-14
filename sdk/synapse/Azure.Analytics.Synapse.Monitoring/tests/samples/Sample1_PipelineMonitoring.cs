@@ -5,6 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using Azure.Core.TestFramework;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Analytics.Synapse.Monitoring;
 using Azure.Analytics.Synapse.Monitoring.Models;
 using Azure.Identity;
@@ -15,7 +17,7 @@ namespace Azure.Analytics.Synapse.Samples
     /// <summary>
     /// This sample demonstrates how to monitor pipeline runs using synchronous methods of <see cref="MonitoringClient"/>.
     /// </summary>
-    public partial class Sample1_PipelineMonitoring : SampleFixture
+    public partial class Sample1_PipelineMonitoring : SamplesBase<SynapseTestEnvironment>
     {
         [Test]
         public void MonitorPipelineRuns()

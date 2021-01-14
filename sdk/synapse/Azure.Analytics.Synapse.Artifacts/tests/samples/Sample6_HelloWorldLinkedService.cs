@@ -3,6 +3,8 @@
 
 using System;
 using System.Threading.Tasks;
+using Azure.Core.TestFramework;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Analytics.Synapse.Samples;
 using Azure.Identity;
 using NUnit.Framework;
@@ -10,7 +12,7 @@ using Azure.Analytics.Synapse.Artifacts.Models;
 
 namespace Azure.Analytics.Synapse.Artifacts.Samples
 {
-    public partial class Sample6_HelloWorldLinkedService : SampleFixture
+    public partial class Sample6_HelloWorldLinkedService : SamplesBase<SynapseTestEnvironment>
     {
         [Ignore("https://github.com/Azure/azure-sdk-for-net/issues/17455")]
         [Test]
