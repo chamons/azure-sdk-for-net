@@ -81,7 +81,13 @@ namespace Azure.Analytics.Synapse.Tests
             await using DisposableClientRole role = await DisposableClientRole.Create (client, this.Recording);
 
             Response<IReadOnlyList<RoleAssignmentDetails>> roleAssignments = await client.GetRoleAssignmentsAsync();
-
+            foreach (RoleAssignmentDetails expected in roleAssignments.Value)
+            {
+                RoleAssignmentDetails actual = await client.GetRoleAssignmentByIdAsync(expected.Id);
+                Assert.AreEqual(expected.Id, actual.Id);
+                Assert.AreEqual(expected.PrincipalId, actual.PrincipalId);
+                Assert.AreEqual(expected.RoleId, actual.RoleId);
+            }
             Assert.GreaterOrEqual(roleAssignments.Value.Count, 1);
         }
 

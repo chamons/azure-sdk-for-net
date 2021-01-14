@@ -25,5 +25,62 @@ namespace Azure.Analytics.Synapse.Tests
                 InstrumentClientOptions(new ArtifactsClientOptions())
             ));
         }
+
+        [Test]
+        public async Task TestGetNotebook()
+        {
+            NotebookClient client = CreateClient ();
+            await foreach (var expectedNotebook in client.GetNotebooksByWorkspaceAsync())
+            {
+                NotebookResource actualNotebook = await client.GetNotebookAsync(expectedNotebook.Name);
+                Assert.AreEqual(expectedNotebook.Name, actualNotebook.Name);
+                Assert.AreEqual(expectedNotebook.Id, actualNotebook.Id);
+                Assert.AreEqual(expectedNotebook.Properties.BigDataPool?.ReferenceName, actualNotebook.Properties.BigDataPool?.ReferenceName);
+            }
+        }
+
+        [Test]
+        public async Task TestCreateNotebook()
+        {
+            NotebookClient client = CreateClient ();
+
+            Notebook notebook = new Notebook(
+                new NotebookMetadata
+                {
+                    LanguageInfo = new NotebookLanguageInfo(name: "Python")
+                },
+                nbformat: 4,
+                nbformatMinor: 2,
+                new List<NotebookCell>()
+            );
+            string notebookName = Recording.GenerateName("Notebook");
+            NotebookCreateOrUpdateNotebookOperation operation = await client.StartCreateOrUpdateNotebookAsync(notebookName, new NotebookResource(notebookName, notebook));
+            NotebookResource notebookResource = await operation.WaitForCompletionAsync();
+            Assert.AreEqual(notebookName, notebookResource.Name);
+        }
+
+        [Test]
+        public async Task TestDeleteNotebook()
+        {
+            NotebookClient client = CreateClient ();
+
+            string notebookName = Recording.GenerateName("Notebook");
+
+            Notebook notebook = new Notebook(
+                new NotebookMetadata
+                {
+                    LanguageInfo = new NotebookLanguageInfo(name: "Python")
+                },
+                nbformat: 4,
+                nbformatMinor: 2,
+                new List<NotebookCell>()
+            );
+            NotebookCreateOrUpdateNotebookOperation createOperation = await client.StartCreateOrUpdateNotebookAsync(notebookName, new NotebookResource(notebookName, notebook));
+            await createOperation.WaitForCompletionAsync();
+
+            NotebookDeleteNotebookOperation deleteOperation = await client.StartDeleteNotebookAsync(notebookName);
+            Response response = await deleteOperation.WaitForCompletionAsync();
+            Assert.AreEqual(200, response.Status);
+        }
     }
 }

@@ -25,5 +25,44 @@ namespace Azure.Analytics.Synapse.Tests
                 InstrumentClientOptions(new ArtifactsClientOptions())
             ));
         }
+
+        [Test]
+        public async Task TestGetPipeline()
+        {
+            PipelineClient client = CreateClient ();
+
+            await foreach (var expectedPipeline in client.GetPipelinesByWorkspaceAsync())
+            {
+                PipelineResource actualPipeline = await client.GetPipelineAsync(expectedPipeline.Name);
+                Assert.AreEqual(expectedPipeline.Name, actualPipeline.Name);
+                Assert.AreEqual(expectedPipeline.Id, actualPipeline.Id);
+            }
+        }
+
+        [Test]
+        public async Task TestCreatePipeline()
+        {
+            PipelineClient client = CreateClient ();
+
+            string pipelineName = Recording.GenerateName("Pipeline");
+            PipelineCreateOrUpdatePipelineOperation operation = await client.StartCreateOrUpdatePipelineAsync(pipelineName, new PipelineResource());
+            PipelineResource pipeline = await operation.WaitForCompletionAsync();
+            Assert.AreEqual(pipelineName, pipeline.Name);
+        }
+
+        [Test]
+        public async Task TestDeletePipeline()
+        {
+            PipelineClient client = CreateClient ();
+
+            string pipelineName = Recording.GenerateName("Pipeline");
+
+            PipelineCreateOrUpdatePipelineOperation createOperation = await client.StartCreateOrUpdatePipelineAsync(pipelineName, new PipelineResource());
+            await createOperation.WaitForCompletionAsync();
+
+            PipelineDeletePipelineOperation deleteOperation = await client.StartDeletePipelineAsync(pipelineName);
+            Response response = await deleteOperation.WaitForCompletionAsync();
+            Assert.AreEqual(200, response.Status);
+        }
     }
 }

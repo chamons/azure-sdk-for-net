@@ -17,7 +17,7 @@ namespace Azure.Analytics.Synapse.Tests
         {
         }
 
-        private MonitoringClient TriggerRunClient()
+        private MonitoringClient CreateClient()
         {
             return InstrumentClient(new MonitoringClient(
                 new Uri(TestEnvironment.EndpointUrl),

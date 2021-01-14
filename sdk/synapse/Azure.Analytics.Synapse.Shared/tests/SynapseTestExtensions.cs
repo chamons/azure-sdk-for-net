@@ -7,6 +7,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using Azure.Core.TestFramework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
@@ -30,6 +31,11 @@ namespace Azure.Analytics.Synapse.Tests
                 all.Add(item);
             }
             return all;
+        }
+
+        public static string GenerateName(this TestRecording recording, string prefix)
+        {
+            return prefix + recording.GenerateId();
         }
     }
 }

@@ -25,5 +25,43 @@ namespace Azure.Analytics.Synapse.Tests
                 InstrumentClientOptions(new ArtifactsClientOptions())
             ));
         }
+
+        [Test]
+        public async Task TestGetTrigger()
+        {
+            TriggerClient client = CreateClient();
+            await foreach (var expectedTrigger in client.GetTriggersByWorkspaceAsync())
+            {
+                TriggerResource actualTrigger = await client.GetTriggerAsync(expectedTrigger.Name);
+                Assert.AreEqual(expectedTrigger.Name, actualTrigger.Name);
+                Assert.AreEqual(expectedTrigger.Id, actualTrigger.Id);
+            }
+        }
+
+        [Test]
+        public async Task TestCreateTrigger()
+        {
+            TriggerClient client = CreateClient();
+
+            string triggerName = Recording.GenerateName("Trigger");
+            TriggerCreateOrUpdateTriggerOperation operation = await client.StartCreateOrUpdateTriggerAsync(triggerName, new TriggerResource(new ScheduleTrigger(new ScheduleTriggerRecurrence())));
+            TriggerResource trigger = await operation.WaitForCompletionAsync();
+            Assert.AreEqual(triggerName, trigger.Name);
+        }
+
+        [Test]
+        public async Task TestDeleteTrigger()
+        {
+            TriggerClient client = CreateClient();
+
+            string triggerName = Recording.GenerateName("Trigger");
+
+            TriggerCreateOrUpdateTriggerOperation createOperation = await client.StartCreateOrUpdateTriggerAsync(triggerName, new TriggerResource(new ScheduleTrigger(new ScheduleTriggerRecurrence())));
+            await createOperation.WaitForCompletionAsync();
+
+            TriggerDeleteTriggerOperation deleteOperation = await client.StartDeleteTriggerAsync(triggerName);
+            Response response = await deleteOperation.WaitForCompletionAsync();
+            Assert.AreEqual(200, response.Status);
+        }
     }
 }
