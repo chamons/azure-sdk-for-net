@@ -12,7 +12,14 @@ using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class DataFlowDebugSessionClientLiveTest : RecordedTestBase<SynapseTestEnvironment>
+    /// <summary>
+    /// The suite of tests for the <see cref="DataFlowDebugSessionClient"/> class.
+    /// </summary>
+    /// <remarks>
+    /// These tests have a dependency on live Azure services and may incur costs for the associated
+    /// Azure subscription.
+    /// </remarks>
+    public class DataFlowDebugSessionClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
         internal class DisposableDataFlowDebugSession : IAsyncDisposable
         {
@@ -44,7 +51,7 @@ namespace Azure.Analytics.Synapse.Tests
             }
         }
 
-        public DataFlowDebugSessionClientLiveTest(bool isAsync) : base(isAsync)
+        public DataFlowDebugSessionClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
 

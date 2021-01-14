@@ -13,6 +13,13 @@ using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
+    /// <summary>
+    /// The suite of tests for the <see cref="SparkSessionClient"/> class.
+    /// </summary>
+    /// <remarks>
+    /// These tests have a dependency on live Azure services and may incur costs for the associated
+    /// Azure subscription.
+    /// </remarks>
     public class SparkSessionClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
         public SparkSessionClientLiveTests(bool isAsync) : base(isAsync)

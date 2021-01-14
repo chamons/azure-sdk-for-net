@@ -11,9 +11,16 @@ using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class PipelineRunClientLiveTest : RecordedTestBase<SynapseTestEnvironment>
+    /// <summary>
+    /// The suite of tests for the <see cref="PipelineRunClient"/> class.
+    /// </summary>
+    /// <remarks>
+    /// These tests have a dependency on live Azure services and may incur costs for the associated
+    /// Azure subscription.
+    /// </remarks>
+    public class PipelineRunClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
-        public PipelineRunClientLiveTest(bool isAsync) : base(isAsync)
+        public PipelineRunClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
 

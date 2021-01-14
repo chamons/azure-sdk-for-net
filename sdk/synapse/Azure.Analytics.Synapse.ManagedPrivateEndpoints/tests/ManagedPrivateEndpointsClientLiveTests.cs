@@ -12,9 +12,16 @@ using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class ManagedPrivateEndpointsClientLiveTest : RecordedTestBase<SynapseTestEnvironment>
+    /// <summary>
+    /// The suite of tests for the <see cref="ManagedPrivateEndpointsClient"/> class.
+    /// </summary>
+    /// <remarks>
+    /// These tests have a dependency on live Azure services and may incur costs for the associated
+    /// Azure subscription.
+    /// </remarks>
+    public class ManagedPrivateEndpointsClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
-        public ManagedPrivateEndpointsClientLiveTest(bool isAsync) : base(isAsync)
+        public ManagedPrivateEndpointsClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
 

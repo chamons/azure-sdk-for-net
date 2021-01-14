@@ -11,9 +11,16 @@ using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class SqlScriptClientLiveTest : RecordedTestBase<SynapseTestEnvironment>
+    /// <summary>
+    /// The suite of tests for the <see cref="SqlScriptClient"/> class.
+    /// </summary>
+    /// <remarks>
+    /// These tests have a dependency on live Azure services and may incur costs for the associated
+    /// Azure subscription.
+    /// </remarks>
+    public class SqlScriptClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
-        public SqlScriptClientLiveTest(bool isAsync) : base(isAsync)
+        public SqlScriptClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
 

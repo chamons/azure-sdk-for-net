@@ -12,7 +12,14 @@ using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class AccessControlClientLiveTest : RecordedTestBase<SynapseTestEnvironment>
+    /// <summary>
+    /// The suite of tests for the <see cref="AccessControlClient"/> class.
+    /// </summary>
+    /// <remarks>
+    /// These tests have a dependency on live Azure services and may incur costs for the associated
+    /// Azure subscription.
+    /// </remarks>
+    public class AccessControlClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
         internal class DisposableClientRole : IAsyncDisposable
         {
@@ -38,7 +45,7 @@ namespace Azure.Analytics.Synapse.Tests
             public async ValueTask DisposeAsync() => await _client.DeleteRoleAssignmentByIdAsync(Assignment.Id);
         }
 
-        public AccessControlClientLiveTest(bool isAsync) : base(isAsync)
+        public AccessControlClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
 

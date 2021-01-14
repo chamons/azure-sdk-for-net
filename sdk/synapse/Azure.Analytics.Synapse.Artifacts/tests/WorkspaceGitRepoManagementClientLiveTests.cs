@@ -11,9 +11,16 @@ using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class WorkspaceGitRepoManagementClientLiveTest : RecordedTestBase<SynapseTestEnvironment>
+    /// <summary>
+    /// The suite of tests for the <see cref="WorkspaceGitRepoManagementClient"/> class.
+    /// </summary>
+    /// <remarks>
+    /// These tests have a dependency on live Azure services and may incur costs for the associated
+    /// Azure subscription.
+    /// </remarks>
+    public class WorkspaceGitRepoManagementClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
-        public WorkspaceGitRepoManagementClientLiveTest(bool isAsync) : base(isAsync)
+        public WorkspaceGitRepoManagementClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
 

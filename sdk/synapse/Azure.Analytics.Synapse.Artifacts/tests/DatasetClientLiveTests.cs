@@ -11,9 +11,16 @@ using NUnit.Framework;
 
 namespace Azure.Analytics.Synapse.Tests
 {
-    public class DatasetClientLiveTest: RecordedTestBase<SynapseTestEnvironment>
+    /// <summary>
+    /// The suite of tests for the <see cref="DatasetClient"/> class.
+    /// </summary>
+    /// <remarks>
+    /// These tests have a dependency on live Azure services and may incur costs for the associated
+    /// Azure subscription.
+    /// </remarks>
+    public class DatasetClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
-        public DatasetClientLiveTest(bool isAsync) : base(isAsync)
+        public DatasetClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
 
