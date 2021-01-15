@@ -12,7 +12,7 @@ using Azure.Analytics.Synapse.Monitoring.Models;
 using Azure.Identity;
 using NUnit.Framework;
 
-namespace Azure.Analytics.Synapse.Samples
+namespace Azure.Analytics.Synapse.Monitoring.Samples
 {
     /// <summary>
     /// This sample demonstrates how to monitor pipeline runs using synchronous methods of <see cref="MonitoringClient"/>.

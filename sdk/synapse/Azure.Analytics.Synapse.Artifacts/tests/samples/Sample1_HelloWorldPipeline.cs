@@ -10,7 +10,7 @@ using Azure.Analytics.Synapse.Tests;
 using Azure.Analytics.Synapse.Artifacts;
 using Azure.Analytics.Synapse.Artifacts.Models;
 
-namespace Azure.Analytics.Synapse.Samples
+namespace Azure.Analytics.Synapse.Artifacts.Samples
 {
     /// <summary>
     /// This sample demonstrates how to create an empty pipline and execute it in Azure Synapse Analytics using asynchronous methods of <see cref="PipelineClient"/>.
