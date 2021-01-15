@@ -7,10 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Azure.Analytics.Synapse.Spark;
 using Azure.Analytics.Synapse.Spark.Models;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Core.TestFramework;
 using NUnit.Framework;
 
-namespace Azure.Analytics.Synapse.Tests
+namespace Azure.Analytics.Synapse.Spark.Tests
 {
     /// <summary>
     /// The suite of tests for the <see cref="SparkBatchClient"/> class.

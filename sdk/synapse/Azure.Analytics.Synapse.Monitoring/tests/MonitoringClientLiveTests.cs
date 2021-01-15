@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using Azure.Analytics.Synapse.Monitoring;
 using Azure.Analytics.Synapse.Monitoring.Models;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Core.TestFramework;
 using NUnit.Framework;
 
-namespace Azure.Analytics.Synapse.Tests
+namespace Azure.Analytics.Synapse.Monitoring.Tests
 {
     /// <summary>
     /// The suite of tests for the <see cref="MonitoringClient"/> class.

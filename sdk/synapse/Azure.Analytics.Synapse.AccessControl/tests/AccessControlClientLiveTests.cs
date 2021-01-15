@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 using Azure.Analytics.Synapse.AccessControl;
 using Azure.Analytics.Synapse.AccessControl.Models;
 using Azure.Core.TestFramework;
+using Azure.Analytics.Synapse.Tests;
 using NUnit.Framework;
 
-namespace Azure.Analytics.Synapse.Tests
+namespace Azure.Analytics.Synapse.AccessControl.Tests
 {
     /// <summary>
     /// The suite of tests for the <see cref="AccessControlClient"/> class.

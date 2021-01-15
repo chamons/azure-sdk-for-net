@@ -5,10 +5,11 @@ using System;
 using System.Threading.Tasks;
 using Azure.Analytics.Synapse.Artifacts;
 using Azure.Analytics.Synapse.Artifacts.Models;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Core.TestFramework;
 using NUnit.Framework;
 
-namespace Azure.Analytics.Synapse.Tests
+namespace Azure.Analytics.Synapse.Artifacts.Tests
 {
     /// <summary>
     /// The suite of tests for the <see cref="DataFlowClient"/> class.

@@ -7,10 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Azure.Analytics.Synapse.ManagedPrivateEndpoints;
 using Azure.Analytics.Synapse.ManagedPrivateEndpoints.Models;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Core.TestFramework;
 using NUnit.Framework;
 
-namespace Azure.Analytics.Synapse.Tests
+namespace Azure.Analytics.Synapse.ManagedPrivateEndpoints.Tests
 {
     /// <summary>
     /// The suite of tests for the <see cref="ManagedPrivateEndpointsClient"/> class.

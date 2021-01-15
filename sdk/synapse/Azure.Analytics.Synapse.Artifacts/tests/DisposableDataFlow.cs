@@ -5,9 +5,10 @@ using System;
 using System.Threading.Tasks;
 using Azure.Analytics.Synapse.Artifacts;
 using Azure.Analytics.Synapse.Artifacts.Models;
+using Azure.Analytics.Synapse.Tests;
 using Azure.Core.TestFramework;
 
-namespace Azure.Analytics.Synapse.Tests
+namespace Azure.Analytics.Synapse.Artifacts.Tests
 {
     internal class DisposableDataFlow : IAsyncDisposable
     {
