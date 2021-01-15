@@ -35,7 +35,6 @@ namespace Azure.Analytics.Synapse.ManagedPrivateEndpoints.Tests
             ));
         }
 
-        [Ignore("https://github.com/Azure/azure-sdk-for-net/issues/17455")]
         [Test]
         public async Task TestManagedPrivateEndpoints()
         {
@@ -59,6 +58,13 @@ namespace Azure.Analytics.Synapse.ManagedPrivateEndpoints.Tests
             Assert.AreEqual(managedPrivateEndpointName, managedPrivateEndpoint.Name);
             Assert.AreEqual(privateLinkResourceId, managedPrivateEndpoint.Properties.PrivateLinkResourceId);
             Assert.AreEqual(groupId, managedPrivateEndpoint.Properties.GroupId);
+
+            while (managedPrivateEndpoint.Properties.ProvisioningState.Equals("Provisioning", StringComparison.OrdinalIgnoreCase))
+            {
+                System.Threading.Thread.Sleep(3000);
+                managedPrivateEndpoint = await client.GetAsync(managedVnetName, managedPrivateEndpointName);
+            }
+            Assert.IsTrue(managedPrivateEndpoint.Properties.ProvisioningState.Equals("Succeeded", StringComparison.OrdinalIgnoreCase));
 
             // List managed private endpoints
             List<ManagedPrivateEndpoint> privateEndpoints = await client.ListAsync(managedVnetName).ToEnumerableAsync();
