@@ -6,9 +6,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-5280f7d54b9c6343b9206ab5f3d58a0c-ccd13eb8493d1c45-00",
+        "traceparent": "00-0539f5a65a886440ba404200ae52e66b-febdb0792534d34b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "208a91030fd93af3add41fff3e53cb59",
@@ -19,11 +19,11 @@
       "ResponseHeaders": {
         "Content-Length": "29024",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:11 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:35 GMT",
         "Server": "Microsoft-HTTPAPI/2.0",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "x-ms-client-request-id": "208a91030fd93af3add41fff3e53cb59",
-        "x-ms-request-id": "04ce7c45-ad94-48ba-8853-e8f75c8615bc"
+        "x-ms-request-id": "2f58f92a-a6b0-4ff5-b934-b26238a4fb03"
       },
       "ResponseBody": {
         "value": [
@@ -1201,9 +1201,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-b663e4e032760542a46905bb55ea1d76-0966aee573130841-00",
+        "traceparent": "00-9feff50089b02841a087e83b14aac5a6-c6ab4960f616f247-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c9142ea0055134f33e98dc16d1581f7a",
@@ -1213,7 +1213,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:11 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:36 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1222,7 +1222,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c9142ea0055134f33e98dc16d1581f7a",
-        "x-ms-request-id": "70d722c8-df2c-476d-a4cb-018893cea07d"
+        "x-ms-request-id": "589b1c12-f1b4-4c3c-82b3-fb8969225b54"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1684117927",
@@ -1254,9 +1254,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2ae198605c40fb40ba604722d3c7e702-c07b0af4e96d3046-00",
+        "traceparent": "00-6a14a5c3896d654e9ef01775035f10b8-e7cd75813b0b6040-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "458b32cafaf437a6b086e922e80b79e0",
@@ -1266,7 +1266,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:13 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:36 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1275,7 +1275,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "458b32cafaf437a6b086e922e80b79e0",
-        "x-ms-request-id": "a72df879-901b-4d7b-a433-144438b87802"
+        "x-ms-request-id": "2edd5d3c-f054-41fb-86ca-bc27e8c91ee5"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1804657934",
@@ -1307,9 +1307,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a978ae2123587642ade5f42e9bba5484-08d209233b103841-00",
+        "traceparent": "00-e64b449055f77a46b0ad7de963986228-67cc4a5bdc254a43-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "40507e950aacfde49d55e24132dc6955",
@@ -1319,7 +1319,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:13 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:36 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1328,7 +1328,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "40507e950aacfde49d55e24132dc6955",
-        "x-ms-request-id": "cb9b0d7f-8978-4d02-8879-1c882109d458"
+        "x-ms-request-id": "2662b279-66c1-45ac-bdb5-e91fcbfd1250"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1646004302",
@@ -1360,9 +1360,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-190e18160dc96a478086fd97bcc4c316-c9cfae99f474b04a-00",
+        "traceparent": "00-2185cefd09efe54e9d01f08786e7efe6-59fbb1a0c6923b44-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "0b35a5b485c7a66587dc19ca1cd14b32",
@@ -1372,7 +1372,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:13 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:36 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1381,7 +1381,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "0b35a5b485c7a66587dc19ca1cd14b32",
-        "x-ms-request-id": "25b78184-592c-4c82-83cf-dda38e5f369e"
+        "x-ms-request-id": "8b81d0ef-b268-4c44-be34-9d6977864dd7"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1859490190",
@@ -1413,9 +1413,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-529615e9f6139541b8bca7e0fffd2da6-3cbf1ca3e441fa49-00",
+        "traceparent": "00-8a0617c42965a04982b80bdc6c1fd661-f5a26b642736c740-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "5381fb1fdf07bfcd4d8ea79e176405d3",
@@ -1425,7 +1425,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:13 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:36 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1434,7 +1434,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "5381fb1fdf07bfcd4d8ea79e176405d3",
-        "x-ms-request-id": "b4d3d7f5-4702-4959-9fd6-f0a6ea49b9e4"
+        "x-ms-request-id": "a41df45a-5a20-439f-9c04-451b68048454"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook654468314",
@@ -1466,9 +1466,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-ab2e5410efb7784393828eaa22dae482-58caf99f24463849-00",
+        "traceparent": "00-de2027407621ca43b6e90a1082d6ec26-ea5c8c49f89c8c4c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "436d941d6dd60f1918aab8d0f11ae1cb",
@@ -1478,7 +1478,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:14 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:37 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1487,7 +1487,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "436d941d6dd60f1918aab8d0f11ae1cb",
-        "x-ms-request-id": "f6fc82ba-daf1-4ef9-a157-91196004f9f5"
+        "x-ms-request-id": "c9576298-e3d3-4f7c-ae10-cb5ba278db07"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook549168620",
@@ -1519,9 +1519,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-b762de996f51384cb4237fde56cab88a-517402fd09d79b4c-00",
+        "traceparent": "00-b606e1d24507da419520086ef381acfe-8bb91ad0bc5c2645-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "3622af09165ad54dd775bd39ddc68e22",
@@ -1531,7 +1531,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:14 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:37 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1540,7 +1540,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "3622af09165ad54dd775bd39ddc68e22",
-        "x-ms-request-id": "098890f1-3ae9-47a0-971a-6abf1faed44a"
+        "x-ms-request-id": "10873d6a-9f72-42ab-b6e2-3115e893fb82"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1579958647",
@@ -1572,9 +1572,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d07ec681f46c2f4b9401ea51e35b2aa8-3d0df5af7156e743-00",
+        "traceparent": "00-257e6e67ddfd0b4e92654f6e0bee061c-a435e5186662224a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "88ac45d70864b15ce2723a5d27fdce33",
@@ -1584,7 +1584,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:15 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:37 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1593,7 +1593,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "88ac45d70864b15ce2723a5d27fdce33",
-        "x-ms-request-id": "e13ef583-5dbf-4f39-ae0f-f561db6b1c3d"
+        "x-ms-request-id": "53d21b15-a04b-4b51-95c8-6910f93a79e4"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2051316949",
@@ -1625,9 +1625,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0aa0a0cf958624418ef4fec51c0ea1ce-3514134d8fb77440-00",
+        "traceparent": "00-cf5abfcd429a284f941cd82e2131fc7c-e044e944ca825241-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "6894dcadce42077946986c60afdf3152",
@@ -1637,7 +1637,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:15 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:37 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1646,7 +1646,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "6894dcadce42077946986c60afdf3152",
-        "x-ms-request-id": "0f6d1b18-dbdd-4c5b-8347-9fcd06711ce5"
+        "x-ms-request-id": "01e66fc6-41e2-4101-8250-b2650cac4c37"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1928140462",
@@ -1678,9 +1678,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-58b3418af5faba418bad98ab51a64461-fe9f8ee925ee0049-00",
+        "traceparent": "00-0134634eee33d44da71c01a6988d6ef5-b9346434787b4b49-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "acf8951b586e0167527054e8dbf0aeda",
@@ -1690,7 +1690,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:16 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:38 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1699,7 +1699,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "acf8951b586e0167527054e8dbf0aeda",
-        "x-ms-request-id": "11560420-caf2-478c-9e57-0ac1e3f408b6"
+        "x-ms-request-id": "c6ede6ed-108b-4ee0-b770-6e1915ef0e35"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1404386034",
@@ -1731,9 +1731,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-4ffa007e3a23a544b65507b86f1b1d15-867c86e841975041-00",
+        "traceparent": "00-2dc21c5742e27c428c6770483dc1176a-c37c0536fb696f4a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "018c8aa7253109e0cba441cc9cfb0203",
@@ -1743,7 +1743,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:16 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:38 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1752,7 +1752,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "018c8aa7253109e0cba441cc9cfb0203",
-        "x-ms-request-id": "38d04f0e-2c4e-4e4b-bd81-c6dd99c50922"
+        "x-ms-request-id": "de57e520-bf17-4a05-ad21-699aa71fd91a"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook303724026",
@@ -1784,9 +1784,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a85fbf076b23d54bb4cbaebea285e3d2-9e81d1002188d445-00",
+        "traceparent": "00-113dd2abc8a6ed40a86584a8c9586aca-69308bfb4650f24f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "9141e740210454c5759316d27a912b56",
@@ -1796,7 +1796,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:16 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:38 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1805,7 +1805,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "9141e740210454c5759316d27a912b56",
-        "x-ms-request-id": "48f5058b-2523-49e1-bafe-212aa7c8316f"
+        "x-ms-request-id": "8a8bd57c-33a8-4d52-94f2-0a70edca8cd5"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1986851418",
@@ -1837,9 +1837,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-4483e9654bff9c41b17c3a238532509c-7d226d9400f67a42-00",
+        "traceparent": "00-1683062f2b3be14f8715b53c9f2977cb-230321777e1ca041-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "25b991e93053f520b5efe0c9179b6557",
@@ -1849,7 +1849,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:16 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:38 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1858,7 +1858,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "25b991e93053f520b5efe0c9179b6557",
-        "x-ms-request-id": "b6d7f198-ae62-436d-8504-e753ebeb587a"
+        "x-ms-request-id": "82be394f-0d47-479a-8de6-c96c079fc0ce"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1143245528",
@@ -1890,9 +1890,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-aad2c124c9e85a43a2d6afd45279a3b4-14bbe3996e25664e-00",
+        "traceparent": "00-077702657aa0454fa2a3f1865c8e1b88-4987e99ad21bd445-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "f3a7506d1cae85d5c5378c9e0f0d8f3a",
@@ -1902,7 +1902,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:17 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:38 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1911,7 +1911,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "f3a7506d1cae85d5c5378c9e0f0d8f3a",
-        "x-ms-request-id": "6f3fea7c-07c7-4b7c-945b-1c61b089c34b"
+        "x-ms-request-id": "1f7013e3-6868-4c15-929c-7cd8bf79eb1e"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook776941946",
@@ -1943,9 +1943,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f852190781b63a45abbb0d04e5bc791d-7ec6331f5a438e41-00",
+        "traceparent": "00-c947b9f21a908e4caa44a98221d0947f-7245dd377b6c5946-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "0ae2eb78dd4210afc74cdc1541fb3dda",
@@ -1955,7 +1955,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:17 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:39 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -1964,7 +1964,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "0ae2eb78dd4210afc74cdc1541fb3dda",
-        "x-ms-request-id": "08a91938-510f-45c5-804e-ea914792304f"
+        "x-ms-request-id": "b2e8c6ec-cfaa-48a4-bf61-367ac55335a7"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook768271578",
@@ -1996,9 +1996,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-cefc19a31e15f544b03c7e424dd99d55-259c3d9945dd0a43-00",
+        "traceparent": "00-384b7009ec045d459fca2d217c45ae30-2a9a91232b9c0c41-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "2964bf2e38e9cda7bc335f1ba382e5a7",
@@ -2008,7 +2008,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:17 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:39 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2017,7 +2017,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "2964bf2e38e9cda7bc335f1ba382e5a7",
-        "x-ms-request-id": "ff9eb6fc-333b-4f9a-99de-1e079d4edd44"
+        "x-ms-request-id": "8bdc7bcc-efe2-404d-a30a-0f93a702417c"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1861354853",
@@ -2049,9 +2049,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-fc6cbdfe18f4c1428de304e63db8e10d-650a9eeee1cef54c-00",
+        "traceparent": "00-f527411cbb6b1d44a3dc22b821cacc38-b41d035f82afd341-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "2b50a55f5bb89014a1962c623fbf43c9",
@@ -2061,7 +2061,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:17 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:39 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2070,7 +2070,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "2b50a55f5bb89014a1962c623fbf43c9",
-        "x-ms-request-id": "e010a8cb-ab8f-4b1b-aaf2-331b86e6848e"
+        "x-ms-request-id": "fd0b2c7f-9e52-448c-bc39-0dd3a61f7b3a"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook266631340",
@@ -2102,9 +2102,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-90e94bca04382e4c8dc9692b32fd3a78-b4348af825730c4a-00",
+        "traceparent": "00-5a74ab5b864f244883451bdfac04e660-f1fd8ba6b8a66b48-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "506fb2fa65a8405043144d0f7d946d44",
@@ -2114,7 +2114,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:18 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:41 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2123,7 +2123,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "506fb2fa65a8405043144d0f7d946d44",
-        "x-ms-request-id": "ebfd02e5-ec91-4acc-afbf-8a090c9dd318"
+        "x-ms-request-id": "c8648739-dfdc-4dd2-8bfc-7af7e90b57a8"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook646248896",
@@ -2155,9 +2155,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-3511a068a7358a4ba784085d4d2259bf-7b4a82524922d140-00",
+        "traceparent": "00-d3f0b10ec3d7cd468cd1694be7d3ed39-48238d7f2d9e3b45-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "9cb5356611aad321aad488530b458efd",
@@ -2167,7 +2167,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:18 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:41 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2176,7 +2176,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "9cb5356611aad321aad488530b458efd",
-        "x-ms-request-id": "2052bf13-75af-4a79-871b-c2948a7f5e33"
+        "x-ms-request-id": "33d033c0-1983-4a47-88c8-a883626e6517"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1980347592",
@@ -2208,9 +2208,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0bc5f326400b7f46bbb681c219494606-8ae70da7b1a8e445-00",
+        "traceparent": "00-620b60422e7185449e87c74cda1d6b36-9a7c556bef843648-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "f12195ef9412fafe5410e7a30d05120d",
@@ -2220,7 +2220,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:18 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:41 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2229,7 +2229,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "f12195ef9412fafe5410e7a30d05120d",
-        "x-ms-request-id": "0e74ae4e-50f2-4fd1-8956-6b34ea4e9047"
+        "x-ms-request-id": "73856bb7-d694-425c-b714-fc06a547788b"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1304984445",
@@ -2261,9 +2261,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-bf628b6fe0fd9a4ebafa658ff92906d1-4e5bd436b6163e4b-00",
+        "traceparent": "00-8b0d6065b5109f4a97363a5f768096db-280369c410ea4442-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "09fbe829a70ae91f909ca6d4ddfd35fe",
@@ -2273,7 +2273,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:18 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:41 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2282,7 +2282,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "09fbe829a70ae91f909ca6d4ddfd35fe",
-        "x-ms-request-id": "a4ccf94a-8a5c-419e-a4d6-676d7b4f7c03"
+        "x-ms-request-id": "6df78fc1-0064-4e5e-a69e-cd8f6cfc3389"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/demo_notebook",
@@ -2328,9 +2328,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-145f70d8e6c6c84d8466e8aa04a5f153-7407bae1a25f784c-00",
+        "traceparent": "00-473c18e4bea9544b81ce9da05d075e44-de7da8776c3add49-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "e71f50867b72d13136bb479a297dc5a5",
@@ -2340,7 +2340,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:18 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:42 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2349,7 +2349,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "e71f50867b72d13136bb479a297dc5a5",
-        "x-ms-request-id": "7d22ac9b-8cbf-4195-8db9-845858e1e640"
+        "x-ms-request-id": "4ccee217-71fe-4cef-90cc-56068a7c852c"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1633376452",
@@ -2381,9 +2381,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6b669e88143d114197ffc205f64375ec-f0932d90d1c3fc48-00",
+        "traceparent": "00-0f38a8e24e8d1f48b5f44597b6a4eafb-5b59f97be3eabe44-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "222a7bc1844a48f376376076ee2a1c57",
@@ -2393,7 +2393,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:19 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:42 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2402,7 +2402,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "222a7bc1844a48f376376076ee2a1c57",
-        "x-ms-request-id": "d4cb1586-7425-412c-a9bb-736c0e04b517"
+        "x-ms-request-id": "22feaa0e-32ce-4cba-b21e-e76cd731b3f2"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook655988637",
@@ -2434,9 +2434,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-845adc216c04a2489f83cbce4f2f60c4-e4cedd36ea34b24d-00",
+        "traceparent": "00-b54d71f669013047b3f926e33f4ece8f-a5d3018e68550940-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "bd1de9da2be5ad9ab629d24e6084c013",
@@ -2446,7 +2446,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:19 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:42 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2455,7 +2455,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "bd1de9da2be5ad9ab629d24e6084c013",
-        "x-ms-request-id": "42166e91-dce8-4e7d-a25c-0b84c8a84932"
+        "x-ms-request-id": "e6a8d549-3602-406c-8194-6405aa8474ce"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook532689105",
@@ -2487,9 +2487,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-695f1e5d2dc0344a9bb184465bcbd318-f50a9cb3a34d624d-00",
+        "traceparent": "00-17b5193e020cf941809a77c0cb86b6e1-42d5002e74d78649-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "621200d712d201b35dd7713b1bbbe20c",
@@ -2499,7 +2499,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:19 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:42 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2508,7 +2508,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "621200d712d201b35dd7713b1bbbe20c",
-        "x-ms-request-id": "0c25c434-e5bd-451c-990f-c5e954453b6a"
+        "x-ms-request-id": "259b38af-7d50-4197-8fa7-953ad7888c9d"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1829358631",
@@ -2540,9 +2540,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-5601828155dab84f8a377bcfa136fcb3-0fcc1166df4c5d47-00",
+        "traceparent": "00-94d05cfa5975b14e9df8ddeecc196c11-a1a45b27b23d7246-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "3fc0ef9f075f96bfe17c6b20b1a4e7f1",
@@ -2552,7 +2552,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:19 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:43 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2561,7 +2561,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "3fc0ef9f075f96bfe17c6b20b1a4e7f1",
-        "x-ms-request-id": "64f3d5b3-f3cb-4cdb-8f94-e655966f5e9f"
+        "x-ms-request-id": "c08f9a5f-8695-42a5-a686-0fb873d6d49d"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1089839457",
@@ -2593,9 +2593,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f3b04cb7a03e8d4fbaf637d28fd694bf-ea352f0686ee2646-00",
+        "traceparent": "00-88a292eaa39f014e888437c9dd6184ae-ac9ff841f4c07247-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "ed9e4d77b917c784351c600eb95e92fb",
@@ -2605,7 +2605,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:20 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:43 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2614,7 +2614,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "ed9e4d77b917c784351c600eb95e92fb",
-        "x-ms-request-id": "a0072224-af9e-4114-87fc-1b81a3d86fe4"
+        "x-ms-request-id": "0db6abbb-4d41-4a6d-8079-0cc555d636e5"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1770509283",
@@ -2646,9 +2646,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-86e6c617f2b68b46891d80cf442c1ddd-b44cca759bfb5849-00",
+        "traceparent": "00-ad9c5e3477173545ac9d9625666eed77-f9657cb97d7d324d-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "70afc64680c4cfb3417c8155a7934fb8",
@@ -2658,7 +2658,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:20 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:43 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2667,7 +2667,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "70afc64680c4cfb3417c8155a7934fb8",
-        "x-ms-request-id": "80dfb5b0-53bb-48f6-9336-e847ecd8d793"
+        "x-ms-request-id": "fd898491-8307-4206-89a8-2eadb5dc24c6"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2091752578",
@@ -2699,9 +2699,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-4cef9c6b3f40004bbd2883b7e765b3b2-ef1c045000c4e648-00",
+        "traceparent": "00-c97c99591311cc49a72672662632bb9f-e46a88ceb227c548-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "cec37feff41ce5f46af80943a7b0dc82",
@@ -2711,7 +2711,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:20 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:43 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2720,7 +2720,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "cec37feff41ce5f46af80943a7b0dc82",
-        "x-ms-request-id": "9442b96b-54b0-4463-aefd-620210c46be9"
+        "x-ms-request-id": "4942d23a-7eb5-458a-8eba-3c3ccdcce81e"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook55604260",
@@ -2752,9 +2752,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-415b389cb3f0f64ba725fc282c5a5b0f-1c4e66688eaa9a49-00",
+        "traceparent": "00-a37a0f3159f10349991cd11f470f84a4-ae7eeb7dd662bd4e-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "ebd970ea77f5f62c99cfac9a382e20a2",
@@ -2764,7 +2764,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:20 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:44 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2773,7 +2773,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "ebd970ea77f5f62c99cfac9a382e20a2",
-        "x-ms-request-id": "e12271db-4a8d-41ff-821d-2b568f43c2e5"
+        "x-ms-request-id": "bd241096-b384-4502-bcba-17349872d403"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1878657682",
@@ -2805,9 +2805,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e315ae338f78754994781fa963d22651-7aa7cb0a047afd45-00",
+        "traceparent": "00-633562fb840a7d46b552ca31b7e809f6-7acc7faccc8bab4b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "3a1ea7ccc39a51dfd1c905cc76702790",
@@ -2817,7 +2817,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:20 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:44 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2826,7 +2826,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "3a1ea7ccc39a51dfd1c905cc76702790",
-        "x-ms-request-id": "d8a5b49c-1ad6-43d6-9522-c630daffbb5c"
+        "x-ms-request-id": "e8fb1f48-5a35-4cd1-ad0f-41e2b0e2dc08"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1963301614",
@@ -2858,9 +2858,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-13979327cee4834197f83d55bd4dbe54-05a8b901ace8234f-00",
+        "traceparent": "00-9c490568ad306e42850b372e55cc5af1-a37b7c5680b7884f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "376bffa064b978c352cc344d485aad3b",
@@ -2870,7 +2870,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:21 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:44 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2879,7 +2879,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "376bffa064b978c352cc344d485aad3b",
-        "x-ms-request-id": "fdb79536-a4ab-4a22-bbf5-0f063faa93bb"
+        "x-ms-request-id": "177d7257-c074-4717-8a15-0009d2dcd93c"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook254029507",
@@ -2911,9 +2911,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9a736fe01ac36e4aa4e290a4c7e18fb2-a19aaf5527661148-00",
+        "traceparent": "00-8fcf74bf2235574eb11e2e09227d7900-36d3b5a14146a746-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "007667d8a29226e79187192b71608029",
@@ -2923,7 +2923,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:21 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:44 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2932,7 +2932,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "007667d8a29226e79187192b71608029",
-        "x-ms-request-id": "1734a47d-a532-4d6c-82ea-dd736da685c7"
+        "x-ms-request-id": "07f4bd8d-787b-4dca-9a97-79721fa09111"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook646101363",
@@ -2964,9 +2964,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-bdd51417c7caac4f8f03a1989aa57034-42bfd781a2602141-00",
+        "traceparent": "00-8bc472f8523f6e49bdc07e93553f980f-9fc1267cf2923f44-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "38fa1ba7e9c368e8e3a6e7cd8f910977",
@@ -2976,7 +2976,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:21 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:45 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -2985,7 +2985,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "38fa1ba7e9c368e8e3a6e7cd8f910977",
-        "x-ms-request-id": "71e72808-eace-42aa-8c3e-9abd93c12fc7"
+        "x-ms-request-id": "ddacd911-4fa7-4953-925a-81a89aed1839"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1881803406",
@@ -3017,9 +3017,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a4f0a847d34c074289709ad8b7c9eacf-3cdfebdea5345346-00",
+        "traceparent": "00-44c0e463719ff44ca946896ae05a174a-073497f8e2d1ef4d-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "0ff4c91c26f9fdfe1744a5314b9806f2",
@@ -3029,7 +3029,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:21 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:45 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3038,7 +3038,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "0ff4c91c26f9fdfe1744a5314b9806f2",
-        "x-ms-request-id": "d83f62ee-746c-4b4c-a8d1-046a1444ef14"
+        "x-ms-request-id": "cbb06b0b-5d25-4c10-bc9e-4cc120cb998a"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1158468516",
@@ -3070,9 +3070,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8481e1bf94560e4bb1e5524c91684ac5-a22fc4903ee64241-00",
+        "traceparent": "00-7d883fcfa4646c48ab7513ca5ad4e2e0-d9c7b57361742b4b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "2ca50b4c745fee787e0d1debbb1997ff",
@@ -3082,7 +3082,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:21 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:45 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3091,7 +3091,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "2ca50b4c745fee787e0d1debbb1997ff",
-        "x-ms-request-id": "76e972bd-ff98-4355-a8d7-faeb5fca4246"
+        "x-ms-request-id": "d0e0b1e6-045e-445b-91e9-b7965e2aba7d"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2118558115",
@@ -3123,9 +3123,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-dda586a8250b6f4094bd9fe33dc41537-cee3d8c640c00146-00",
+        "traceparent": "00-1206fc0f49cce2498251b83be8fa0c78-7634cd97f946044b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "a70fa17e706c812f1dfd207f43b61d4b",
@@ -3135,7 +3135,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:22 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:45 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3144,7 +3144,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "a70fa17e706c812f1dfd207f43b61d4b",
-        "x-ms-request-id": "8353e3ca-2aec-4c4e-8e09-003494c3c86a"
+        "x-ms-request-id": "e82274a3-c325-4f41-84ab-beb4fc807626"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook878364584",
@@ -3176,9 +3176,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-82c99e6d5da3884188478c7799486a02-6a76a09bd4e27841-00",
+        "traceparent": "00-0645ce0feec4db42836c27d136754822-2bec6cab83a83340-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "8381f59fdceca718510590eb091342fe",
@@ -3188,7 +3188,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:22 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:45 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3197,7 +3197,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "8381f59fdceca718510590eb091342fe",
-        "x-ms-request-id": "9dc49d72-982d-4d2f-8a2e-e51858400db6"
+        "x-ms-request-id": "3de7b61c-17b2-4ad1-82c3-62e47bd4cb52"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook691293477",
@@ -3229,9 +3229,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9732636958523a4fb8b8608c26aff3b8-8820eb0f9072e144-00",
+        "traceparent": "00-c503b66031f2284eaed7fc3a9204d2f0-32b9dad207d1504b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "a9b3a6ac5e89db85dc230f6253f8abc8",
@@ -3241,7 +3241,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:22 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:46 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3250,7 +3250,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "a9b3a6ac5e89db85dc230f6253f8abc8",
-        "x-ms-request-id": "0c6f1bdc-46ec-4eff-b625-8427d534fd75"
+        "x-ms-request-id": "5689aee8-036f-47dd-8b6f-4b9bed6d7bfe"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook359117693",
@@ -3282,9 +3282,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2dd1e27947f67e429e4e35c0af7a9d97-0b414b59da0bd940-00",
+        "traceparent": "00-b6fa0e53636e0741a75a04d24799097e-5d54b3451e945044-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c64cd1f01498a21288675667e0437709",
@@ -3294,7 +3294,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:22 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:46 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3303,7 +3303,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c64cd1f01498a21288675667e0437709",
-        "x-ms-request-id": "02d86155-2db8-4719-9361-74bfb3b0ef07"
+        "x-ms-request-id": "386fbc4b-cd28-4d42-ac50-f533d55e878f"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1137625687",
@@ -3335,9 +3335,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6edc9cb947ffac4a8e85b290fa8e328f-0ddb8f668097374d-00",
+        "traceparent": "00-b97a18209ab0af4e9b9977450be12e42-a8d39b81e882b64b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "9cd322ba730340c26fa5a7c8ccb65458",
@@ -3347,7 +3347,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:22 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:46 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3356,7 +3356,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "9cd322ba730340c26fa5a7c8ccb65458",
-        "x-ms-request-id": "7eed68a9-bdfc-4d0e-af3d-0b5f9ac19ae8"
+        "x-ms-request-id": "85e48a58-556b-4ee0-9631-3868f52b64ef"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook701971566",
@@ -3388,9 +3388,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1f30bad47fe6a849af04413f8f8b9cc8-f769524a353ae242-00",
+        "traceparent": "00-f89fef6b8b11a24faa3c3fedbc6f6b66-4416f1851439e143-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "37fbc8597cc7986694112022081efb98",
@@ -3400,7 +3400,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:23 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:46 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3409,7 +3409,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "37fbc8597cc7986694112022081efb98",
-        "x-ms-request-id": "949fecbf-dc7d-4320-886d-5a7520d14046"
+        "x-ms-request-id": "9de0ab1c-fc8f-4f9c-9f79-55a06c22835d"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook709354216",
@@ -3441,9 +3441,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7b5bce912b36a845a7c959d8939fec74-defbca6518b2a144-00",
+        "traceparent": "00-29b95d76e63955478cb6f39659afd245-6f3cccd98a0dad48-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "31a706ac0e257cc40f0b56f36c49d5d2",
@@ -3453,7 +3453,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:23 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:46 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3462,7 +3462,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "31a706ac0e257cc40f0b56f36c49d5d2",
-        "x-ms-request-id": "3232f938-7278-41b4-991e-83761229980b"
+        "x-ms-request-id": "bc1ae583-ee2f-4d29-9eea-eb3da55baa4b"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2126593779",
@@ -3494,9 +3494,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9a8685b4e9fec8408cf3c22d250961af-1846b291f3adfe4a-00",
+        "traceparent": "00-c5cc9d8bed23b04a8cacb89c9c9818c8-596c53d0fcd3384d-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "180dfd123f473e42bc3b08f253a03851",
@@ -3506,7 +3506,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:23 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:47 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3515,7 +3515,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "180dfd123f473e42bc3b08f253a03851",
-        "x-ms-request-id": "7b044eff-3907-4a4e-b2d9-49dd43ad3e6f"
+        "x-ms-request-id": "5a7f3f8d-e6e7-4b37-92f7-00fec1e3cf28"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook988670801",
@@ -3547,9 +3547,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2eb2c7de4d419a4fa396a5c2623141ed-1d7cae4ef42f464d-00",
+        "traceparent": "00-5abe881447e2964aac609f8cc97a08c6-e316d2e0ae067e44-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c61c0eaa230e4a33037f28bb25732b4a",
@@ -3559,7 +3559,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:23 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:47 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3568,7 +3568,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c61c0eaa230e4a33037f28bb25732b4a",
-        "x-ms-request-id": "6b65c144-43de-4526-8a46-37044e8753e2"
+        "x-ms-request-id": "47fd8244-8e3c-4cab-b977-0e1ef1db649b"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1106903387",
@@ -3600,9 +3600,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-17f492eec6445e4f954094e26e810116-9bce7145bfcf3d49-00",
+        "traceparent": "00-b108573b9c9984469a927614b2c29541-d8f51b919e1cbc45-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "0a0f4d3be2106c50c36874e906d2296e",
@@ -3612,7 +3612,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:24 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:47 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3621,7 +3621,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "0a0f4d3be2106c50c36874e906d2296e",
-        "x-ms-request-id": "a9d94058-8bd6-4bd2-a323-b227c4e24706"
+        "x-ms-request-id": "79ff73a7-f6da-49ff-9c79-8606d45e26aa"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2083235159",
@@ -3653,9 +3653,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1ab00001fea5014896f0b6af718fe36e-ecad6eb83ccf0343-00",
+        "traceparent": "00-37803c4dd56d994e9793f7d73d89179e-be27bc8aa5773c47-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "5e4804d20f2cefc3c9c215c817871849",
@@ -3665,7 +3665,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:24 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:48 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3674,7 +3674,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "5e4804d20f2cefc3c9c215c817871849",
-        "x-ms-request-id": "bb9ad92f-35c6-4009-92c5-2678d56be305"
+        "x-ms-request-id": "954aabbf-51e1-4985-8246-80be7a5877ea"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook844332905",
@@ -3706,9 +3706,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d194d486efbbfd408d6a7283218e52c3-70620fce11416c4c-00",
+        "traceparent": "00-1d6be95270661940ba4795b185bce05a-429b71f6f7f5db40-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "05b6bd102d91c740bdb003a5ae494430",
@@ -3718,7 +3718,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:24 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:48 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3727,7 +3727,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "05b6bd102d91c740bdb003a5ae494430",
-        "x-ms-request-id": "4e98293d-cc6f-4540-bf9c-e5f951cdefb5"
+        "x-ms-request-id": "30323591-ca6c-442c-9e79-182ca2987e88"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook536090795",
@@ -3759,9 +3759,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1150b5e1dc9b794eb888483683941884-ae52771ce224a54f-00",
+        "traceparent": "00-70837fec3463af4b87002eb6a1b3a743-9ddc39589b870f47-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "20e8b956cd2a2b1e8a1f404ecd88543b",
@@ -3771,7 +3771,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:24 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:48 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3780,7 +3780,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "20e8b956cd2a2b1e8a1f404ecd88543b",
-        "x-ms-request-id": "31a31628-0218-4cd1-8742-1eb89399c202"
+        "x-ms-request-id": "c58bf8a9-44c0-4488-82f7-fae7ec893a54"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1387270550",
@@ -3812,9 +3812,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-da9bba044e59bf4bbfdb55bfcb3923b6-59002139c0809f44-00",
+        "traceparent": "00-4c774f9cf4e9754881558fbe6d95caa7-a0d40021898fe142-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "49d92b50231ca5ddc481a07b0c1d4180",
@@ -3824,7 +3824,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:25 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:48 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -3833,7 +3833,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "49d92b50231ca5ddc481a07b0c1d4180",
-        "x-ms-request-id": "b9035f7a-4ed7-4ed5-8930-412e971626ff"
+        "x-ms-request-id": "47865931-4938-4d4a-ae81-3cfe648fded5"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook415720389",
@@ -3865,9 +3865,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-991721f933e0e644b42460bc6c5663c5-87c756908954b24f-00",
+        "traceparent": "00-85dcad020d38ef4598b6ad0e8c31eea1-2c09c88ef0315e4a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "5d72e57ef79e421f9f8b7b71ecf1f935",
@@ -3878,11 +3878,11 @@
       "ResponseHeaders": {
         "Content-Length": "28788",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:25 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:49 GMT",
         "Server": "Microsoft-HTTPAPI/2.0",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "x-ms-client-request-id": "5d72e57ef79e421f9f8b7b71ecf1f935",
-        "x-ms-request-id": "8d43edae-1246-49da-8b7b-8441b730be8b"
+        "x-ms-request-id": "729e7d5e-0313-44d2-ba64-542450798956"
       },
       "ResponseBody": {
         "value": [
@@ -5046,9 +5046,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-45ae189cc9e02a49a1a9ee669fcc804a-7686a4cf8b37eb42-00",
+        "traceparent": "00-aa92e5fb92c1fb48a9e862fb7c159493-545521e10d062042-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "8255c75bfb703214db435ca82da21f6c",
@@ -5058,7 +5058,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:25 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:49 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5067,7 +5067,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "8255c75bfb703214db435ca82da21f6c",
-        "x-ms-request-id": "beca530b-2dcb-4277-8c46-1d10de2e7b52"
+        "x-ms-request-id": "f697baa9-4fc4-4770-982f-86deacde3ec0"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook830360622",
@@ -5099,9 +5099,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-603d4a7402674043bf22ce1f779518a3-87a810dd08d0e94b-00",
+        "traceparent": "00-e55dd418d881e0478e80913f7bd4a97a-e78640209cb24145-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "e8d0c0def715589d0c96a990a86cb8d2",
@@ -5111,7 +5111,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:26 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:49 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5120,7 +5120,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "e8d0c0def715589d0c96a990a86cb8d2",
-        "x-ms-request-id": "7668c2d0-c0a3-4a5c-a041-81f038b7c4a2"
+        "x-ms-request-id": "8e0d216a-f909-4306-a363-2b6a46bf31a6"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1973916934",
@@ -5152,9 +5152,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8b87383710fffc4396f6d2735b3d3fd5-0c9edbae85a9d546-00",
+        "traceparent": "00-1c28fb65c95101429c2d293b9a70530c-cc2f63988f62a54f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "44206a87bec8830fd040815a9b7615fd",
@@ -5164,7 +5164,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:26 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:49 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5173,7 +5173,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "44206a87bec8830fd040815a9b7615fd",
-        "x-ms-request-id": "53fd9b11-99c9-4e21-9ca8-a32adf607c5f"
+        "x-ms-request-id": "41896bba-3ced-46b0-957a-249e25c3f5b8"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2004418696",
@@ -5205,9 +5205,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d33cadead321124f8767291d7b530790-f65282c56781ad44-00",
+        "traceparent": "00-97e6ed55e4653a4a9b411efaba41a6ff-9e79940d14d58b49-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "2c930f6b112164202afd76d951838a6f",
@@ -5217,7 +5217,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:26 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:50 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5226,7 +5226,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "2c930f6b112164202afd76d951838a6f",
-        "x-ms-request-id": "904a7bd1-1886-486e-8b42-5298c8dd4045"
+        "x-ms-request-id": "c34847ce-0270-4296-a17e-9ae4c3742875"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1708824606",
@@ -5258,9 +5258,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-568f54d277fa5f4f9e5b254fb2dee6d6-62623e4c059da642-00",
+        "traceparent": "00-fab05dffd033d2439d7d619b2fb153bd-d37f8ddfb2bb554d-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c2208a8bda821fa4b04d17d57542bc95",
@@ -5270,7 +5270,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:26 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:50 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5279,7 +5279,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c2208a8bda821fa4b04d17d57542bc95",
-        "x-ms-request-id": "5513654f-368e-42bf-b7b6-957f3a9f8c8a"
+        "x-ms-request-id": "3a49552b-468b-46c7-9b07-05c38b51419e"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2125255332",
@@ -5311,9 +5311,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a787fc0b3332284ab310db65115bcdbf-aa2cf7e77d645641-00",
+        "traceparent": "00-1ebfcb022efec047ba003fbac1ee6bee-c23cbecfa9849540-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "9925ac808cd876b04abb1aca4736324d",
@@ -5323,7 +5323,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:27 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:50 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5332,7 +5332,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "9925ac808cd876b04abb1aca4736324d",
-        "x-ms-request-id": "296cbace-52f5-4d3b-b056-7115be3b6a98"
+        "x-ms-request-id": "4886dc4c-2eca-49f9-b851-c2630e198ea1"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1794393844",
@@ -5364,9 +5364,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-93e07340d3354f44bb38e15506cb7940-691cdbbf11e48946-00",
+        "traceparent": "00-13f6c6475dd57f4a8cb2dedc9cbfa416-363184f9322e3c4a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "11cf11b65356917a6b737bd4f94aeee7",
@@ -5376,7 +5376,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:27 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:50 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5385,7 +5385,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "11cf11b65356917a6b737bd4f94aeee7",
-        "x-ms-request-id": "c9e1b723-4639-48dc-af00-526d37067e78"
+        "x-ms-request-id": "4f53e1ca-a2b2-4297-82b3-6e031e2096f4"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook663395038",
@@ -5417,9 +5417,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-bc346be95a9e4740ad4372bbd336edcd-a3b0678e6b5f1446-00",
+        "traceparent": "00-5848da38fa4b704b83030de9a3f9d209-66f6bc56f0cb1342-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "a458e140f05eff97d9a978c6bfd9d77a",
@@ -5429,7 +5429,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:27 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:51 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5438,7 +5438,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "a458e140f05eff97d9a978c6bfd9d77a",
-        "x-ms-request-id": "ac302425-409b-46db-b70a-04a80f6658a5"
+        "x-ms-request-id": "d1a1e8e3-f705-4624-badb-4cd5672f7f16"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1523732538",
@@ -5470,9 +5470,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-09945a0a46d2564b8c124c21122831f5-0b0cd5d89f4b9e4b-00",
+        "traceparent": "00-880c24cad71b9c41b0d9a7cbe5a80b05-c9d7ae112234ef43-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "641fca1bab722d3f31932e6410dc7cff",
@@ -5482,7 +5482,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:27 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:51 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5491,7 +5491,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "641fca1bab722d3f31932e6410dc7cff",
-        "x-ms-request-id": "50cb57be-5fa5-4508-b8cc-1c15c355c18f"
+        "x-ms-request-id": "44bc43ce-6449-4649-bd34-b10f4f9df624"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook503290111",
@@ -5523,9 +5523,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6a4a47342eccad4ba7a89178b80a1227-822d90d1efda5543-00",
+        "traceparent": "00-52fedc7b4405874297fce1958b936df1-6fcfb8714cc2974a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "668933cc8dddc5ef7ad037acdab4d191",
@@ -5535,7 +5535,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:27 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:51 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5544,7 +5544,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "668933cc8dddc5ef7ad037acdab4d191",
-        "x-ms-request-id": "69e1d5a1-0b09-42b0-b61b-78468590c71b"
+        "x-ms-request-id": "3a90f16a-0f47-48ba-8a09-0744475a86fb"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2049484071",
@@ -5576,9 +5576,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-5aa0069bb6569349b577dbe7c0543067-a2f2d1183ef42e42-00",
+        "traceparent": "00-f31afac2a5bb514c8b1d34327b6cf8c8-8a4a64d126d5b943-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "2fb8019c8a2b9475a12b72cac232eefc",
@@ -5588,7 +5588,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:28 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:51 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5597,7 +5597,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "2fb8019c8a2b9475a12b72cac232eefc",
-        "x-ms-request-id": "16bc78e1-a800-49e3-8632-783dc8c8ce99"
+        "x-ms-request-id": "75389be6-4f59-4cbe-bc57-a5af4be9ed43"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook814493065",
@@ -5629,9 +5629,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f6bf086b36eeeb4f9fe32450f71728e0-21d900b494ffd34d-00",
+        "traceparent": "00-d8c920dc3506644ea1657d43fb12cb1e-cbca873a246c884a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "8cfa792c714f8d9cda5ae9a17392537d",
@@ -5641,7 +5641,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:28 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:51 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5650,7 +5650,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "8cfa792c714f8d9cda5ae9a17392537d",
-        "x-ms-request-id": "1f67824e-3b97-4594-b7aa-ae010d1f63dc"
+        "x-ms-request-id": "7f54beeb-7796-4db1-ba50-523139d6662d"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook303835151",
@@ -5682,9 +5682,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7d1aeae6bfd2fd44b0bf89bbaa05fe2e-bd63c46fd913174b-00",
+        "traceparent": "00-2c76f3c2316d9d4c9c4fca7f96c49842-b18a563b7e83084b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "0fc89cc14d2441d4bef4c4b21b240347",
@@ -5694,7 +5694,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:28 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:52 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5703,7 +5703,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "0fc89cc14d2441d4bef4c4b21b240347",
-        "x-ms-request-id": "ac6d8e21-e840-471e-a035-a95dfcd79d4f"
+        "x-ms-request-id": "6c1c402d-cb53-4bfa-801c-9dc85dcbc939"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook140022211",
@@ -5735,9 +5735,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e24632152946834287272f5d1dc2c4e9-9ddb264232306e4f-00",
+        "traceparent": "00-d760ec33cd46c94b9bf791827580ba5a-7709269e4759684e-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "617f3be245b92b41642b55d1a1d3200f",
@@ -5747,7 +5747,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:28 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:52 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5756,7 +5756,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "617f3be245b92b41642b55d1a1d3200f",
-        "x-ms-request-id": "dac55e7c-e6b6-4d6d-840b-d83d10d706e4"
+        "x-ms-request-id": "7d24f505-dd9e-4b5a-be81-9163f62cfe21"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1858151255",
@@ -5788,9 +5788,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-753805c7fc535d4a98059d9ec07fec91-f57f3547f4d21048-00",
+        "traceparent": "00-2e2fe791aa6bab4f81e353b79e87e2db-0b1130d9a1c4d24e-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "2508f4d7de6adfd8a5b8ce5aacea71b5",
@@ -5800,7 +5800,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:28 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:52 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5809,7 +5809,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "2508f4d7de6adfd8a5b8ce5aacea71b5",
-        "x-ms-request-id": "1d26c774-cd53-4906-ae37-9cf543b4d99b"
+        "x-ms-request-id": "2a32b5a2-f3db-4082-8f52-43f29fdd0a2e"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1475602166",
@@ -5841,9 +5841,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f211781b705dd84ca3bde8037c4287d1-0fcbd5419c53184b-00",
+        "traceparent": "00-bb726974493a344582015d0201699cec-d25cd9b32a56b141-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "38bfa257f2137cc35b9dabf8f803a0eb",
@@ -5853,7 +5853,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:29 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:52 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5862,7 +5862,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "38bfa257f2137cc35b9dabf8f803a0eb",
-        "x-ms-request-id": "34a01e50-c455-44b1-9e75-9bc28bd0cdbc"
+        "x-ms-request-id": "1d4d532b-e6ef-4a9c-827d-011387e958bd"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1648685834",
@@ -5894,9 +5894,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6a1eeb67c346a04fbce084f442adb2ad-dcb296d9c330a544-00",
+        "traceparent": "00-1170a1d6eb83684294080c0611df6637-fdc769a5e48a1448-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "27dab5d4dd1c03dc629fbb0177e67e7a",
@@ -5906,7 +5906,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:29 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:53 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5915,7 +5915,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "27dab5d4dd1c03dc629fbb0177e67e7a",
-        "x-ms-request-id": "64aac6ea-58fd-4f50-a90f-47a9e090ac55"
+        "x-ms-request-id": "d82a67d6-ed26-401d-8dd5-1f0a68b17887"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1465462531",
@@ -5947,9 +5947,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2c9ed68a65ea4c42bd2b33413e7fe413-9345c97ca0dd0446-00",
+        "traceparent": "00-87977667ac08444985c00806d4288a6b-6abb1368542bd242-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "fe7a9fb9e813e5fb308ccacd33dfe7a2",
@@ -5959,7 +5959,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:29 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:53 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -5968,7 +5968,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "fe7a9fb9e813e5fb308ccacd33dfe7a2",
-        "x-ms-request-id": "f72e4a99-f3cd-4315-859c-20a92d802bdf"
+        "x-ms-request-id": "004e0829-a587-4ede-8529-1700465646ea"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1324750336",
@@ -6000,9 +6000,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0301ef360bb6934eaff43d6ec1956d6a-b47cc59a1d40c340-00",
+        "traceparent": "00-66aae89848adf14698650445b4d160bd-f4a7ccdf56d01145-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "f686e3184a0f7999c6bcd57336c20474",
@@ -6012,7 +6012,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:29 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:53 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6021,7 +6021,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "f686e3184a0f7999c6bcd57336c20474",
-        "x-ms-request-id": "5c38cca0-59b6-4c0e-861a-4495af354c86"
+        "x-ms-request-id": "c0e5139e-26eb-4155-b35c-7481660394f0"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1321525518",
@@ -6053,9 +6053,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e380d13afa393e478381a76eab0aade5-92642539e7fc534c-00",
+        "traceparent": "00-3521ea0657714046b67014a9b2c9067a-f8bcc8f84c379144-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "583f311ea188ebd7baf5f68f130fcf83",
@@ -6065,7 +6065,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:29 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:53 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6074,7 +6074,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "583f311ea188ebd7baf5f68f130fcf83",
-        "x-ms-request-id": "27437f84-614e-45a1-bdd5-11ef3cb03b45"
+        "x-ms-request-id": "976ab2a8-a51b-45ec-82d2-29b915944fb7"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook959845833",
@@ -6106,9 +6106,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-80b9cf7acfd762498232698423a07de4-a2cf2b594ca49b49-00",
+        "traceparent": "00-eb78eaf7109e7a4ebf9d9e0f99736501-39ada044a77b4a42-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "94e819b8885f6e6b050038561287ae6d",
@@ -6118,7 +6118,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:30 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:53 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6127,7 +6127,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "94e819b8885f6e6b050038561287ae6d",
-        "x-ms-request-id": "0d3d83fa-9714-4739-878c-e09baabbbb7f"
+        "x-ms-request-id": "676b7736-943d-4e90-94b5-9ca0e8bb6139"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook881083414",
@@ -6159,9 +6159,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-649c1855c4d56f41b040c63fc5ce06ad-df5338af69d36045-00",
+        "traceparent": "00-33ed8b1f23562d4e8af5160fd6ef070a-6c86731dfa42374f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "02af55878ea076190b9b3c19540a65b7",
@@ -6171,7 +6171,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:30 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:54 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6180,7 +6180,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "02af55878ea076190b9b3c19540a65b7",
-        "x-ms-request-id": "107f407c-2e91-4906-b3bc-78e375edaf2e"
+        "x-ms-request-id": "e2dc20f0-02ed-495a-a4d2-04e9ee5e0eca"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook916866820",
@@ -6212,9 +6212,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-44fe71afa8a0a443b898cd33411fc04d-498e89cdbd44a249-00",
+        "traceparent": "00-898ae5cbb35dc647b9ed93a33ae401ff-b48caa5060756d4c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "1cbb52ec70da9514c5d053886980d832",
@@ -6224,7 +6224,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:30 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:54 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6233,7 +6233,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "1cbb52ec70da9514c5d053886980d832",
-        "x-ms-request-id": "5d36a1c1-385c-440d-b72e-d28f329d802e"
+        "x-ms-request-id": "f03afaa1-a8e1-4525-847e-d6d66ba3fbcc"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1937416381",
@@ -6265,9 +6265,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e0b15206a7871541b0d59bf570f2799b-a1e8ed0cf66d5f4b-00",
+        "traceparent": "00-a48cf990551b9242829cd9370c59e8cc-43a49659d7650b40-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "bd078846cd5f29e2007289c44c511afb",
@@ -6277,7 +6277,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:30 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:54 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6286,7 +6286,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "bd078846cd5f29e2007289c44c511afb",
-        "x-ms-request-id": "c4011dc1-c14b-49de-b136-37fcc18a1515"
+        "x-ms-request-id": "55219d19-cd65-427e-b8cd-517fee7019a4"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook948731996",
@@ -6318,9 +6318,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-93634c5fa9effd4981f9879facaab979-c9d61e587becb54b-00",
+        "traceparent": "00-b8114ac092ee4541aa32c4cb03c1569a-49c8d3371552e345-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c06a819a92cc179340193ccf3b900c8a",
@@ -6330,7 +6330,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:31 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:54 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6339,7 +6339,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c06a819a92cc179340193ccf3b900c8a",
-        "x-ms-request-id": "81073728-5883-47f4-9c84-d5de5b375b45"
+        "x-ms-request-id": "8c1247f3-3cdd-42db-821f-7bc58b737624"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1354233639",
@@ -6371,9 +6371,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-77caa47020c90e418a117ff8e7904883-8b143bc848faef48-00",
+        "traceparent": "00-5ca145b5209de84784c24a403eb2d2a0-0822a76eace2004c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "cbd209c2a8021e576f911c67e74f4974",
@@ -6383,7 +6383,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:31 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:55 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6392,7 +6392,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "cbd209c2a8021e576f911c67e74f4974",
-        "x-ms-request-id": "568f99d5-77aa-4fd5-ad1e-40944e690f98"
+        "x-ms-request-id": "23f4fade-defa-45c6-8edf-d1ddc4c8d40c"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1684312522",
@@ -6424,9 +6424,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-075092e383b6174894ecfd4bf9620957-81ebc652bc9b024d-00",
+        "traceparent": "00-6efc6be650f7a647923f14598e829ec0-a068f40cb59dd046-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "e8ed57b61816b466f5f07d469013ee6f",
@@ -6436,7 +6436,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:31 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:55 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6445,7 +6445,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "e8ed57b61816b466f5f07d469013ee6f",
-        "x-ms-request-id": "9a61e0b1-a1e1-45ba-90a6-878a0de2be6a"
+        "x-ms-request-id": "2fcf4d6d-b7f0-4399-a01e-6735a9c8cfb8"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1951782986",
@@ -6477,9 +6477,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-c54a871ae6bcc24388156aca19b378d1-4e7620c9d9d87540-00",
+        "traceparent": "00-75e17d0774ac944ba002f9986dfd8809-81daac8c2dc8ec45-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "4202fe654f7ef2f8294b503a752b2ff0",
@@ -6489,7 +6489,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:33 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:55 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6498,7 +6498,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "4202fe654f7ef2f8294b503a752b2ff0",
-        "x-ms-request-id": "fc0fa609-a952-4121-8054-66bb234c517b"
+        "x-ms-request-id": "24981eed-06fb-4230-987c-d67e44466ed5"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1394878024",
@@ -6530,9 +6530,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-26f6cd1228831d44bfbe4a50fa420918-0a394e63ff53044b-00",
+        "traceparent": "00-ce0ec2471df2244f871367ffe49473db-bc237ace7054a44c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "e319c8cf24a3a974a21ed5122a118e5c",
@@ -6542,7 +6542,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:33 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:55 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6551,7 +6551,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "e319c8cf24a3a974a21ed5122a118e5c",
-        "x-ms-request-id": "83239b39-3ed5-4891-9fc0-0c8a9f93eeb3"
+        "x-ms-request-id": "96e3baf7-0ac2-4549-be49-b9384a207352"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2015798398",
@@ -6583,9 +6583,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-3bef512b955307498358906faf8496a7-ce356d9bd5023146-00",
+        "traceparent": "00-eabc40fbd9007f43ba5f8176e7700960-25184d484f184b41-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "e802aca2064d67f55efabecac82c3ec9",
@@ -6595,7 +6595,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:33 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:56 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6604,7 +6604,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "e802aca2064d67f55efabecac82c3ec9",
-        "x-ms-request-id": "4753861f-8fd8-4e27-84e7-d9adb5d2c0c0"
+        "x-ms-request-id": "5a3ef5a9-f041-4e61-bd59-8dd3e84c39f7"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook312294723",
@@ -6636,9 +6636,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-41f73b778b041745ad38770022b3a667-e038581870e2c749-00",
+        "traceparent": "00-cc228ae39fa0c447a00b47bcffc3e77c-a915d9cd33876d4a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c8768cc00bfa40cc8a589f6079e6c718",
@@ -6648,7 +6648,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:34 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:56 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6657,7 +6657,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c8768cc00bfa40cc8a589f6079e6c718",
-        "x-ms-request-id": "9f2527f9-24af-43b5-95bf-04ae914c1cb5"
+        "x-ms-request-id": "359ce7cb-70cf-4538-a733-16691b2c7829"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook96181799",
@@ -6689,9 +6689,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-e5c707b74e322547962a06dac3529cba-1507fc343bc56b4f-00",
+        "traceparent": "00-bc1f7fc4b91d424cb6ba8d94310483a4-bc9f4d465ff7ba43-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c997f4bd4629c9a3d3b184a866a9e176",
@@ -6701,7 +6701,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:34 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:56 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6710,7 +6710,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c997f4bd4629c9a3d3b184a866a9e176",
-        "x-ms-request-id": "97ab7a3b-69bd-4084-bacf-8165653d7852"
+        "x-ms-request-id": "15bb02b2-c476-4658-a0f2-cde860800c8b"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1738469849",
@@ -6742,9 +6742,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-30a1fa36c91e2648adea8266a887a3b4-ebaf101bcd9d3d43-00",
+        "traceparent": "00-faf7eaaa8b83554c98e59972e2e6255d-7983ca5c04caea4c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "9e520bdfc59a9762e0c15ef46794ed78",
@@ -6754,7 +6754,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:34 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:56 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6763,7 +6763,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "9e520bdfc59a9762e0c15ef46794ed78",
-        "x-ms-request-id": "38615955-9700-4a08-9f5b-6e807c49bcce"
+        "x-ms-request-id": "7e6530cc-fe80-4d95-b164-d0594543e1cb"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook721018453",
@@ -6795,9 +6795,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-142dffee37ae3147a61a531170442225-1e8a66e41d296346-00",
+        "traceparent": "00-d088547479236c469412201a43359932-58a2041d10e36248-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "d40da533759479a0e8adf5488624dae1",
@@ -6807,7 +6807,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:34 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:56 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6816,7 +6816,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "d40da533759479a0e8adf5488624dae1",
-        "x-ms-request-id": "5661cd43-c4b4-47fe-a0a0-14d105b85c40"
+        "x-ms-request-id": "8b2510a8-8c94-4d75-a50d-b5d8172f03d4"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook56403818",
@@ -6848,9 +6848,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7a3e7c85b802d346a5c5ec17443cd913-e14dbc853ebaa845-00",
+        "traceparent": "00-aaa6afaca06a9440b6f459a63619b303-2a9e4dfe61a5e845-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "6d8029772994f77d9100e867e8ae613e",
@@ -6860,7 +6860,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:35 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:57 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6869,7 +6869,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "6d8029772994f77d9100e867e8ae613e",
-        "x-ms-request-id": "c963b128-ff22-42d9-ae23-bb2c9c214667"
+        "x-ms-request-id": "09b840b3-a921-441e-93ad-f0b783694a11"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1072630194",
@@ -6901,9 +6901,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-bff862bf181b584fb418e7fb8618d3fc-6a3e6937b4fc4548-00",
+        "traceparent": "00-841ac83dc08cd94196cad08c1e813041-d020ed6ca79d3642-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c0750bc40d9b69e26ad8b5edd01910bc",
@@ -6913,7 +6913,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:35 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:57 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6922,7 +6922,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c0750bc40d9b69e26ad8b5edd01910bc",
-        "x-ms-request-id": "db503f7c-ce1f-4b67-a601-fdbc1dc1eaa9"
+        "x-ms-request-id": "2c9daba7-8b44-40e1-b724-32e9b8fb8e00"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook779301290",
@@ -6954,9 +6954,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6535fcc8a8c3574296b4f401abf77948-bf4c95e1e973e44f-00",
+        "traceparent": "00-19528e96c20c95498fac56cd09cfeb6e-b880688ca36bac40-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "3d7c7ce67f140ae4271542948d39903a",
@@ -6966,7 +6966,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:35 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:59 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -6975,7 +6975,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "3d7c7ce67f140ae4271542948d39903a",
-        "x-ms-request-id": "5488b555-1c8f-471e-8444-90ee70c16435"
+        "x-ms-request-id": "7c3dcfb3-c9b3-4456-973a-4441e3934a57"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook972141614",
@@ -7007,9 +7007,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1fe30275fdcb0f4d9bb734a181be7622-9880852f191e174f-00",
+        "traceparent": "00-8778a904898bb244b8623f1329a321ca-a2e7f92ec0e3d04c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "7b84b74b1aaf6a45471603bb73902778",
@@ -7019,7 +7019,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:35 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:59 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7028,7 +7028,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "7b84b74b1aaf6a45471603bb73902778",
-        "x-ms-request-id": "94ca19e9-fddf-435c-8ded-62cbab235883"
+        "x-ms-request-id": "a2178e73-151c-4275-b96d-3c42da67aec1"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1413336542",
@@ -7060,9 +7060,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-1bc4bdd907c9114589f920f550943315-ecbc481d5b513b4f-00",
+        "traceparent": "00-4bd6165feaad434faef7be5ffcee7a4f-669bd0c2d2305940-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "6c802cef2431442a276a9886cb4edc31",
@@ -7072,7 +7072,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:35 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:59 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7081,7 +7081,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "6c802cef2431442a276a9886cb4edc31",
-        "x-ms-request-id": "725942c2-71ae-4edc-a044-924fc76623fb"
+        "x-ms-request-id": "960e5400-16ad-479d-a6fc-d0936eb53ad7"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1398489324",
@@ -7113,9 +7113,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-553551f2d41ef14baa805fa944188495-1e0e7fbe423f4249-00",
+        "traceparent": "00-4d3cc7dc6411f94592f98dbdf9f44be0-66a55e8e36ab8c4f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "19a27b479595cc0d3712f6fd7c289697",
@@ -7125,7 +7125,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:35 GMT",
+        "Date": "Tue, 19 Jan 2021 17:38:59 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7134,7 +7134,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "19a27b479595cc0d3712f6fd7c289697",
-        "x-ms-request-id": "532d5b24-5cce-42e4-95a7-8c2ac70cc17f"
+        "x-ms-request-id": "1f3ebaa5-b5b2-445f-b9ef-4c6596b472d0"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook389141035",
@@ -7166,9 +7166,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-9df85c5661511f448aaee25bb1042ac2-429fe737fc133e4b-00",
+        "traceparent": "00-d61bb3b855d97c4d93cf95ffb3e57b71-6dcf0793dc4e1f48-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "60a4caee24b827088c3f534482bf9ff9",
@@ -7178,7 +7178,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:36 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:00 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7187,7 +7187,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "60a4caee24b827088c3f534482bf9ff9",
-        "x-ms-request-id": "36eefe9e-1898-4ab2-afc0-e2a9236d7572"
+        "x-ms-request-id": "59061601-9244-4d32-86c1-a0d9a10eca22"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1650327112",
@@ -7219,9 +7219,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-088299adf0f3f7479711348277b14d0a-4f22a7099633fd49-00",
+        "traceparent": "00-b1492b6f01c6844987f91ffc1601f2c0-00ed58cc0a387b4d-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "f774d13a0eed5ae21eb4351f2d2dc7fe",
@@ -7231,7 +7231,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:36 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:00 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7240,7 +7240,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "f774d13a0eed5ae21eb4351f2d2dc7fe",
-        "x-ms-request-id": "61afdb1e-181a-4139-b465-682bea7ef1e4"
+        "x-ms-request-id": "3276c3d2-6128-444c-877b-40348183ff23"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1212269171",
@@ -7272,9 +7272,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-fb9a01bbc6c8854ca5dde10e8d2d57b3-301464dbf8a2f848-00",
+        "traceparent": "00-40ea218f07c357438785de6e69a8c11b-aa563ac7ef850543-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "009700d47ba92279737a8c5541c94a77",
@@ -7284,7 +7284,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:36 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:00 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7293,7 +7293,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "009700d47ba92279737a8c5541c94a77",
-        "x-ms-request-id": "96fe6e8f-831b-4c6a-bc2a-048b349b88f3"
+        "x-ms-request-id": "3588cd29-b36e-4e64-9b11-df2b51d030cd"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1101304862",
@@ -7325,9 +7325,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-d7729a1895f6554fa426b80c61082e12-4437df80951d9146-00",
+        "traceparent": "00-b3327b5d1bca554d9cc35271b123d041-3c7591fbb5ce1842-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "abc2fd729fb4e0a9e7494103efe8fa5f",
@@ -7337,7 +7337,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:36 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:01 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7346,7 +7346,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "abc2fd729fb4e0a9e7494103efe8fa5f",
-        "x-ms-request-id": "d99f2e38-c578-463f-9dbc-3e54b190640a"
+        "x-ms-request-id": "f5451d2c-8c69-452e-a4fb-b24e741cbe68"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook201258263",
@@ -7378,9 +7378,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-021e5aee19052c408811160c4b6a08ae-7874dc35d07b6b48-00",
+        "traceparent": "00-ee11b8d37466ca4687e8df2cca40d79d-17217c1581e4c84a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "817054789e27be4f58518372828c1855",
@@ -7390,7 +7390,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:36 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:01 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7399,7 +7399,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "817054789e27be4f58518372828c1855",
-        "x-ms-request-id": "ad30259a-3e28-4204-ba03-b10c7ec4224c"
+        "x-ms-request-id": "1d726986-18b0-48f7-872a-8755224c2d25"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook766215414",
@@ -7431,9 +7431,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-64b079ace7d9c048b4ea102714700f47-fefdac5668154c4d-00",
+        "traceparent": "00-2cc58a940b71ed4f9e46075788b0e3ea-dd4a9bc16ba38a4d-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "2facbd6a1c6a344a57b719603a75338a",
@@ -7443,7 +7443,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:37 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:01 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7452,7 +7452,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "2facbd6a1c6a344a57b719603a75338a",
-        "x-ms-request-id": "727fa871-9739-4f46-99ab-ea4cfe222c23"
+        "x-ms-request-id": "ad6cc46b-6e7f-4c89-96a2-41db2b13280b"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1067074944",
@@ -7484,9 +7484,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-fbabd6b514c76c48a394828d1e951ca1-27a25d575ddc724b-00",
+        "traceparent": "00-323f0b492c9d6a45ae9a071998c505c2-db41625207c7004f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "eddd2c80c859d44fae0452631b365e5b",
@@ -7496,7 +7496,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:37 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:01 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7505,7 +7505,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "eddd2c80c859d44fae0452631b365e5b",
-        "x-ms-request-id": "fdf4ca71-e8bf-4dc2-b6ef-f98e2a5493f6"
+        "x-ms-request-id": "02c125d8-2d5a-4a37-bf71-90ac374c2185"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1308863453",
@@ -7537,9 +7537,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-40bba64bed371b488283957c04284bb1-3943bfa43cc02f4c-00",
+        "traceparent": "00-51beedbabec85146a28e3674ac27cef2-634d801b370dac48-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "3198ec31ca3c5bf50a3b2a7085ef84e3",
@@ -7549,7 +7549,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:37 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:01 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7558,7 +7558,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "3198ec31ca3c5bf50a3b2a7085ef84e3",
-        "x-ms-request-id": "699c2574-6d1c-4c62-adb4-b29e3680577f"
+        "x-ms-request-id": "e4b14bc8-dc13-4080-a031-7dc298ae1457"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1160758455",
@@ -7590,9 +7590,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6920865837e2cf4b940b622fee0da9e1-09f141f2ed5a0a49-00",
+        "traceparent": "00-741e5994e707f749a9619e320ed8c0b0-0f1946e6bf3eea4c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "55f2f81d2bafa1fc6ed88165c9e61820",
@@ -7602,7 +7602,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:37 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:02 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7611,7 +7611,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "55f2f81d2bafa1fc6ed88165c9e61820",
-        "x-ms-request-id": "3e9bb86c-fee5-4645-b503-308fa4ac6116"
+        "x-ms-request-id": "7dda52d1-5de7-464e-a8f0-b05f20961200"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1117942749",
@@ -7643,9 +7643,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-89cb3f6e368d1541afa69508809de725-5a799f7b008d0c45-00",
+        "traceparent": "00-3904a32e81279047825326ca6b39d168-190868d3db2bd14f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "4d2ebe5901dcb64e3681e21d9ede4fbf",
@@ -7655,7 +7655,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:38 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:02 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -7664,7 +7664,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "4d2ebe5901dcb64e3681e21d9ede4fbf",
-        "x-ms-request-id": "3c264432-b330-4668-b2ae-f2611659e3d2"
+        "x-ms-request-id": "b40f0d95-206d-4959-9604-f06e0e23b5a5"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1218638232",
@@ -7696,9 +7696,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6a7c5a2cd3ef154ea795e87fe41c0510-e7e60c2d5fc55a4e-00",
+        "traceparent": "00-479422dd4a2f0c41ba0dc4199ed95615-253d97977b59d34c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "22456f80084406abeff6c36349909223",
@@ -7709,11 +7709,11 @@
       "ResponseHeaders": {
         "Content-Length": "13141",
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:38 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:02 GMT",
         "Server": "Microsoft-HTTPAPI/2.0",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
         "x-ms-client-request-id": "22456f80084406abeff6c36349909223",
-        "x-ms-request-id": "c9b8a5ac-e608-45dd-a8c8-c68ec94439e7"
+        "x-ms-request-id": "e7c32420-fcba-4938-b66d-7d770ef7dedb"
       },
       "ResponseBody": {
         "value": [
@@ -8227,7 +8227,7 @@
             "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook410522585",
             "name": "Notebook410522585",
             "type": "Microsoft.Synapse/workspaces/notebooks",
-            "etag": "c907873a-0000-0800-0000-6001c6ae0000",
+            "etag": "d90764b1-0000-0800-0000-6001dc860000",
             "properties": {
               "nbformat": 4,
               "nbformat_minor": 2,
@@ -8255,9 +8255,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-36a88749ca74464cad82c88d2b699f37-af93fda57c48804a-00",
+        "traceparent": "00-c67b4e7669252a4e992722bf76a7e5b0-1453595ac8a55941-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c617092236c01c06aa3b1f2d48de038f",
@@ -8267,7 +8267,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:38 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:02 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8276,7 +8276,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c617092236c01c06aa3b1f2d48de038f",
-        "x-ms-request-id": "90e957c8-2546-41fc-af8f-4dafc0dadaa3"
+        "x-ms-request-id": "ba6044f9-dab5-4c9d-8e4a-2fa827ad47b8"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1203127906",
@@ -8308,9 +8308,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-48af924479d39d4ab69cd572c3c9361e-e97b6ef3a4a9a14f-00",
+        "traceparent": "00-6fce0e96ca733145a4dbcde275718403-dd7ac6544e1e4745-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "59e4c288f6a150db12285ee53dea6da6",
@@ -8320,7 +8320,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:38 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:03 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8329,7 +8329,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "59e4c288f6a150db12285ee53dea6da6",
-        "x-ms-request-id": "e18037d7-d6e0-4a17-9646-5ce85ee71e27"
+        "x-ms-request-id": "81147974-f957-4e53-82de-717941705ea8"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook500281749",
@@ -8361,9 +8361,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-84655b7f2c556244b10a2132a9245963-d392a627b65b0a47-00",
+        "traceparent": "00-a2b236b77b7520459cf015a31deabf55-0933af2a0880804f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "94fbbfef88c74afe69297809e97ebd11",
@@ -8373,7 +8373,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:38 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:03 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8382,7 +8382,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "94fbbfef88c74afe69297809e97ebd11",
-        "x-ms-request-id": "e3a77f04-dce8-47b7-8a05-7455c664b90a"
+        "x-ms-request-id": "2e069dd2-189a-444f-9102-ae93c1c37d26"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook754630834",
@@ -8414,9 +8414,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a6fce3a032994241ac8226d4d2569231-1f6a96bdf33c9943-00",
+        "traceparent": "00-a0ba757956025146a31ed4d21ffc05d9-fff77948381abb40-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "86db34f338ab2c822ec6b497d820debf",
@@ -8426,7 +8426,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:39 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:03 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8435,7 +8435,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "86db34f338ab2c822ec6b497d820debf",
-        "x-ms-request-id": "f668f67c-bcf8-45e5-857c-d72885ebb483"
+        "x-ms-request-id": "c1cad6b3-b1fa-4d23-921a-999b224aca46"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook642331279",
@@ -8467,9 +8467,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-f941685ece76ae4e90002c8aeb68cc03-f59aaa37f0de0548-00",
+        "traceparent": "00-81bc86d0428da9499f73fdfa4d5db1fd-f58dda5e76bbb440-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "893e78ce6ee300c7c39af0777dd26794",
@@ -8479,7 +8479,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:39 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:03 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8488,7 +8488,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "893e78ce6ee300c7c39af0777dd26794",
-        "x-ms-request-id": "517179d9-fe54-4acf-b94c-91da5188862c"
+        "x-ms-request-id": "f5c1f404-7987-40b9-af77-f10d6415a5a4"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1333753034",
@@ -8520,9 +8520,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-0005c872cc52a441bf1a76aac00af5e1-e0f07cd772f71e4e-00",
+        "traceparent": "00-643a58fc6a89a54bbe1b2e0fea504dfc-455b5a92528f6b4c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "09f24c6be60fb6fa3ccf6601d3667248",
@@ -8532,7 +8532,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:39 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:04 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8541,7 +8541,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "09f24c6be60fb6fa3ccf6601d3667248",
-        "x-ms-request-id": "9cbf7503-9c5b-430b-8748-7c607934f150"
+        "x-ms-request-id": "419f40bc-7b4e-4de0-b34d-b3232f0b000b"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook865145813",
@@ -8573,9 +8573,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-672cd1008f7e2f4082c520551d485b2f-9181e6965a7add47-00",
+        "traceparent": "00-cbe5b2d5c7ee83408d33b985e6fc04ee-24a6c9308a7ecd47-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "703bb94a333f852d6cdac311470aae5c",
@@ -8585,7 +8585,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:39 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:04 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8594,7 +8594,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "703bb94a333f852d6cdac311470aae5c",
-        "x-ms-request-id": "1290e5a0-7616-4778-8131-979f3141612d"
+        "x-ms-request-id": "8fe45532-64dd-4f2f-b245-14d9b83860f9"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook708684366",
@@ -8626,9 +8626,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-84751241c8895e44a30a331404f27892-d92a39ebb0fcc549-00",
+        "traceparent": "00-a0aaeb707c01674aacca2ccc7aff7763-6939fbdaf1d21a48-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "8b2c205ed42ee7af7d874c1408c62d5d",
@@ -8638,7 +8638,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:40 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:04 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8647,7 +8647,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "8b2c205ed42ee7af7d874c1408c62d5d",
-        "x-ms-request-id": "5ff60506-b4c0-4556-bcf4-ea623f27a51e"
+        "x-ms-request-id": "be86388e-bea3-4cb9-952d-3ef803dbf589"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook679439297",
@@ -8679,9 +8679,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-553bb15f746756488b731fb6fd274b32-43db740f070e5743-00",
+        "traceparent": "00-21d9cfbf8bd6584a9635473acea98075-934560b6b27de04b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "c42da828f69737541f6d9d3523e96f32",
@@ -8691,7 +8691,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:40 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:05 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8700,7 +8700,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "c42da828f69737541f6d9d3523e96f32",
-        "x-ms-request-id": "381e0aa0-f4bf-498e-9c84-9fa29a465b30"
+        "x-ms-request-id": "c6cfcbcc-e07b-40c3-b40e-8ae23966b9bb"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1932813353",
@@ -8732,9 +8732,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a15f406ed476fa45af6745516d4b0734-41b56a0a47030745-00",
+        "traceparent": "00-bc3d55201706d24abfcd35845790093a-61fc7bfca026a541-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "b3a20920e63976190953f2b8e7197da5",
@@ -8744,7 +8744,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:40 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:05 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8753,7 +8753,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "b3a20920e63976190953f2b8e7197da5",
-        "x-ms-request-id": "dbb24bd3-fa66-448d-b070-2dc4b51454c4"
+        "x-ms-request-id": "e5f6a391-bd37-4585-aad6-6d5616ff2ef3"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook856832754",
@@ -8785,9 +8785,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-64c26657aeaf3543a08f151762dea76a-966b6324644ee74b-00",
+        "traceparent": "00-9f5f89bd44a89244a24a56c09410f8fd-f960a41a6dec254e-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "9ee865ade9dd67c5ccf56bc1377ac494",
@@ -8797,7 +8797,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:40 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:05 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8806,7 +8806,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "9ee865ade9dd67c5ccf56bc1377ac494",
-        "x-ms-request-id": "e30bc9c1-97e7-4352-93ed-646fd9e30a48"
+        "x-ms-request-id": "2101c3ae-3f26-48a0-9b51-e25228ac92a2"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1790751747",
@@ -8838,9 +8838,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-62356c1b483aca49868df3ff71207eb2-a425cb52ca88b943-00",
+        "traceparent": "00-b112373dfb698741b27a39bf89e2909f-0fe3560ea95c9a4b-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "fef319187a2441238eb6bb43049b4f06",
@@ -8850,7 +8850,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:40 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:05 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8859,7 +8859,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "fef319187a2441238eb6bb43049b4f06",
-        "x-ms-request-id": "16ac7fce-e814-46f6-b995-47fa7ba3e97a"
+        "x-ms-request-id": "0c4f8145-ed7f-4bd9-ba1b-28c71741dfb5"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1811244433",
@@ -8891,9 +8891,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8da3c53908644d4cba476d7e85299ecb-e87c3c1f97a27248-00",
+        "traceparent": "00-a26ded72a402e94197353770a20e2649-b7e153f9fdabbc48-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "bd88f7f0d0013755443ae6447b583f8f",
@@ -8903,7 +8903,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:41 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:06 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8912,7 +8912,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "bd88f7f0d0013755443ae6447b583f8f",
-        "x-ms-request-id": "744dc95d-b0a4-426e-9240-183c9f9a711a"
+        "x-ms-request-id": "2fcf50ba-6ed9-45bf-8eaf-c3f6608f6b30"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook226052528",
@@ -8944,9 +8944,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-8ff37258c7970e4fa82b2cd39566cbcc-aa14ebaf43da814f-00",
+        "traceparent": "00-e69b6d5c1637b44fb6cb1e33b1e932d5-9b32810ae7e2a844-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "cd9f5e8f7e25338142a710262d816330",
@@ -8956,7 +8956,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:41 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:06 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -8965,7 +8965,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "cd9f5e8f7e25338142a710262d816330",
-        "x-ms-request-id": "426485ae-f349-4525-b007-c4686d16adf2"
+        "x-ms-request-id": "98dc5dcb-a8a9-4017-8567-ee7d37849ddb"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1898451087",
@@ -8997,9 +8997,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-a11e1965961ac8469c25791c76242ba9-fa85a13b020f6741-00",
+        "traceparent": "00-1a7c141ae959bd41b0a1857eb2333333-9a1eb9aee5652448-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "3fd165a506f14892c4bbb9e993dec636",
@@ -9009,7 +9009,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:41 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:06 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9018,7 +9018,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "3fd165a506f14892c4bbb9e993dec636",
-        "x-ms-request-id": "e962edc4-33b5-499e-8003-23f8fa98fc7e"
+        "x-ms-request-id": "969bf969-5b81-4bc2-97ca-5377c1251524"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1153376657",
@@ -9050,9 +9050,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-55847deb87653a48ac5800addd98c810-84c1228114d3a64e-00",
+        "traceparent": "00-764b3976fa629540b21c80da8df0c353-b33ce02e231c924f-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "a5b42c7782fc71e076547b59c02f0ac3",
@@ -9062,7 +9062,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:41 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:06 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9071,7 +9071,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "a5b42c7782fc71e076547b59c02f0ac3",
-        "x-ms-request-id": "f0706a28-9e5d-4b93-a0bf-83774434849b"
+        "x-ms-request-id": "6367bc48-a675-4a8f-856b-daaf7ccb6452"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook912671182",
@@ -9103,9 +9103,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-5a0ca05fc678304cae630995603ff105-c28e23d0e81cab4b-00",
+        "traceparent": "00-a0d5122cc52de842a6e32cca2355a985-1652c14e2d98ec4a-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "159eb5d60087889dcb570969c5979f63",
@@ -9115,7 +9115,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:41 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:06 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9124,7 +9124,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "159eb5d60087889dcb570969c5979f63",
-        "x-ms-request-id": "0656ff73-227d-470d-bd2b-452b2b425f3d"
+        "x-ms-request-id": "56104c9c-0fdd-4122-8ca8-384694298c24"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2123043987",
@@ -9156,9 +9156,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-969278cca46ca54886f050df7626d364-b3813c90dedf894a-00",
+        "traceparent": "00-fd45e65010ec8d4090c5c5c5a5edc451-e5bf6058e6becf4c-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "01aedae0becc2334845fc89c8b398894",
@@ -9168,7 +9168,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:42 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:07 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9177,7 +9177,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "01aedae0becc2334845fc89c8b398894",
-        "x-ms-request-id": "8883bed8-e0fd-4139-b455-22508fc31909"
+        "x-ms-request-id": "32ed774c-18fc-4128-bc95-2d102145f4a0"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook531852650",
@@ -9209,9 +9209,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-204ed30ff9834c40bac5b51ae5e64f61-32a00f3be7946e45-00",
+        "traceparent": "00-4411446e5e1da44d94ea53894679bfaf-7f0477018cc57846-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "dd13f6b1b04077ae8f2cd9a57877abdf",
@@ -9221,7 +9221,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:42 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:07 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9230,7 +9230,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "dd13f6b1b04077ae8f2cd9a57877abdf",
-        "x-ms-request-id": "7c091f94-52eb-4654-8e35-1e7bcf29248f"
+        "x-ms-request-id": "9fc4363b-a687-4878-8eb5-19b82ffe3876"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook1417891841",
@@ -9262,9 +9262,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-6e3fe7a70f984b4eb8a4acbd7c3b3c89-4253da8e16f41f45-00",
+        "traceparent": "00-640484df40749f448600904265c4bf6a-2d9b39596f69ac43-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "e67917b5088018f6817b91273700fd92",
@@ -9274,7 +9274,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:42 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:07 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9283,7 +9283,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "e67917b5088018f6817b91273700fd92",
-        "x-ms-request-id": "631188fa-d55b-46ae-9b7b-dce8df1d50bf"
+        "x-ms-request-id": "140fe22b-23bb-42f0-bac9-140c437ed881"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook493783868",
@@ -9315,9 +9315,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-3634d17546ef844bb50d88b3f44056ff-4017a2bb2ce5ee48-00",
+        "traceparent": "00-9f469b342b094d41959dca2f7a7cedbf-bcefb6e5c504d242-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "cfb774cfc28430232b3672a0e48fab0d",
@@ -9327,7 +9327,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:42 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:07 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9336,7 +9336,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "cfb774cfc28430232b3672a0e48fab0d",
-        "x-ms-request-id": "d219d7c9-e5ae-4523-9534-412f394eb59f"
+        "x-ms-request-id": "ced6b3d7-c7e0-4114-bb37-d16814b43c41"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook2029453227",
@@ -9368,9 +9368,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-7970ddd2d45c3141a971c5c5f4e145cc-e14a554c4e9a024d-00",
+        "traceparent": "00-53753ca598a55c4abcad81fa0f052cb6-547adb4037422f48-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "73e7e9b3a1bfa91400fa5bc41f86408e",
@@ -9380,7 +9380,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:42 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:07 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9389,7 +9389,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "73e7e9b3a1bfa91400fa5bc41f86408e",
-        "x-ms-request-id": "5f405e82-3404-4506-849f-9cdfb8b679d4"
+        "x-ms-request-id": "5d389f48-a174-4281-988b-0256ce76a1be"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook401570095",
@@ -9421,9 +9421,9 @@
       "RequestHeaders": {
         "Accept": "application/json",
         "Authorization": "Sanitized",
-        "traceparent": "00-2a2076600b6c064ebe58d40f87ddb0ae-c2024511d5f1ee40-00",
+        "traceparent": "00-8cc0d4c57e38e34b9180c73f009adf23-f125fa63a1988240-00",
         "User-Agent": [
-          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210115.1",
+          "azsdk-net-Analytics.Synapse.Artifacts/1.0.0-alpha.20210119.1",
           "(.NET 5.0.0; Darwin 19.6.0 Darwin Kernel Version 19.6.0: Tue Nov 10 00:10:30 PST 2020; root:xnu-6153.141.10~1/RELEASE_X86_64)"
         ],
         "x-ms-client-request-id": "03d5472edcbff25bf348ba49965534f2",
@@ -9433,7 +9433,7 @@
       "StatusCode": 200,
       "ResponseHeaders": {
         "Content-Type": "application/json; charset=utf-8",
-        "Date": "Fri, 15 Jan 2021 18:18:43 GMT",
+        "Date": "Tue, 19 Jan 2021 17:39:08 GMT",
         "Request-Context": "appId=",
         "Server": [
           "Kestrel",
@@ -9442,7 +9442,7 @@
         "Strict-Transport-Security": "max-age=2592000",
         "Transfer-Encoding": "chunked",
         "x-ms-client-request-id": "03d5472edcbff25bf348ba49965534f2",
-        "x-ms-request-id": "c778d197-7377-4760-b9ae-b871adbaf65f"
+        "x-ms-request-id": "3c2638bd-c315-4c7e-b4b4-a933af321df9"
       },
       "ResponseBody": {
         "id": "/subscriptions/faa080af-c1d8-40ad-9cce-e1a450ca5b57/resourceGroups/rg-chhamosynapse/providers/Microsoft.Synapse/workspaces/workspacechhamosynapse/notebooks/Notebook410522585",
@@ -9465,7 +9465,7 @@
           "cells": [],
           "folder": null
         },
-        "etag": "c907873a-0000-0800-0000-6001c6ae0000"
+        "etag": "d90764b1-0000-0800-0000-6001dc860000"
       }
     }
   ],
