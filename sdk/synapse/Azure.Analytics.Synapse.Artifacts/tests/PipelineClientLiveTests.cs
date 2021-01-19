@@ -21,36 +21,6 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
     /// </remarks>
     public class PipelineClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
-        internal class DisposablePipeline : IAsyncDisposable
-        {
-            private readonly PipelineClient _client;
-            public PipelineResource Resource;
-
-            private DisposablePipeline (PipelineClient client, PipelineResource resource)
-            {
-                _client = client;
-                Resource = resource;
-            }
-
-            public string Name => Resource.Name;
-
-            public static async ValueTask<DisposablePipeline> Create (PipelineClient client, TestRecording recording) =>
-                new DisposablePipeline (client, await CreateResource(client, recording));
-
-            public static async ValueTask<PipelineResource> CreateResource (PipelineClient client, TestRecording recording)
-            {
-                string pipelineName = recording.GenerateName("Pipeline");
-                PipelineCreateOrUpdatePipelineOperation createOperation = await client.StartCreateOrUpdatePipelineAsync(pipelineName, new PipelineResource());
-                return await createOperation.WaitForCompletionAsync();
-            }
-
-            public async ValueTask DisposeAsync()
-            {
-                PipelineDeletePipelineOperation operation = await _client.StartDeletePipelineAsync (Name);
-                await operation.WaitForCompletionAsync ();
-            }
-        }
-
         public PipelineClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
