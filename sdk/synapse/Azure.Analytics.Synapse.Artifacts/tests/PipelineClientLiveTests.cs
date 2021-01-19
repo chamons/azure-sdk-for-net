@@ -120,5 +120,16 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
             PipelineDeletePipelineOperation operation = await client.StartDeletePipelineAsync (newPipelineName);
             await operation.WaitForCompletionAsync ();
         }
+
+        [Test]
+        public async Task TestPipelineRun()
+        {
+            PipelineClient client = CreateClient();
+
+            await using DisposablePipeline pipeline = await DisposablePipeline.Create (client, this.Recording);
+
+            CreateRunResponse runResponse = await client.CreatePipelineRunAsync (pipeline.Name);
+            Assert.NotNull(runResponse.RunId);
+        }
     }
 }
