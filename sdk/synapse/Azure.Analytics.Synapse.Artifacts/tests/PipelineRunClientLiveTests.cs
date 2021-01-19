@@ -19,6 +19,7 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
     /// These tests have a dependency on live Azure services and may incur costs for the associated
     /// Azure subscription.
     /// </remarks>
+    [Ignore("Blocked on https://github.com/Azure/azure-rest-api-specs/pull/12501")]
     public class PipelineRunClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
         public PipelineRunClientLiveTests(bool isAsync) : base(isAsync)
