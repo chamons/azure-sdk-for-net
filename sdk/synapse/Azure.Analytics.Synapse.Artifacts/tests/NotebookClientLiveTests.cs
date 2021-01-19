@@ -117,7 +117,7 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
             // Non-disposable as we'll rename it underneath (and have to clean up ourselves)
             NotebookResource resource = await DisposableNotebook.CreateResource (client, Recording);
 
-            string newNotebookName = Recording.GenerateName("Notebook");
+            string newNotebookName = Recording.GenerateName("Notebook2");
 
             NotebookRenameNotebookOperation renameOperation = await client.StartRenameNotebookAsync (resource.Name, new ArtifactRenameRequest () { NewName = newNotebookName } );
             await renameOperation.WaitForCompletionAsync ();

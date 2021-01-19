@@ -79,7 +79,7 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
             // Non-disposable as we'll rename it underneath (and have to clean up ourselves)
             PipelineResource resource = await DisposablePipeline.CreateResource (client, Recording);
 
-            string newPipelineName = Recording.GenerateName("Pipeline");
+            string newPipelineName = Recording.GenerateName("Pipeline2");
 
             PipelineRenamePipelineOperation renameOperation = await client.StartRenamePipelineAsync (resource.Name, new ArtifactRenameRequest () { NewName = newPipelineName } );
             await renameOperation.WaitForCompletionAsync ();
