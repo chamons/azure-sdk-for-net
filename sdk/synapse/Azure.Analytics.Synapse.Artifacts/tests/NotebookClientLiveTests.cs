@@ -75,7 +75,12 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
         public async Task TestGetNotebook()
         {
             NotebookClient client = CreateClient ();
-            await foreach (var expectedNotebook in client.GetNotebooksByWorkspaceAsync())
+            await using DisposableNotebook notebook = await DisposableNotebook.Create (client, this.Recording);
+
+            AsyncPageable<NotebookResource> notebooks = client.GetNotebooksByWorkspaceAsync();
+            Assert.GreaterOrEqual((await notebooks.ToListAsync()).Count, 1);
+
+            await foreach (var expectedNotebook in notebooks)
             {
                 NotebookResource actualNotebook = await client.GetNotebookAsync(expectedNotebook.Name);
                 Assert.AreEqual(expectedNotebook.Name, actualNotebook.Name);

@@ -21,6 +21,36 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
     /// </remarks>
     public class PipelineClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
+        internal class DisposablePipeline : IAsyncDisposable
+        {
+            private readonly PipelineClient _client;
+            public PipelineResource Resource;
+
+            private DisposablePipeline (PipelineClient client, PipelineResource resource)
+            {
+                _client = client;
+                Resource = resource;
+            }
+
+            public string Name => Resource.Name;
+
+            public static async ValueTask<DisposablePipeline> Create (PipelineClient client, TestRecording recording) =>
+                new DisposablePipeline (client, await CreateResource(client, recording));
+
+            public static async ValueTask<PipelineResource> CreateResource (PipelineClient client, TestRecording recording)
+            {
+                string pipelineName = recording.GenerateName("Pipeline");
+                PipelineCreateOrUpdatePipelineOperation createOperation = await client.StartCreateOrUpdatePipelineAsync(pipelineName, new PipelineResource());
+                return await createOperation.WaitForCompletionAsync();
+            }
+
+            public async ValueTask DisposeAsync()
+            {
+                PipelineDeletePipelineOperation operation = await _client.StartDeletePipelineAsync (Name);
+                await operation.WaitForCompletionAsync ();
+            }
+        }
+
         public PipelineClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
@@ -38,8 +68,12 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
         public async Task TestGetPipeline()
         {
             PipelineClient client = CreateClient ();
+            await using DisposablePipeline pipeline = await DisposablePipeline.Create (client, this.Recording);
 
-            await foreach (var expectedPipeline in client.GetPipelinesByWorkspaceAsync())
+            AsyncPageable<PipelineResource> pipelines = client.GetPipelinesByWorkspaceAsync();
+            Assert.GreaterOrEqual((await pipelines.ToListAsync()).Count, 1);
+
+            await foreach (var expectedPipeline in pipelines)
             {
                 PipelineResource actualPipeline = await client.GetPipelineAsync(expectedPipeline.Name);
                 Assert.AreEqual(expectedPipeline.Name, actualPipeline.Name);
@@ -48,29 +82,43 @@ namespace Azure.Analytics.Synapse.Artifacts.Tests
         }
 
         [Test]
-        public async Task TestCreatePipeline()
+        public async Task TestDeleteNotebook()
         {
-            PipelineClient client = CreateClient ();
+            PipelineClient client = CreateClient();
 
-            string pipelineName = Recording.GenerateName("Pipeline");
-            PipelineCreateOrUpdatePipelineOperation operation = await client.StartCreateOrUpdatePipelineAsync(pipelineName, new PipelineResource());
-            PipelineResource pipeline = await operation.WaitForCompletionAsync();
-            Assert.AreEqual(pipelineName, pipeline.Name);
+            // Non-disposable as we'll be deleting it ourselves
+            PipelineResource resource = await DisposablePipeline.CreateResource (client, this.Recording);
+
+            PipelineDeletePipelineOperation operation = await client.StartDeletePipelineAsync (resource.Name);
+            Response response = await operation.WaitForCompletionAsync ();
+            switch (response.Status) {
+                case 200:
+                case 204:
+                    break;
+                default:
+                    Assert.Fail($"Unexpected status ${response.Status} returned");
+                    break;
+            }
         }
 
         [Test]
-        public async Task TestDeletePipeline()
+        public async Task TestRenameLinkedService()
         {
-            PipelineClient client = CreateClient ();
+            PipelineClient client = CreateClient();
 
-            string pipelineName = Recording.GenerateName("Pipeline");
+            // Non-disposable as we'll rename it underneath (and have to clean up ourselves)
+            PipelineResource resource = await DisposablePipeline.CreateResource (client, Recording);
 
-            PipelineCreateOrUpdatePipelineOperation createOperation = await client.StartCreateOrUpdatePipelineAsync(pipelineName, new PipelineResource());
-            await createOperation.WaitForCompletionAsync();
+            string newPipelineName = Recording.GenerateName("Pipeline");
 
-            PipelineDeletePipelineOperation deleteOperation = await client.StartDeletePipelineAsync(pipelineName);
-            Response response = await deleteOperation.WaitForCompletionAsync();
-            Assert.AreEqual(200, response.Status);
+            PipelineRenamePipelineOperation renameOperation = await client.StartRenamePipelineAsync (resource.Name, new ArtifactRenameRequest () { NewName = newPipelineName } );
+            await renameOperation.WaitForCompletionAsync ();
+
+            PipelineResource pipeline = await client.GetPipelineAsync (newPipelineName);
+            Assert.AreEqual (newPipelineName, pipeline.Name);
+
+            PipelineDeletePipelineOperation operation = await client.StartDeletePipelineAsync (newPipelineName);
+            await operation.WaitForCompletionAsync ();
         }
     }
 }
