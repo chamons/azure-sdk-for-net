@@ -22,6 +22,55 @@ namespace Azure.Analytics.Synapse.Spark.Tests
     /// </remarks>
     public class SparkBatchClientLiveTests : RecordedTestBase<SynapseTestEnvironment>
     {
+        internal class DisposableSparkBatchOperation : IAsyncDisposable
+        {
+            private readonly SparkBatchClient _client;
+            public SparkBatchJob Resource;
+
+            private DisposableSparkBatchOperation (SparkBatchClient client, SparkBatchJob resource)
+            {
+                _client = client;
+                Resource = resource;
+            }
+
+            public int Id => Resource.Id;
+
+            public static async ValueTask<DisposableSparkBatchOperation> Create (SparkBatchClient client, TestRecording recording, SynapseTestEnvironment testEnvironment) =>
+                new DisposableSparkBatchOperation (client, await CreateResource(client, recording, testEnvironment));
+
+            public static async ValueTask<SparkBatchJob> CreateResource (SparkBatchClient client, TestRecording recording, SynapseTestEnvironment testEnvironment)
+            {
+                SparkBatchJobOptions options = CreateSparkJobRequestParameters (recording, testEnvironment);
+                SparkBatchOperation createOperation = await client.StartCreateSparkBatchJobAsync (options);
+                return await createOperation.WaitForCompletionAsync();
+            }
+
+            private static SparkBatchJobOptions CreateSparkJobRequestParameters(TestRecording recording, SynapseTestEnvironment testEnvironment)
+            {
+                string name = recording.GenerateId("dontnetbatch", 16);
+                string file = string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/java/wordcount/wordcount.jar", testEnvironment.StorageFileSystemName, testEnvironment.StorageAccountName);
+                return new SparkBatchJobOptions(name, file)
+                {
+                    ClassName = "WordCount",
+                    Arguments =
+                    {
+                        string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/java/wordcount/shakespeare.txt", testEnvironment.StorageFileSystemName, testEnvironment.StorageAccountName),
+                        string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/java/wordcount/result/", testEnvironment.StorageFileSystemName, testEnvironment.StorageAccountName),
+                    },
+                    DriverMemory = "28g",
+                    DriverCores = 4,
+                    ExecutorMemory = "28g",
+                    ExecutorCores = 4,
+                    ExecutorCount = 2
+                };
+            }
+
+            public async ValueTask DisposeAsync()
+            {
+                await _client.CancelSparkBatchJobAsync (Id);
+            }
+        }
+
         public SparkBatchClientLiveTests(bool isAsync) : base(isAsync)
         {
         }
@@ -34,6 +83,37 @@ namespace Azure.Analytics.Synapse.Spark.Tests
                 TestEnvironment.Credential,
                 InstrumentClientOptions(new SparkClientOptions())
             ));
+        }
+
+//   await using DisposableSparkBatchOperation batchOperation = await DisposableSparkBatchOperation.Create (client, Recording, TestEnvironment);
+        [Test]
+        public async Task Foo()
+        {
+            SparkBatchClient client = CreateClient();
+            SparkBatchJobOptions options = CreateSparkJobRequestParameters (Recording, TestEnvironment);
+            SparkBatchOperation createOperation = await client.StartCreateSparkBatchJobAsync (options);
+            SparkBatchJob job = await createOperation.WaitForCompletionAsync();
+            await client.CancelSparkBatchJobAsync (job.Id);
+        }
+
+        private static SparkBatchJobOptions CreateSparkJobRequestParameters(TestRecording recording, SynapseTestEnvironment testEnvironment)
+        {
+            string name = recording.GenerateId("dontnetbatch", 16);
+            string file = string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/java/wordcount/wordcount.jar", testEnvironment.StorageFileSystemName, testEnvironment.StorageAccountName);
+            return new SparkBatchJobOptions(name, file)
+            {
+                ClassName = "WordCount",
+                Arguments =
+                {
+                    string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/java/wordcount/shakespeare.txt", testEnvironment.StorageFileSystemName, testEnvironment.StorageAccountName),
+                    string.Format("abfss://{0}@{1}.dfs.core.windows.net/samples/java/wordcount/result/", testEnvironment.StorageFileSystemName, testEnvironment.StorageAccountName),
+                },
+                DriverMemory = "28g",
+                DriverCores = 4,
+                ExecutorMemory = "28g",
+                ExecutorCores = 4,
+                ExecutorCount = 2
+            };
         }
 
         [Test]
@@ -91,5 +171,9 @@ namespace Azure.Analytics.Synapse.Spark.Tests
             Assert.AreEqual(expectedSparkJob.SubmitterId, actualSparkJob.SubmitterId);
             Assert.AreEqual(expectedSparkJob.ArtifactId, actualSparkJob.ArtifactId);
         }
+        /*
+public virtual System.Threading.Tasks.Task<Azure.Response<Azure.Analytics.Synapse.Spark.Models.SparkBatchJob>> GetSparkBatchJobAsync(int batchId, bool? detailed = default(bool?), System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+public virtual System.Threading.Tasks.Task<Azure.Response<Azure.Analytics.Synapse.Spark.Models.SparkBatchJobCollection>> GetSparkBatchJobsAsync(int? from = default(int?), int? size = default(int?), bool? detailed = default(bool?), System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) { throw null; }
+        */
     }
 }
