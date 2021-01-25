@@ -35,7 +35,6 @@ namespace Azure.Analytics.Synapse.ManagedPrivateEndpoints.Tests
             ));
         }
 
-        [Ignore("https://github.com/Azure/azure-sdk-for-net/issues/17455")]
         [Test]
         public async Task TestManagedPrivateEndpoints()
         {
@@ -44,8 +43,7 @@ namespace Azure.Analytics.Synapse.ManagedPrivateEndpoints.Tests
             // Create a managed private endpoint
             string managedVnetName = "default";
             string managedPrivateEndpointName = Recording.GenerateId("myPrivateEndpoint", 21);
-            string fakedStorageAccountName = Recording.GenerateId("myStorageAccount", 21);
-            string privateLinkResourceId = $"/subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/myResourceGroup/providers/Microsoft.Storage/accounts/{fakedStorageAccountName}";
+            string privateLinkResourceId = $"/subscriptions/{TestEnvironment.SubscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Storage/accounts/{TestEnvironment.StorageFileSystemName}";
             string groupId = "blob";
             ManagedPrivateEndpoint managedPrivateEndpoint = await client.CreateAsync(managedVnetName, managedPrivateEndpointName, new ManagedPrivateEndpoint
             {
@@ -59,6 +57,13 @@ namespace Azure.Analytics.Synapse.ManagedPrivateEndpoints.Tests
             Assert.AreEqual(managedPrivateEndpointName, managedPrivateEndpoint.Name);
             Assert.AreEqual(privateLinkResourceId, managedPrivateEndpoint.Properties.PrivateLinkResourceId);
             Assert.AreEqual(groupId, managedPrivateEndpoint.Properties.GroupId);
+
+            while (managedPrivateEndpoint.Properties.ProvisioningState.Equals("Provisioning", StringComparison.OrdinalIgnoreCase))
+            {
+                System.Threading.Thread.Sleep(3000);
+                managedPrivateEndpoint = await client.GetAsync(managedVnetName, managedPrivateEndpointName);
+            }
+            Assert.IsTrue(managedPrivateEndpoint.Properties.ProvisioningState.Equals("Succeeded", StringComparison.OrdinalIgnoreCase));
 
             // List managed private endpoints
             List<ManagedPrivateEndpoint> privateEndpoints = await client.ListAsync(managedVnetName).ToEnumerableAsync();
