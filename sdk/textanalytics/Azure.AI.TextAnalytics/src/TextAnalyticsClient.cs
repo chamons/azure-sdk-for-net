@@ -22,7 +22,7 @@ namespace Azure.AI.TextAnalytics
         internal readonly TextAnalyticsRestClient _serviceRestClient;
         internal readonly ClientDiagnostics _clientDiagnostics;
         private readonly TextAnalyticsClientOptions _options;
-        private readonly string DefaultCognitiveScope = "https://cognitiveservices.azure.com/.default";
+        private static string DefaultCognitiveScope = "https://cognitiveservices.azure.com/.default";
         private const string AuthorizationHeader = "Ocp-Apim-Subscription-Key";
 
         /// <summary>
@@ -67,6 +67,18 @@ namespace Azure.AI.TextAnalytics
 
             var pipeline = HttpPipelineBuilder.Build(options, new BearerTokenAuthenticationPolicy(credential, DefaultCognitiveScope));
             _serviceRestClient = new TextAnalyticsRestClient(_clientDiagnostics, pipeline, endpoint.AbsoluteUri);
+        }
+
+        internal static TextAnalyticsRestClient CreateRestClient(Uri endpoint, TokenCredential credential, TextAnalyticsClientOptions options)
+        {
+            Argument.AssertNotNull(endpoint, nameof(endpoint));
+            Argument.AssertNotNull(credential, nameof(credential));
+            Argument.AssertNotNull(options, nameof(options));
+
+            var clientDiagnostics = new ClientDiagnostics(options);
+
+            var pipeline = HttpPipelineBuilder.Build(options, new BearerTokenAuthenticationPolicy(credential, DefaultCognitiveScope));
+            return new TextAnalyticsRestClient(clientDiagnostics, pipeline, endpoint.AbsoluteUri);
         }
 
         /// <summary>
