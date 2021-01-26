@@ -20,7 +20,7 @@ namespace Azure.AI.TextAnalytics
     {
         private string endpoint;
         private ClientDiagnostics _clientDiagnostics;
-        private HttpPipeline _pipeline;
+        internal HttpPipeline _pipeline;
 
         /// <summary> Initializes a new instance of TextAnalyticsRestClient. </summary>
         /// <param name="clientDiagnostics"> The handler for diagnostic messaging in the client. </param>

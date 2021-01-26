@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 using System;
+using System.Threading.Tasks;
 using NUnit.Framework;
 using Azure.Core;
 
@@ -10,7 +11,7 @@ namespace Azure.AI.TextAnalytics.Dynamic.Tests
     public class Dynamic
     {
         [Test]
-        public void Test1()
+        public async Task Invoke()
         {
             var document = new string [] { @"The concierge Paulette was extremely helpful. Sadly when we arrived the elevator was broken, but with Paulette's help we barely noticed this inconvenience.
             She arranged for our baggage to be brought up to our room with no extra charge and gave us a free meal to refurbish all of the calories we lost from
@@ -23,6 +24,9 @@ namespace Azure.AI.TextAnalytics.Dynamic.Tests
             Console.WriteLine (d);
 
             TextAnalyticsClient client = new TextAnalyticsClient ();
+            Response r = await client.Invoke (d);
+            Console.WriteLine (r);
+            throw new System.NotImplementedException();
         }
     }
 }
