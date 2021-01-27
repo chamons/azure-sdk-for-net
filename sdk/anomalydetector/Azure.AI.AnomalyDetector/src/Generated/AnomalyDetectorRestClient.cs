@@ -20,7 +20,7 @@ namespace Azure.AI.AnomalyDetector
     {
         private string endpoint;
         private ClientDiagnostics _clientDiagnostics;
-        private HttpPipeline _pipeline;
+        internal HttpPipeline _pipeline;
 
         /// <summary> Initializes a new instance of AnomalyDetectorRestClient. </summary>
         /// <param name="clientDiagnostics"> The handler for diagnostic messaging in the client. </param>

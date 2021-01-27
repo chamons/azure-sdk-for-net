@@ -1,17 +1,17 @@
 {
   "Entries": [
     {
-      "RequestUri": "https://tf93b734ab9454795-anomalydetector.cognitiveservices.azure.com/anomalydetector/v1.0/timeseries/entire/detect",
+      "RequestUri": "https://chhamoanomalydetector-anomalydetector.cognitiveservices.azure.com/anomalydetector/v1.0/timeseries/entire/detect",
       "RequestMethod": "POST",
       "RequestHeaders": {
         "Accept": "application/json",
         "Content-Length": "2429",
         "Content-Type": "application/json",
         "Ocp-Apim-Subscription-Key": "Sanitized",
-        "traceparent": "00-cb76e7122f8dd14bbb0bb791b043720f-7c2af3cb464cb149-00",
+        "traceparent": "00-5f58deb476f81e4385902eb88790c800-d50c3c016c7f084c-00",
         "User-Agent": [
-          "azsdk-net-AI.AnomalyDetector/3.0.0-dev.20200825.2",
-          "(.NET Core 4.6.27514.02; Microsoft Windows 10.0.17763 )"
+          "azsdk-net-AI.AnomalyDetector/3.0.0-alpha.20210127.1",
+          "(.NET Core 4.6.29518.01; Microsoft Windows 10.0.19042 )"
         ],
         "x-ms-client-request-id": "fc8cc01ebd85e1263451573c9e1f11b4",
         "x-ms-return-client-request-id": "true"
@@ -217,15 +217,15 @@
       },
       "StatusCode": 200,
       "ResponseHeaders": {
-        "apim-request-id": "b05bfc92-2838-4a54-b535-5ad11a56d5cf",
-        "Content-Length": "3659",
+        "apim-request-id": "1d265ad1-56ae-44aa-9f6b-81813fde799b",
+        "Content-Length": "3880",
         "Content-Type": "application/json",
         "csp-billing-usage": "CognitiveServices.AnomalyDetector.DataPoints=1",
-        "Date": "Tue, 25 Aug 2020 16:18:11 GMT",
+        "Date": "Wed, 27 Jan 2021 18:59:18 GMT",
         "model-id": "10",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
         "X-Content-Type-Options": "nosniff",
-        "x-envoy-upstream-service-time": "32"
+        "x-envoy-upstream-service-time": "34"
       },
       "ResponseBody": {
         "expectedValues": [
@@ -479,6 +479,56 @@
           40.487168272949134
         ],
         "period": 12,
+        "severity": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.29066144476143679,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
         "upperMargins": [
           41.389704541219885,
           39.945668873359637,
@@ -534,7 +584,7 @@
   ],
   "Variables": {
     "ANOMALY_DETECTOR_API_KEY": "Sanitized",
-    "ANOMALY_DETECTOR_ENDPOINT": "https://tf93b734ab9454795-anomalydetector.cognitiveservices.azure.com",
+    "ANOMALY_DETECTOR_ENDPOINT": "https://chhamoanomalydetector-anomalydetector.cognitiveservices.azure.com",
     "RandomSeed": "1998048122"
   }
 }

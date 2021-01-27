@@ -79,5 +79,12 @@ namespace Azure.AI.AnomalyDetector
             var pipeline = HttpPipelineBuilder.Build(options, new BearerTokenAuthenticationPolicy(credential, Constants.DefaultCognitiveScope));
             RestClient = new AnomalyDetectorRestClient(_clientDiagnostics, pipeline, endpoint.AbsoluteUri);
         }
+
+        internal static AnomalyDetectorRestClient CreateRestClient (Uri endpoint, TokenCredential credential, AnomalyDetectorClientOptions options)
+        {
+            var clientDiagnostics = new ClientDiagnostics(options);
+            var pipeline = HttpPipelineBuilder.Build(options, new BearerTokenAuthenticationPolicy(credential, Constants.DefaultCognitiveScope));
+            return new AnomalyDetectorRestClient(clientDiagnostics, pipeline, endpoint.AbsoluteUri);
+        }
     }
 }
