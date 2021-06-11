@@ -13,6 +13,7 @@ namespace: Azure.Analytics.Synapse.Spark
 public-clients: true
 security: AADToken
 security-scopes: https://dev.azuresynapse.net/.default
+low-level-client: true
 ```
 
 ### Make Endpoint type as Uri
